@@ -1,0 +1,16 @@
+.highlight {     
+    margin:0;   
+    /* border: 1px solid #0b2149; */
+    background: lightgrey;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* border-radius: 25px; */
+    margin-bottom: 2%;
+}
+pre{
+  margin: 0;
+}
+
+.bg_nav_bar{
+    background: #0b2149;
+
+}

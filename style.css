@@ -6,6 +6,13 @@ body{
 
 }
 
+.nav-item a:hover {
+color: red !important;
+}
+.nav-item a:focus {
+color: red !important;
+}
+
 footer{
     margin-top: auto;
 }

@@ -25,15 +25,16 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <a class="navbar-brand" href="#">   <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <img src="img/logo1.png" alt="">
+  </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home
+                <a class="nav-link" href="#">Home
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>

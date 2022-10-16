@@ -22,7 +22,7 @@
 </head>
 <body>
 <div class='w3-container top'>
-  <a class='w3schools-logo notranslate' href='../index.html'>w3schools<span class='dotcom'>.com</span></a>
+  <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTechF</span></a>
   <div class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
 </div>
 
@@ -237,29 +237,21 @@
 </div>
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
-    <div class='w3-col l10 m12' id='main'>
-      <div id='mainLeaderboard' style='overflow:hidden;'>
-        <!-- MainLeaderboard-->
-        
-        <div id='div-gpt-ad-1422003450156-2'>
-          <script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1422003450156-2'); });</script>
-        </div>
-       
-      </div>
-<h4 title="Docker Tutorial: A Step by Step Tutorial for Beginners and Advance">Docker Tutorial: A Step by Step Tutorial for Beginners and Advance</span></h4>
+    <div class='w3-col l10 m12 mt-2' id='main'>
+<h1 title="Docker Tutorial: A Step by Step Tutorial for Beginners and Advance">Docker Tutorial: A Step by Step Tutorial for Beginners and Advance</span></h1>
 
 
 <hr>
 
 <div class="">
-  <h5>Introduction to Docker</h5>
+  <h2>Introduction to Docker</h2>
 <p>
 Docker is a containerization engine. It helps in containerizing your applications, along
 with the environments.</p>
  
 </div>
 <div class="">
-  <h5>What is Docker</h5>
+  <h2>What is Docker</h2>
 <p>Docker is a very popular and powerful open-source containerization software platform that allows you to build, test, and deploy applications quickly.
 Docker allows you to package an application with all of its dependencies into a
 standardized unit for software development.
@@ -267,25 +259,25 @@ standardized unit for software development.
 </div>
 
 <div class="">
-  <h5 title="What is a Git repository">What are Containers</h5>
+  <h2 title="What is a Git repository">What are Containers</h2>
 <p>Docker containers are basically runtime instances of Docker images.
 Docker containers contain the application as well as all of its dependencies. It shares the kernel with other containers, running as isolated processes in user space on the host operating system.
   </p>
 </div>
 
 <div class="">
-  <h5 title="What is a Git repository">What are Docker Images</h5>
+  <h2 title="What is a Git repository">What are Docker Images</h2>
 <p>Docker Image is an executable software suite that contains everything required to run an application. Docker container is derived from a Docker image. Docker images, in other words, are used to create containers.
   </p>
 </div>
 
 <div class="">
-  <h5 title="What is a Git repository">What is a Docker hub</h5>
+  <h2 title="What is a Git repository">What is a Docker hub</h2>
 <p>Docker images are used to create Docker containers. There must be a registry where these Docker images can be found. Docker Hub is the name of this registry. Docker Hub images can be downloaded and used to create customised images and containers by users. The Docker Hub is currently the world's largest public repository of image containers.
   </p>
 </div>
 <div class="">
-  <h5 title="What is a Docker File">What is a Docker File</h5>
+  <h2 title="What is a Docker File">What is a Docker File</h2>
 <p>Docker File is a text file that contains all of the instructions needed to run a dockerimage.
 Each instruction in the image creates a dockerlayer.
   </p>

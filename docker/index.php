@@ -22,7 +22,7 @@
 </head>
 <body>
 <div class='w3-container top'>
-  <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTechF</span></a>
+  <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a>
   <div class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
 </div>
 

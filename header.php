@@ -20,18 +20,17 @@
     }); 
 	// DOMContentLoaded  end
 </script>
-    <title>Hello, world!</title>
+    <title>DigitalCoTech Online Web Tutorials</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">   <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <img src="img/logo1.png" alt="">
-  </a>
+          <img src="img/lo.png" alt="">
+          <a class="navbar-brand" href="#"><span class="h1 text-danger">D</span><span class="h3 text-warning">igitalCoTech</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarColor01">
+          <div class="collapse navbar-collapse " id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home

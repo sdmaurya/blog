@@ -25,8 +25,8 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">
         <div class="container-fluid">
-          <img src="img/lo.png" alt="">
-          <a class="navbar-brand" href="#"><span class="h1 text-danger">D</span><span class="h3 text-warning">igitalCoTech</span></a>
+          <img src="img/lo.png" alt="digitalcotech.com">
+          <a class="navbar-brand" href="#"><span class="h1 text-danger">D</span><span class="h4 text-warning">igitalCoTech</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,12 +49,13 @@
               <li class="nav-item dropdown has-megamenu">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Tutorials List  </a>
                 <div class="dropdown-menu megamenu" role="menu">
+                  <div class="container">
                   <div class="row g-0">
-                  <h2>Tutorials List</h2>
-                    <div class="col-lg-3 col-6">
+                  <h2 class="text-center">Tutorials List</h2>
+                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                    
                       <div class="col-megamenu">
-                        <h6 class="title">Frontend</h6>
+                        <h4 class="title">Frontend</h4>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -65,9 +66,9 @@
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h6 class="title">Backend</h6>
+                        <h4 class="title">Backend</h4>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -78,9 +79,9 @@
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h6 class="title">Cloud & Devops</h6>
+                        <h4 class="title">Cloud & Devops</h4>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -91,9 +92,9 @@
                         </ul>
                       </div>  
                     </div>    
-                    <div class="col-lg-3 col-6">
+                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h6 class="title">Title Menu Four</h6>
+                        <h4 class="title">Title Menu Four</h4>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -104,6 +105,7 @@
                         </ul>
                       </div>  
                     </div>
+                  </div>
                   </div>
                 </div> 
               </li>

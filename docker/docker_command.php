@@ -269,11 +269,11 @@
   </ul>
 </div>
 
-<h4 title="Useful Docker commands" class="mb-3"> Useful Docker commands</h4>
+<h2 title="Useful Docker commands" class="mb-3"> Useful Docker commands</h2>
 
 <hr>
 <div class="">
-  <h2>docker version</h2>
+  <h3>docker version</h3>
 <p>Display the currently installed version of docker.
   </p>
   <figure class="highlight">
@@ -282,7 +282,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker ps</h2>
+  <h3>docker ps</h3>
 <p>List all active containers.
   </p>
   <figure class="highlight">
@@ -291,7 +291,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker ps -a</h2>
+  <h3>docker ps -a</h3>
 <p>List all active and inactive containers.
   </p>
   <figure class="highlight">
@@ -300,7 +300,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker images</h2>
+  <h3>docker images</h3>
 <p>List all active docker images.
   </p>
   <figure class="highlight">
@@ -309,7 +309,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker pull ubuntu</h2>
+  <h3>docker pull ubuntu</h3>
 <p>Pull an image or a repository from a registry.
 
   </p>
@@ -319,7 +319,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker run -it ubuntu /bin/bash</h2>
+  <h3>docker run -it ubuntu /bin/bash</h3>
 <p>Run and switch inside a Docker container.
   
   </p>
@@ -329,7 +329,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker logs <container_id></h2>
+  <h3>docker logs <container_id></h3>
 <p>Examine the logs of a Docker container
   </p>
   <figure class="highlight">
@@ -338,7 +338,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker exec -i -t <container_id> /bin/bash</h2>
+  <h3>docker exec -i -t <container_id> /bin/bash</h3>
 <p>In a Docker container that is running, execute a command.
   </p>
   <figure class="highlight">
@@ -347,7 +347,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker stop <container_id></h2>
+  <h3>docker stop <container_id></h3>
 <p>Stopping a Docker container.
   </p>
   <figure class="highlight">
@@ -356,7 +356,7 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker rm <container_id></h2>
+  <h3>docker rm <container_id></h3>
 <p>Remove a Docker container.
   </p>
   <figure class="highlight">
@@ -365,8 +365,8 @@
   </code></pre></figure>
 </div>
 <div class="">
-  <h2>docker rmi <image_id><container_id>
-</h2>
+  <h3>docker rmi <image_id><container_id>
+</h3>
 <p>Remove a Docker image
   </p>
   <figure class="highlight">
@@ -376,7 +376,7 @@
 </div>
 
 <div class="">
-    <h2>docker login</h2>
+    <h3>docker login</h3>
   <p>Access a Docker registry.
     </p>
     <figure class="highlight">
@@ -385,7 +385,7 @@
     </code></pre></figure>
   </div>
   <div class="">
-    <h2>docker kill</h2>
+    <h3>docker kill</h3>
   <p>Kill the container by stopping its execution immediately.
     </p>
     <figure class="highlight">
@@ -394,13 +394,22 @@
     </code></pre></figure>
   </div>
   <div class="">
-    <h2>docker search <image_id></h2>
+    <h3>docker search <image_id></h3>
   <p>Search for public images on the Docker hub.
     </p>
     <figure class="highlight">
       <pre><code class="language-html" data-lang="html">
       docker search httpd
     </code></pre></figure>
+  </div>
+
+  <div class="container">
+    <div class="digital-link">
+      <h4>You Might Like:</h4>
+      <div><a href="docker_installation.php" title="Docker Installation">Docker Installation</a></div>
+      <div> <a href="docker_file.php" title="What is Docker File">What is Docker File</a></div>
+      <div> <a href="docker_file.php" title="What is Docker File">What is Docker File</a></div>
+    </div>
   </div>
 
 

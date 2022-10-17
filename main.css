@@ -8,12 +8,21 @@ h2,h3,h4,h5,h6{
 	font-family: 'Baloo Bhaijaan 2', cursive
 	/* font-family: 'Poppins', sans-serif; */
 }
-p,span{
+p{
   font-family: Verdana,sans-serif;
 } 
+span{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
 
 .w3-bar{
-  background-color: #0b2149;
+  background-color: #f39c12;
+}
+
+.w3schools-logo img {
+  width: 10%;
+  margin-left: 3%;
+  vertical-align: middle;
 }
 
 a:hover,a:active{color:#4CAF50}
@@ -21,7 +30,7 @@ table.w3-table-all{margin:20px 0}
 /*OPPSETT AV TOP, TOPNAV, SIDENAV, MAIN, RIGHT OG FOOTER:*/
 .top {
 position:relative;
-background-color:#ffffff;
+background-color:#0b2149;
 height:68px;
 padding-top:20px;
 line-height:50px;
@@ -61,7 +70,7 @@ background-color:#000000 !important;
 color:#ffffff !important;
 }
 .topnav .w3-bar a.active {
-background-color:#0b2149;
+background-color:#f39c12;
 color:#ffffff;
 }
 a.topnav-icons {
@@ -478,8 +487,34 @@ hr {
   margin-left:-20px;
   margin-right:-20px;
 }
+
+@media (max-width: 992px){
+.top img {
+    display: unset;
+    margin: auto;
+}
+.w3schools-logo img {
+  width: 7%;
+  margin-left: 3%;
+  vertical-align: middle;
+}
+}
+
+
 @media screen and (max-width:600px) {
 .w3-example, #w3-exerciseform {margin-left:-32px;margin-right:-32px;}
+.top .w3schools-logo {
+  position: relative;
+  top: -12px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.w3schools-logo img {
+  width: 10%;
+  margin-left: 3%;
+  vertical-align: middle;
+}
 }
 
 @media only screen and (max-device-width: 480px) {

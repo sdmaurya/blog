@@ -29,156 +29,70 @@
   <div class="row">
     <div class="col-md-4">
       <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
+        <img src="img/html.png" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">HTML</h2>
+          <p class="card-text">Mark-up language for hypertext (a system used to mark text for World Wide Web pages in order to obtain colours, style, pictures, etc.)</p>
+          <a href="#" class="btn btn-primary">HTML</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
+      <img src="img/linux.png" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2 class="card-title">LINUX</h2>
+          <p class="card-text">Linux is an operating system, just like Windows, iOS, and Mac OS. In fact, Linux powers one of the most widely used platforms on the globe, Android.</p>
+          <a href="#" class="btn btn-primary">LINUX</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
+      <img src="img/d.jpg" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2 class="card-title">DEVOPS</h2>
+          <p class="card-text">The use of DevOps boosts an organization's capacity to provide applications and services at a rapid pace by combining several...</p>
+          <a href="#" class="btn btn-primary">DEVOPS</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container  p-5  ">
+<div class="container2 container  p-5 text-center">
   <div class="row">
     <div class="col-md-4">
       <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
+      <img src="img/aws.png" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2 class="card-title">AWS</h2>
+          <p class="card-text">The most complete and widely used cloud platform in the world, Amazon Web Services (AWS), provides over 200 fully functional services from data...</p>
+          <a href="#" class="btn btn-primary">AWS</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
+      <img src="img/block.png" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2 class="card-title">BLOCKCHIAN</h2>
+          <p class="card-text">Blockchain is a decentralised, unchangeable database that streamlines asset tracking and transaction recording inside a business network.</p>
+          <a href="#" class="btn btn-primary">BLOCKCHIAN</a>
         </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
+      <img src="img/agile.jpg" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h2 class="card-title">AGILE</h2>
+          <p class="card-text">Agile uses an iterative approach to project management and software development to enable teams to deliver value to their clients more...</p>
+          <a href="#" class="btn btn-primary">AGILE</a>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container  p-5  ">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card" >
-        <img src="img/2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container   p-5  ">
-  <div class="row">
-    <div class="p-5 text-bg-dark rounded-3">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Devops Roadmaps</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix
-            and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
-        </div>
-        <div class="col-md-6">
-          <h2>Devops Roadmaps</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix
-            and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container   p-5  ">
-  <div class="row">
-    <div class="p-5 text-bg-dark rounded-3">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Devops Roadmaps</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix
-            and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
-        </div>
-        <div class="col-md-6">
-          <h2>Devops Roadmaps</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix
-            and match with additional component themes and more.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 
 
 <?php include('footer.php') ?>

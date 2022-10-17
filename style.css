@@ -90,3 +90,14 @@ footer{
 		margin-left: 3%;
 	}
 }
+
+@media(max-width: 768px){
+	
+	.col-md-4{
+		margin-bottom: 10%;
+	}
+
+	.container2{
+		margin-top: -95px;
+	}
+}

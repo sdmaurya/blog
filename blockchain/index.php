@@ -423,7 +423,7 @@ function w3_getStyleValue(elmnt,style) {
 <h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
 <a target="_top" href="http://myblog.com/blockchain/">Blockchain Introduction</a>
 <a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="git_command.php" title="GIT Commands List">GIT Commands</a>
+<a target="_top" href="git_command.php" title="What is Bitcoin">What is Bitcoin</a>
 
 
       <br><br>
@@ -476,20 +476,27 @@ function w3_getStyleValue(elmnt,style) {
 </ul>
 
 <div class="container">
-  <h2 title="What is Public Blockchain">Public Blockchain</h2>
+  <h3 title="What is Public Blockchain">Public Blockchain</h3>
   <p>Ledgers on this type of blockchain are visible to everyone on the internet. It enables anybody to check and add a block of transactions to the blockchain. People are encouraged to join public networks, which are also free to use. A public blockchain network is accessible to anyone.
   </p>
-  <h2 title="What is Private Blockchain">Private Blockchain</h2>
+  <h3 title="What is Private Blockchain">Private Blockchain</h3>
   <p>A private blockchain exists within a single organization. It only allows certain members of the organization to verify and add blocks of transactions. However, it is generally allowed to be viewed by anyone on the Internet.
   </p>
-  <h2 title="What is Consortium Blockchain">Consortium Blockchain</h2>
+  <h3 title="What is Consortium Blockchain">Consortium Blockchain</h3>
   <p>A consortium blockchain is a semi-decentralized network in which membership is not granted to a single entity. Instead, it is distributed to a group of people known as "nodes." It provides network security that public chains do not provide. It also gives you more control, faster processing, and makes it more efficient and secure in many ways.
   </p>
 
   
 </div>
 
+<div class="container mt-2">
+  <div class="digital-link mt-2">
+    <h4>You Might Like:</h4>
+    <div><a href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a></div>
+    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
 
+  </div>
+</div>
 
 </div>
 

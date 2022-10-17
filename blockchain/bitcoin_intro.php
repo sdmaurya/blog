@@ -423,7 +423,7 @@ function w3_getStyleValue(elmnt,style) {
 <h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
 <a target="_top" href="http://myblog.com/blockchain/">Blockchain Introduction</a>
 <a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="GIT Commands List">GIT Commands</a>
+<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
 
 
       <br><br>
@@ -471,12 +471,13 @@ function w3_getStyleValue(elmnt,style) {
 </ul>
 
 
-<div class="container mt-3">
-    <div class="next">
-        <pre>
-        <strong>You Might Like :</strong>
-    </pre>
-    </div>
+<div class="container mt-2">
+  <div class="digital-link mt-2">
+    <h4>You Might Like:</h4>
+    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
+    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
+
+  </div>
 </div>
 
 </div> 

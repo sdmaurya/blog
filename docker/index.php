@@ -18,13 +18,35 @@
 
 <link rel="stylesheet" href="../main.css">
 <link rel="stylesheet" href="/../w3css/page/page.css">
+<link  href="../font/css/all.min.css" rel="stylesheet" >
 
 </head>
 <body>
 <div class='w3-container top'>
   <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
     <a class='w3schools-logo ' href='../index.html'> <span > <img src="../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
-  <div class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
+  <div class='w3-right w3-hide-small w3-wide toptext'>
+  <div class="text-light">
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+  </div>
 </div>
 
 <div style='display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:#5f5f5f;letter-spacing:normal;' id='googleSearch'>
@@ -282,8 +304,8 @@ Docker containers contain the application as well as all of its dependencies. It
 <p>Docker File is a text file that contains all of the instructions needed to run a dockerimage.
 Each instruction in the image creates a dockerlayer.
   </p>
- <b class="mb-5"> E.g,</b>
- <br>
+ <h5 class="mt-2 mb-1">Example</h5>
+
   <figure class="highlight">
      <pre><code class="language-html" data-lang="html">
     FROM centos

@@ -48,7 +48,7 @@
               </li>
               <li class="nav-item dropdown has-megamenu">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Tutorials List  </a>
-                <div class="dropdown-menu megamenu" role="menu">
+                <div class="dropdown-menu megamenu" role="menu" style="margin-top: -.2%;">
                   <div class="container">
                   <div class="row g-0">
                   <h2 class="text-center">Tutorials List</h2>
@@ -113,3 +113,14 @@
           </div>
         </div>
       </nav>
+
+      <div class="social">
+      <ul class="scl">
+        <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-github"></i><span>Github</span></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+      </ul>
+    </div>

@@ -13,7 +13,7 @@ p{
 } 
 
 .w3-bar{
-  background-color: #f39c12;
+  background-color: #2f4a5e;
 }
 
 .w3schools-logo img {
@@ -67,7 +67,7 @@ background-color:#000000 !important;
 color:#ffffff !important;
 }
 .topnav .w3-bar a.active {
-background-color:#f39c12;
+background-color:#2f4a5e;
 color:#ffffff;
 }
 a.topnav-icons {

@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 
-<div class="alert alert-warning alert-dismissible fade show text-center" role="alert" style="border-radius: unset;">
+<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
   <p class="mb-0"><strong>Thank you for contacting <b class="alert">DigitalCoTech..</b><strong></p>
 </div>
 
@@ -75,7 +75,7 @@
       <div class="card" >
       <img src="img/block.png" style="width: 93%; margin-top: 2%;" class="card-img-top" alt="...">
         <div class="card-body">
-        <h2 class="card-title">BLOCKCHIAN</h2>
+        <h2 class="card-title text-uppercase">Blockchain</h2>
           <p class="card-text">Blockchain is a decentralised, unchangeable database that streamlines asset tracking and transaction recording inside a business network.</p>
           <a href="#" class="btn btn-primary">BLOCKCHIAN</a>
         </div>

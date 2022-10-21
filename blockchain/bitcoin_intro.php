@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>HTML Tutorial</title>
+<title>Docker Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -18,208 +18,35 @@
 
 <link rel="stylesheet" href="../main.css">
 <link rel="stylesheet" href="/../w3css/page/page.css">
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-3855518-1', 'auto');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-</script>
+<link  href="../font/css/all.min.css" rel="stylesheet" >
 
-<script type='text/javascript'>
-var k42 = false;
-var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
-
-(function() {
-  var gads = document.createElement('script');
-  gads.async = true;
-  gads.type = 'text/javascript';
-  gads.src = '../../www.googletagservices.com/tag/js/gpt.js';
-  var node = document.getElementsByTagName('script')[0];
-  node.parentNode.insertBefore(gads, node);
-})();
-
-var snhb = snhb || {}; snhb.queue = snhb.queue || [];
-snhb.options = {
-               logOutputEnabled : false,
-               autoStartAuction: false,
-               gdpr: {
-                     mainGeo: "us",
-                     reconsiderationAppealIntervalSeconds: 0
-                     }
-               };
-
-// GPT slots
-var gptAdSlots = [];
-googletag.cmd.push(function() {
-  googletag.pubads().disableInitialLoad();               
-  googletag.pubads().enableSingleRequest();
-  var leaderMapping = googletag.sizeMapping().
-    // Mobile ad
-    addSize([0, 0], [320, 50]). 
-    // Vertical Tablet ad
-    addSize([512, 0], [468, 60]). 
-    // Horizontal Tablet
-    addSize([812, 0], [728, 90]).
-    // Small Desktop
-    addSize([1025, 0], [468, 60]).
-    // Normal Desktop
-    addSize([1182, 0], [728, 90]).
-    // Large Desktop and bigger ad
-    addSize([1457, 0], [[728, 90], [970, 90]]).build();
-  gptAdSlots[0] = googletag.defineSlot('/16833175/MainLeaderboard', [[728, 90], [970, 90]], 'div-gpt-ad-1422003450156-2').
-    defineSizeMapping(leaderMapping).addService(googletag.pubads());
-  var skyMapping = googletag.sizeMapping().
-    // Mobile ad
-    addSize([0, 0], [320, 50]). 
-    // Tablet ad
-    addSize([983, 0], [120, 600]). 
-    // Desktop
-    addSize([1143, 0], [160, 600]).   
-    // Large Desktop
-    addSize([1683, 0], [[160, 600], [300, 600], [300, 1050]]).build();
-  gptAdSlots[1] = googletag.defineSlot('/16833175/WideSkyScraper', [[160, 600], [300, 600], [300, 1050]], 'div-gpt-ad-1422003450156-5').
-    defineSizeMapping(skyMapping).addService(googletag.pubads());
-  var stickyMapping = googletag.sizeMapping().
-    // Mobile ad
-    addSize([0, 0], []). 
-    // Tablet ad
-    addSize([983, 0], [120, 600]). 
-    // Desktop
-    addSize([1143, 0], [160, 600]).   
-    // Large Desktop
-    addSize([1683, 0], [[160, 600], [300, 600], [300, 250]]).build();
-  gptAdSlots[4] = googletag.defineSlot('/16833175/StickySkyScraper', [[300, 600], [120, 600], [300, 250], [160, 600]], 'div-gpt-ad-1472547360578-0').
-    defineSizeMapping(stickyMapping).addService(googletag.pubads());
-  var mcontMapping = googletag.sizeMapping().
-    // Mobile ad
-    addSize([0, 0], [[300, 250], [336, 280], [320, 50]]). 
-    // Vertical Tablet ad
-    addSize([522, 0], [[300, 250], [336, 280], [468, 60]]). 
-    // Horizontal Tablet
-    addSize([782, 0], [728, 90]).
-    // Small Desktop
-    addSize([1025, 0], [[300, 250], [336, 280], [468, 60]]).
-    // Normal Desktop
-    addSize([1167, 0], [728, 90]).
-    // Large Desktop and bigger ad
-    addSize([1472, 0], [[728, 90], [970, 90], [970, 250]]).build();
-  gptAdSlots[5] = googletag.defineSlot('/16833175/MidContent', [[300, 250], [336, 280]], 'div-gpt-ad-1493883843099-0').
-    defineSizeMapping(mcontMapping).setCollapseEmptyDiv(true).addService(googletag.pubads());
-  var bmrMapping = googletag.sizeMapping().
-    // Smaller
-    addSize([0, 0], [[300, 250], [336, 280]]). 
-    // Large Desktop
-    addSize([1272, 0], [[300, 250], [336, 280], [970, 250]]).build();
-    gptAdSlots[2] = googletag.defineSlot('/16833175/BottomMediumRectangle', [[300, 250], [336, 280], [970, 250]], 'div-gpt-ad-1422003450156-0').
-    defineSizeMapping(bmrMapping).setCollapseEmptyDiv(true).addService(googletag.pubads());
-  var rbmrMapping = googletag.sizeMapping().
-    // Smaller
-    addSize([0, 0], []). 
-    // Large Desktop
-    addSize([1007, 0], [[300, 250], [336, 280]]).build();
-  gptAdSlots[3] = googletag.defineSlot('/16833175/RightBottomMediumRectangle', [[300, 250], [336, 280]], 'div-gpt-ad-1422003450156-3').
-    defineSizeMapping(rbmrMapping).setCollapseEmptyDiv(true).addService(googletag.pubads());
-  googletag.pubads().setTargeting("content",(function () {
-    var folder = location.pathname;
-    folder = folder.replace("../index.html", "");
-    folder = folder.substr(0, folder.indexOf("../index.html"));
-    return folder;
-  })());
-});  
-
-</script>
-<script src="../../static.h-bid.com/sncmp/sncmp_stub.min.js" type="text/javascript"></script>
-<script>
-			window.__cmp('setLogo', "../images/w3schoolscom_gray.gif", function(result){
-	       		snhb.console.log("Logo set");
-	    	});
-			window.__cmp('setPrivacyPolicy', "../about/about_privacy.html", function(result){
-	       		snhb.console.log("Privacy policy URI set");
-	    	});
-			window.__cmp('enableBanner', null, function(result) {
-	       		snhb.console.log("Banner mode enabled");
-			});
-			__cmp('enablePopupDismissable', null, function(result) {});
-			window.__cmp('disableBannerPrivacyPolicyButton', null, function(result) {
-	       		snhb.console.log("Banner mode without privacy policy button enabled");
-			});
-      window.__cmp('setTranslationFiles', { path: '//www.w3schools.com/lib/', locales: ["en"] }, function(result) {});
-      __cmp('setCSS', '../lib/cmp.css', function(result){} );
-</script>
-<script async type="text/javascript" src="../../static.h-bid.com/w3schools.com/20190327/snhb-w3schools.com.min8a4b.js?20190327"></script>
-<script>
-  snhb.queue.push(function(){
-
-    snhb.addAdditionalAdSlotsToRefresh(gptAdSlots);
-
-  });
-</script>
-<script type='text/javascript'>
-var stickyadstatus = "";
-function fix_stickyad() {
-  document.getElementById("stickypos").style.position = "sticky";
-  var elem = document.getElementById("stickyadcontainer");
-  if (!elem) {return false;}
-  if (document.getElementById("skyscraper")) {
-    var skyWidth = Number(w3_getStyleValue(document.getElementById("skyscraper"), "width").replace("px", ""));  
-    }
-  else {
-    var skyWidth = Number(w3_getStyleValue(document.getElementById("right"), "width").replace("px", ""));  
-  }
-  elem.style.width = skyWidth + "px";
-  if (window.innerWidth <= 992) {
-    elem.style.position = "";
-    elem.style.top = stickypos + "px";
-    return false;
-  }
-  var stickypos = document.getElementById("stickypos").offsetTop;
-  var docTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-  var adHeight = Number(w3_getStyleValue(elem, "height").replace("px", ""));
-  if (stickyadstatus == "") {
-    if ((stickypos - docTop) < 60) {
-      elem.style.position = "fixed";
-      elem.style.top = "60px";
-      stickyadstatus = "sticky";
-      document.getElementById("stickypos").style.position = "sticky";
-
-    }
-  } else {
-    if ((docTop + 60) - stickypos < 0) {  
-      elem.style.position = "";
-      elem.style.top = stickypos + "px";
-      stickyadstatus = "";
-      document.getElementById("stickypos").style.position = "static";
-    }
-  }
-  if (stickyadstatus == "sticky") {
-    if ((docTop + adHeight + 60) > document.getElementById("footer").offsetTop) {
-      elem.style.position = "absolute";
-      elem.style.top = (document.getElementById("footer").offsetTop - adHeight) + "px";
-      document.getElementById("stickypos").style.position = "static";
-    } else {
-        elem.style.position = "fixed";
-        elem.style.top = "60px";
-        stickyadstatus = "sticky";
-        document.getElementById("stickypos").style.position = "sticky";
-    }
-  }
-}
-function w3_getStyleValue(elmnt,style) {
-  if (window.getComputedStyle) {
-    return window.getComputedStyle(elmnt,null).getPropertyValue(style);
-  } else {
-    return elmnt.currentStyle[style];
-  }
-}
-</script>
 </head>
 <body>
 <div class='w3-container top'>
-  <a class='w3schools-logo notranslate' href='../index.html'>w3schools<span class='dotcom'>.com</span></a>
-  <div class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
+  <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
+    <a class='w3schools-logo ' href='../index.html'> <span > <img src="../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
+  <div class='w3-right w3-hide-small w3-wide toptext'>
+  <div class="text-light">
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+  </div>
 </div>
 
 <div style='display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:#5f5f5f;letter-spacing:normal;' id='googleSearch'>
@@ -229,7 +56,7 @@ function w3_getStyleValue(elmnt,style) {
 
 <div class='w3-card-2 topnav notranslate' id='topnav'>
   <div style="overflow:auto;">
-    <div class="w3-bar w3-left bg_nav_bar" style="width:100%;overflow:hidden;height:44px">
+    <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
       <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
       <a href='../default.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
       <a class="w3-bar-item w3-button" href='default.html' title='HTML Tutorial'>HTML</a>
@@ -416,7 +243,6 @@ function w3_getStyleValue(elmnt,style) {
     </div>
   </div>
 </div>
-
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>

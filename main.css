@@ -12,6 +12,14 @@ p{
   font-family: Verdana,sans-serif;
 } 
 
+.w3-light-grey a{
+  color: #FFFFFF;
+}
+
+.left{
+  color: #FFFFFF;
+}
+
 .w3-bar{
   background-color: #2f4a5e;
 }
@@ -92,7 +100,7 @@ width:204px;
 }
 #sidenav a {font-family:"Segoe UI",Arial,sans-serif;text-decoration:none;display:block;padding:2px 1px 1px 16px}
 #sidenav a:hover,#sidenav a:focus {color:#000000;background-color:#cccccc;}
-#sidenav a.active {background-color:#4CAF50;color:#ffffff}
+#sidenav a.active {background-color: #817d4d;;color:#ffffff}
 #sidenav a.activesub:link,#sidenav a.activesub:visited {background-color:#ddd;color:#000;}
 #sidenav a.activesub:hover,#sidenav a.activesub:active {background-color:#ccc;color:#000;}
 #leftmenuinner {

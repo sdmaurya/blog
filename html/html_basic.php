@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>HTML Tutorial</title>
+<title>Docker Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -18,12 +18,35 @@
 
 <link rel="stylesheet" href="../main.css">
 <link rel="stylesheet" href="/../w3css/page/page.css">
+<link  href="../font/css/all.min.css" rel="stylesheet" >
 
 </head>
 <body>
 <div class='w3-container top'>
-  <a class='w3schools-logo notranslate' href='../index.html'>w3schools<span class='dotcom'>.com</span></a>
-  <div class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
+  <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
+    <a class='w3schools-logo ' href='../index.html'> <span > <img src="../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
+  <div class='w3-right w3-hide-small w3-wide toptext'>
+  <div class="text-light">
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+  </div>
 </div>
 
 <div style='display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:#5f5f5f;letter-spacing:normal;' id='googleSearch'>
@@ -33,7 +56,7 @@
 
 <div class='w3-card-2 topnav notranslate' id='topnav'>
   <div style="overflow:auto;">
-    <div class="w3-bar w3-left bg_nav_bar" style="width:100%;overflow:hidden;height:44px">
+    <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
       <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
       <a href='../default.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
       <a class="w3-bar-item w3-button" href='default.html' title='HTML Tutorial'>HTML</a>
@@ -221,15 +244,17 @@
   </div>
 </div>
 
-
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">Docker Introduction</a>
-<a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
-<a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
-<a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>
+    <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
+<a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
+<a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
+<a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>
+<a target="_top" href="html_elements.php" title="HTML Elements">HTML Elements</a>
+<a target="_top" href="html_attributes.php" title="HTML Attributes">HTML Attributes</a>
+<a target="_top" href="html_heading.php" title="HTML Headings">HTML Headings</a>
+<a target="_top" href="html_paragraph.php" title="HTML Paragraphs">HTML Paragraphs</a>
 
 
       <br><br>
@@ -238,236 +263,208 @@
 </div>
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
-    <div class='w3-col l10 m12' id='main'>
-  
-<h1>Docker<span class="color_h1" title="Git Installation"> Installation</span></h1>
+    <div class='w3-col l10 m12 mt-2' id='main'>
+<h1 title="Docker Tutorial: A Step by Step Tutorial for Beginners and Advance">HTML Tutorial: A Step by Step Tutorial for Beginners and Advance</span></h1>
 
-
-<p>
-  <a class="btn btn-primary" id="collapse_1" data-bs-toggle="collapse"  role="button" aria-expanded="false" >Docker Windows Installation </a>
-  <button class="btn btn-primary" id="collapse_2"  type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" title="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</button>
-  <button class="btn btn-primary" id="collapse_3"  type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3" title="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</button>
-</p>
 
 <hr>
 
-<div class="" id="multiCollapseExample1" title="How to install Docker on Windows (Step-by-Step) Guide">
-  <h4 title="Install Docker Desktop on Windows">Docker Installation on Windows: How to install Docker on Windows (Step-by-Step) Guide</h4>
-  <p>Requirements.</p>
+<div class="">
+  <h2>Introduction to HTML</h2>
+<p>The preferred markup language for building Web pages is HTML.</p>
+ 
+</div>
+<div class="">
+  <h2>What is HTML?</h2>
+<p>
   <ul>
     <li>
-    64-bit processor with Second Level Address Translation (SLAT).</li>
-    <li>Windows should have the Hyper V, WSL 2, and Container features enabled.</li>
-    <li>BIOS-level hardware virtualization support must be enabled in the BIOS settings.</li>
-    <li>Minimum 4GB system RAM.</li>
-  </ul>
-
-  <div title="Docker Installation">Installation</div>
-  <ul>
-    <li> <a href="https://docs.docker.com/desktop/install/windows-install/" class="mb-2">Download Docker</a></li>
-    <li> Then, double-click on the Docker Desktop Installer.exe to run the installer.</li>
-    <li>Follow the instructions in the installation wizard to allow the installer and complete the installation.</li>
-    <li>After successful installation, click Close to finish the installation process.</li>
-  </ul>
-
-
-  <div title="How to set up from the command line.">How to set up from the command line.</div>
-  <ul>
-    <li>To work as a terminal,<code> "Docker Desktop Installer.exe" </code> installation.</li>
-    <li>If you're using PowerShell, execute it as
-      <code>
-      Start-Process 'Docker Desktop Installer.exe' -Wait install
-      </code>
+    Hyper Text Markup Language is what HTML stands for.
     </li>
-    <li>If you're using  Windows Command Prompt, execute it as
-      <code>
-      start /w "" "Docker Desktop Installer.exe" install
-      </code>
+    <li>
+    The preferred markup language for building Web pages is HTML.
     </li>
-  
+    <li>
+    HTML explains how a Web page is put together.
+    </li>
+    <li>
+    There are several different elements in HTML.
+    </li>
+    <li>
+    HTML components instruct browsers on how to display content.
+    </li>
+    <li>
+    The labels "this is a heading," "this is a paragraph," "this is a link," etc., are provided by HTML elements.
+    </li>
   </ul>
-
+</p>
 </div>
 
-<div class="collapse multi-collapse" id="multiCollapseExample2" title="How to Install Git on Linux (Step-by-Step) Guide">
-  <h4 title="Git Installation on Linux">How to Install and Use Docker on Ubuntu (Step-by-Step) Guide</h4>
-  <p>Debian-based distribution (Debian/Ubuntu/Ubuntu-derivatives)</p>
-  <h5>Step1:</h5>
-  <p>Installing Docker</p>
-  <p>Use the following command to see if the system is up to date</p>
-  <figure class="highlight">
-    <pre>
-			<code class="language-html" data-lang="html">
-  $ sudo apt-get update
-      </code>
-		</pre>
-  </figure>
-  <h5>Step2:</h5>
-  <p>Remove any Docker files that are running in the system, using the following command</p>
-  <figure class="highlight">
-    <pre>
-			<code class="language-html" data-lang="html">
-  $ sudo apt-get remove docker docker-engine docker.io
-  </code>
-		</pre>
-  </figure>
-  <h5>Step3:</h5>
-  <p>Install Docker using the following command</p>
-  <figure class="highlight">
-    <pre>
-			<code class="language-html" data-lang="html">
-  $ sudo apt install docker.io
-</code>
-		</pre>
-    <div class="h-100">
-      <img src="ubuntu/1.PNG" alt="Install Docker using the following command">
-    </div>
-  </figure>
-  <h5>Step4:</h5>
-  <p>Install all the dependency packages using the following command</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-  $ sudo snap install docker
-</code>
-			</pre>
-    <div class="h-100">
-      <img src="ubuntu/3.PNG" alt="Docker Install all the dependency packages">
-    </div>
-  </figure>
-  <h5>Step5:</h5>
-  <p>Verify that Docker Engine is installed correctly by running the hello-world image</p>
-  <figure class="highlight">
-    <pre>
-					<code class="language-html" data-lang="html">
-  $ docker --version
-  </code>
-				</pre>
-  </figure>
-  <h5>Step6:</h5>
-  <p> Pull an image from the Docker hub using the following command</p>
-  <figure class="highlight">
-    <pre>
-					<code class="language-html" data-lang="html">
-  $ sudo docker run hello-world
-</code>
-				</pre>
-    <div class="h-100">
-      <img src="ubuntu/4.PNG" alt="Docker pull and run hello world container">
-    </div>
-  </figure>
-  <h5>Step7:</h5>
-  <p> Check if the docker image has been pulled and is present in your system using the following command</p>
-  <figure class="highlight">
-    <pre>
-						<code class="language-html" data-lang="html">
-  $ sudo docker images
-</code>
-					</pre>
-    <div class="h-100">
-      <img src="ubuntu/5.PNG" alt="Docker images show">
-    </div>
-  </figure>
+<div class="">
+  <h2 title="What is a Git repository">Example Explained</h2>
+  <p>
+  <ul>
+    <li>
+    This document is an HTML5 document, as indicated by the <code class="">&lt;!DOCTYPE html&gt;</code> declaration.
+    </li>
+    <li>
+    The root element of an HTML page is the <code class="">&lt;html&gt;</code> element.
+    </li>
+    <li>
+    The HTML page's <code class="">&lt;head&gt;</code> element stores meta data about it.
+    </li>
+    <li>
+    The HTML page's title (which appears in the browser's title bar or in the page's tab) is specified by the <code class="">&lt;title&gt;</code> element
+    </li>
+    <li>
+    A document's body is defined by the <code class="">&lt;body&gt;</code> element, which also serves as a container for all of the elements that can be seen, including headings, paragraphs, images, hyperlinks, tables, lists, and so on.
+    </li>
+    <li>
+    A huge heading is defined using the <code class="">&lt;h1&gt;</code> element.
+    </li>
+    <li>
+    The paragraph is defined by the <code class="">&lt;p&gt;</code> element.
+    </li>
+  </ul>
+</p>
 </div>
 
-<div class="collapse multi-collapse" id="multiCollapseExample3" title="How to Install Docker Engine on RHEL.">
-  <h4 title="How to install Docker Engine on RHEL.">How to install Docker Engine on RHEL (Step-by-Step) Guide</h4>
-  <h5>Step1:</h5>
-  <p>First, uninstall any previous versions of Docker.</p> 
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html">
-      $ sudo yum remove docker \
-      docker-client \
-      docker-client-latest \
-      docker-common \
-      docker-latest \
-      docker-latest-logrotate \
-      docker-logrotate \
-      docker-engine \
-      podman \
-      runc
-     </code></pre>
-  </figure>
-  <h5>Step2:</h5>
-  <p>Then, install any required packages</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html">
-      $ sudo yum install -y yum-utils     
-    </code></pre>
-    <img src="redhat/1.PNG" alt="Docker images show">
-  </figure>
+<div class="">
+  <h2 title="What is a Git repository">What is an HTML Element?</h2>
+<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+<p>
+<span class="">
+<span class="spes_tag">&lt;</span>tagname<span class="spes_tag">&gt;</span></span><b>Content goes here...</b><span class="">
+<span class="spes_tag">&lt;</span>/tagname<span class="spes_tag">&gt;</span></span>
+</p>
+<p>
+The start tag and the end tag together make up the HTML <b>element</b>.
+</p>
+<p>
+<span class=""><span class="spes_tag">&lt;<span class="">h1</span>&gt;</span></span>My 
+  First Heading<span class=""><span class="spes_tag">&lt;</span>/h1<span class="spes_tag">&gt;</span></span>
+</p>
+<p>
+<span class=""><span class="spes_tag">&lt;</span>p<span class="spes_tag">&gt;</span></span>My first paragraph.<span class=""><span class="spes_tag">&lt;</span>/p<span class="spes_tag">&gt;</span></span>
+</p>
+<div>
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th>Start tag</th>
+<th>Element content</th>
+<th>End tag</th>
+</tr>
+<tr>
+<td>&lt;h1&gt;</td>
+<td>My First Heading</td>
+<td>&lt;/h1&gt;</td>
+</tr>
+<tr>
+<td>&lt;p&gt;</td>
+<td>My first paragraph.</td>
+<td>&lt;/p&gt;</td>
+</tr>
+<tr>
+<td>&lt;br&gt;</td>
+<td><em>none</em></td>
+<td><em>none</em></td>
+</tr>
+</tbody></table>
+</div>
+</div>
 
-  <h5>Step3:</h5>
-  <p>Set up the docker-ce repo</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-    </code></pre>
-    <img src="redhat/2.PNG" alt="Docker images show">
-  </figure>
+<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
+<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
+element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+</div>
 
-  <h5>Step4:</h5>
-  <p>Install Docker using the following command</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo yum install docker-ce
-    </code></pre>
-    <img src="redhat/5.PNG" alt="Docker images show">
-  </figure>
-  <h5>Step5:</h5>
-  <p>Enable Docker Service</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo systemctl enable docker.service
-    </code></pre>
-    <img src="redhat/6.PNG" alt="Docker Service Enable">
-  </figure>
-  <h5>Step6:</h5>
-  <p>Start the Docker service</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo systemctl start docker.service
-    </code></pre>
-    <img src="redhat/7.PNG" alt="Start the Docker service">
-  </figure>
-  
-<h5>Step7:</h5>
-<p>Verify that Docker Engine is installed</p>
-<figure class="highlight">
-   <pre><code class="language-html" data-lang="html"> 
-    $  sudo docker --version
-  </code></pre>
-  <img src="redhat/8.PNG" alt="Verify that Docker Engine is installed">
-</figure>
-<h5>Step8:</h5>
-<p>Pull an image from the Docker hub using the following command</p>
-<figure class="highlight">
-   <pre><code class="language-html" data-lang="html"> 
-    $   sudo docker pull hello-world
-  </code></pre>
-  <img src="redhat/9.PNG" alt="Docker pull image from Docker Hub">
-</figure>
-<h5>Step9:</h5>
-<p>Check if the docker image has been pulled and is present in your system using the following command</p>
-<figure class="highlight">
-   <pre><code class="language-html" data-lang="html"> 
-    $ sudo docker images 
-  </code></pre>
-  <img src="redhat/10.PNG" alt="Docker show images">
-</figure>
+<div class="">
+  <h2 title="What is a Git repository">Web Browsers</h2>
+<p>Chrome, Edge, Firefox, and Safari are a few examples of web browsers whose primary function is to read and accurately display HTML texts.</p>
+<p>Although they are not displayed themselves, HTML tags are used by browsers to determine how to display a page:
+</p>
+<img src="..img/h1.png" alt="">
+</div>
+<div class="">
+  <h2 title="What is a Docker File">HTML Page Structure</h2>
+<p>Here is an illustration of the structure of an HTML page:</p>
+ <h5 class="mt-2 mb-1">Example</h5>
+ <img src="" alt="">
+ <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
+<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
+element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+</div>
+<div class="">
+  <h2 title="What is a Git repository">HTML History</h2>
+<p>There have been numerous HTML variants since the World Wide Web's inception, including:</p>
+<div>
+<table class="ws-table-all notranslate">
+  <tbody><tr>
+    <th>Year</th>
+    <th>Version</th>
+  </tr>
+  <tr>
+    <td>1989</td>
+    <td>Tim Berners-Lee invented www</td>
+  </tr>
+  <tr>
+    <td>1991</td>
+    <td>Tim Berners-Lee invented HTML</td>
+  </tr>
+  <tr>
+    <td>1993</td>
+    <td>Dave Raggett drafted HTML+</td>
+  </tr>
+  <tr>
+    <td>1995</td>
+    <td>HTML Working Group defined HTML 2.0</td>
+  </tr>
+  <tr>
+    <td>1997</td>
+    <td>DCT Recommendation: HTML 3.2</td>
+  </tr>
+  <tr>
+    <td>1999</td>
+    <td>DCT Recommendation: HTML 4.01</td>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>DCT Recommendation: XHTML 1.0</td>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>WHATWG HTML5 First Public Draft</td>
+  </tr>
+  <tr>
+    <td>2012</td>
+    <td><a href="" target="_blank">WHATWG HTML5 Living Standard</a></td>
+  </tr>
+  <tr>
+    <td>2014</td>
+    <td><a href="" target="_blank">DCT Recommendation: HTML5</a></td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>DCT Candidate Recommendation: HTML 5.1</td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td><a href="" target="_blank">DCT Recommendation: HTML5.1 2nd Edition</a></td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td><a href="" target="_blank">DCT Recommendation: HTML5.2</a></td>
+  </tr>
+</tbody></table>
+</div>
+</div>
+<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
+<p><strong>Note: </strong>This tutorial follows the latest HTML5 standard.</p>
+</div>
 </div>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-  $("#collapse_1").click(function(){
-    $('#multiCollapseExample1').toggle('slow');
-  });
- 
-});
-</script>
 
 
 
@@ -477,7 +474,7 @@
 <?php include('../footer.php') ?>
 
 <script src="../lib/w3schools_footer.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>
 

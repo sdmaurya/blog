@@ -33,19 +33,16 @@
           <div class="collapse navbar-collapse " id="navbarColor01">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home
-                  <span class="visually-hidden">(current)</span>
+                <a class="nav-link" href="/">Home                 
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
+              </li>     
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact-us.php">Contact</a>
+              </li>      
+              
               <li class="nav-item dropdown has-megamenu">
                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Tutorials List  </a>
                 <div class="dropdown-menu megamenu" role="menu" style="margin-top: -.2%;">
@@ -116,11 +113,17 @@
 
       <div class="social">
       <ul class="scl">
-        <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+        <!-- <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
         <li><a href="#" class="scls"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
         <li><a href="#" class="scls"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
         <li><a href="#" class="scls"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
         <li><a href="#" class="scls"><i class="fab fa-github"></i><span>Github</span></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-youtube"></i><span>Youtube</span></a></li> -->
+        <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-github"></i></a></li>
+        <li><a href="#" class="scls"><i class="fab fa-youtube"></i></a></li>
       </ul>
     </div>

@@ -247,7 +247,7 @@
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-    <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
+<h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
 <a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
 <a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
 <a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>

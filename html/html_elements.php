@@ -18,12 +18,35 @@
 
 <link rel="stylesheet" href="../main.css">
 <link rel="stylesheet" href="/../w3css/page/page.css">
+<link  href="../font/css/all.min.css" rel="stylesheet" >
 
 </head>
 <body>
 <div class='w3-container top'>
-  <a class='w3schools-logo notranslate' href='../index.html'>w3schools<span class='dotcom'>.com</span></a>
-  <div class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
+  <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
+    <a class='w3schools-logo ' href='../index.html'> <span > <img src="../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
+  <div class='w3-right w3-hide-small w3-wide toptext'>
+  <div class="text-light">
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+  </div>
 </div>
 
 <div style='display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:#5f5f5f;letter-spacing:normal;' id='googleSearch'>
@@ -33,7 +56,7 @@
 
 <div class='w3-card-2 topnav notranslate' id='topnav'>
   <div style="overflow:auto;">
-    <div class="w3-bar w3-left bg_nav_bar" style="width:100%;overflow:hidden;height:44px">
+    <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
       <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
       <a href='../default.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
       <a class="w3-bar-item w3-button" href='default.html' title='HTML Tutorial'>HTML</a>
@@ -224,11 +247,15 @@
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">Docker Introduction</a>
-<a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
-<a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
-<a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>
+    <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
+<a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
+<a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
+<a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>
+<a target="_top" href="html_elements.php" title="HTML Elements">HTML Elements</a>
+<a target="_top" href="html_attributes.php" title="HTML Attributes">HTML Attributes</a>
+<a target="_top" href="html_heading.php" title="HTML Headings">HTML Headings</a>
+<a target="_top" href="html_paragraph.php" title="HTML Paragraphs">HTML Paragraphs</a>
+
 
       <br><br>
     </div>
@@ -236,62 +263,208 @@
 </div>
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
-    <div class='w3-col l10 m12' id='main'>
-<h4 title="Docker File">Docker File</span></h4>
+    <div class='w3-col l10 m12 mt-2' id='main'>
+<h1 title="Docker Tutorial: A Step by Step Tutorial for Beginners and Advance">HTML Tutorial: A Step by Step Tutorial for Beginners and Advance</span></h1>
+
+
 <hr>
 
 <div class="">
-  <h5>What is a Dockerfile</h5>
-  <p>Docker File is a text file that contains all of the instructions needed to run a dockerimage. Each instruction in the image creates a dockerlayer.</p>
+  <h2>Introduction to HTML</h2>
+<p>The preferred markup language for building Web pages is HTML.</p>
+ 
 </div>
 <div class="">
-  <h5>How to Create a Dockerfile.</h5>
-  <p>To create a Dockerfile, use commands such as FROM, PULL, RUN, and CMD.</p>
-  <p class="mt-0">
-    <span>
-      <b>FROM: </b> This defines the base image for the image that will be created. </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>MAINTAINER:</b> This defines the name and contact information for the person who created the image. </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>RUN:</b> This will execute the command within the container. </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>EXPOSE:</b> The EXPOSE statement maps a port into the container. </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>COPY:</b> The COPY command is exactly what it sounds like. It can copy a file to the container (in the same directory as the Dockerfile). </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>CMD:</b> The CMD command specifies the command to be executed when a Docker container starts up. </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>WORKDIR:</b> The current working directory is set. If the specified directory does not exist, Docker will create it for you. </span>
-  </p>
-  <p class="mt-0">
-    <span>
-      <b>ENV:</b> The ENV instruction sets the environment variable <key> to the value <value>. </span>
-  </p>
+  <h2>What is HTML?</h2>
+<p>
+  <ul>
+    <li>
+    Hyper Text Markup Language is what HTML stands for.
+    </li>
+    <li>
+    The preferred markup language for building Web pages is HTML.
+    </li>
+    <li>
+    HTML explains how a Web page is put together.
+    </li>
+    <li>
+    There are several different elements in HTML.
+    </li>
+    <li>
+    HTML components instruct browsers on how to display content.
+    </li>
+    <li>
+    The labels "this is a heading," "this is a paragraph," "this is a link," etc., are provided by HTML elements.
+    </li>
+  </ul>
+</p>
 </div>
 
-  <div class="">
-    <h5>Creating a Dockerfile Example</h5>
-    <figure class="highlight">
-      <pre>
-			<code class="language-html" data-lang="html">
-  FROM httpd:2.4
-  COPY ./public-html/ /usr/local/apache2/htdocs/
-        </code>
-		</pre>
-    </figure>
-  </div>
+<div class="">
+  <h2 title="What is a Git repository">Example Explained</h2>
+  <p>
+  <ul>
+    <li>
+    This document is an HTML5 document, as indicated by the <code class="">&lt;!DOCTYPE html&gt;</code> declaration.
+    </li>
+    <li>
+    The root element of an HTML page is the <code class="">&lt;html&gt;</code> element.
+    </li>
+    <li>
+    The HTML page's <code class="">&lt;head&gt;</code> element stores meta data about it.
+    </li>
+    <li>
+    The HTML page's title (which appears in the browser's title bar or in the page's tab) is specified by the <code class="">&lt;title&gt;</code> element
+    </li>
+    <li>
+    A document's body is defined by the <code class="">&lt;body&gt;</code> element, which also serves as a container for all of the elements that can be seen, including headings, paragraphs, images, hyperlinks, tables, lists, and so on.
+    </li>
+    <li>
+    A huge heading is defined using the <code class="">&lt;h1&gt;</code> element.
+    </li>
+    <li>
+    The paragraph is defined by the <code class="">&lt;p&gt;</code> element.
+    </li>
+  </ul>
+</p>
+</div>
+
+<div class="">
+  <h2 title="What is a Git repository">What is an HTML Element?</h2>
+<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+<p>
+<span class="">
+<span class="spes_tag">&lt;</span>tagname<span class="spes_tag">&gt;</span></span><b>Content goes here...</b><span class="">
+<span class="spes_tag">&lt;</span>/tagname<span class="spes_tag">&gt;</span></span>
+</p>
+<p>
+The start tag and the end tag together make up the HTML <b>element</b>.
+</p>
+<p>
+<span class=""><span class="spes_tag">&lt;<span class="">h1</span>&gt;</span></span>My 
+  First Heading<span class=""><span class="spes_tag">&lt;</span>/h1<span class="spes_tag">&gt;</span></span>
+</p>
+<p>
+<span class=""><span class="spes_tag">&lt;</span>p<span class="spes_tag">&gt;</span></span>My first paragraph.<span class=""><span class="spes_tag">&lt;</span>/p<span class="spes_tag">&gt;</span></span>
+</p>
+<div>
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th>Start tag</th>
+<th>Element content</th>
+<th>End tag</th>
+</tr>
+<tr>
+<td>&lt;h1&gt;</td>
+<td>My First Heading</td>
+<td>&lt;/h1&gt;</td>
+</tr>
+<tr>
+<td>&lt;p&gt;</td>
+<td>My first paragraph.</td>
+<td>&lt;/p&gt;</td>
+</tr>
+<tr>
+<td>&lt;br&gt;</td>
+<td><em>none</em></td>
+<td><em>none</em></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
+<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
+element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+</div>
+
+<div class="">
+  <h2 title="What is a Git repository">Web Browsers</h2>
+<p>Chrome, Edge, Firefox, and Safari are a few examples of web browsers whose primary function is to read and accurately display HTML texts.</p>
+<p>Although they are not displayed themselves, HTML tags are used by browsers to determine how to display a page:
+</p>
+<img src="..img/h1.png" alt="">
+</div>
+<div class="">
+  <h2 title="What is a Docker File">HTML Page Structure</h2>
+<p>Here is an illustration of the structure of an HTML page:</p>
+ <h5 class="mt-2 mb-1">Example</h5>
+ <img src="" alt="">
+ <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
+<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
+element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+</div>
+<div class="">
+  <h2 title="What is a Git repository">HTML History</h2>
+<p>There have been numerous HTML variants since the World Wide Web's inception, including:</p>
+<div>
+<table class="ws-table-all notranslate">
+  <tbody><tr>
+    <th>Year</th>
+    <th>Version</th>
+  </tr>
+  <tr>
+    <td>1989</td>
+    <td>Tim Berners-Lee invented www</td>
+  </tr>
+  <tr>
+    <td>1991</td>
+    <td>Tim Berners-Lee invented HTML</td>
+  </tr>
+  <tr>
+    <td>1993</td>
+    <td>Dave Raggett drafted HTML+</td>
+  </tr>
+  <tr>
+    <td>1995</td>
+    <td>HTML Working Group defined HTML 2.0</td>
+  </tr>
+  <tr>
+    <td>1997</td>
+    <td>DCT Recommendation: HTML 3.2</td>
+  </tr>
+  <tr>
+    <td>1999</td>
+    <td>DCT Recommendation: HTML 4.01</td>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>DCT Recommendation: XHTML 1.0</td>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>WHATWG HTML5 First Public Draft</td>
+  </tr>
+  <tr>
+    <td>2012</td>
+    <td><a href="" target="_blank">WHATWG HTML5 Living Standard</a></td>
+  </tr>
+  <tr>
+    <td>2014</td>
+    <td><a href="" target="_blank">DCT Recommendation: HTML5</a></td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>DCT Candidate Recommendation: HTML 5.1</td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td><a href="" target="_blank">DCT Recommendation: HTML5.1 2nd Edition</a></td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td><a href="" target="_blank">DCT Recommendation: HTML5.2</a></td>
+  </tr>
+</tbody></table>
+</div>
+</div>
+<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
+<p><strong>Note: </strong>This tutorial follows the latest HTML5 standard.</p>
+</div>
+</div>
+
+
+
 
 
 

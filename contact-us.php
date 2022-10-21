@@ -39,7 +39,7 @@
                       
                                
                         <div class="text-center">
-                            <input name="Submit" type="submit" id="Submit" value="Send Message"  class="btn btn-secondary m-2" >                           
+                            <input name="Submit" type="submit" id="Submit" value="Send Message"  class="btn btn-primary m-2" >                           
                         </div>
                        
                     </form>

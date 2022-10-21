@@ -54,12 +54,10 @@
                       <div class="col-megamenu">
                         <h4 class="title">Frontend</h4>
                         <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="/html">HTML</a></li>
+                          <li><a href="/css">CSS</a></li>
+                          <li><a href="/javascript">JAVASCRIPT</a></li>
+                          <li><a href="/bootstrap">BOOTSTRAP</a></li>                        
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
@@ -67,12 +65,8 @@
                       <div class="col-megamenu">
                         <h4 class="title">Backend</h4>
                         <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="/php">PHP</a></li>
+                          <li><a href="/python">PYTHON</a></li>                         
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
@@ -80,25 +74,19 @@
                       <div class="col-megamenu">
                         <h4 class="title">Cloud & Devops</h4>
                         <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">CLOUD COMPUTING</a></li>
+                          <li><a href="#">DOCKER</a></li>
+                          <li><a href="#">JENKINS</a></li>
+                          <li><a href="#">AGILE</a></li>
+                          <li><a href="#">LINUX</a></li>                      
                         </ul>
                       </div>  
                     </div>    
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h4 class="title">Title Menu Four</h4>
+                        <h4 class="title">Others</h4>
                         <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="/blockchain">BLOCKCHAIN</a></li>                          
                         </ul>
                       </div>  
                     </div>

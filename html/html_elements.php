@@ -248,7 +248,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
     <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
+<a target="_top" href="html_Introduction">HTML Introduction</a>
 <a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
 <a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>
 <a target="_top" href="html_elements.php" title="HTML Elements">HTML Elements</a>
@@ -270,34 +270,19 @@
 <hr>
 
 <div class="">
-  <h2>Introduction to HTML</h2>
-<p>The preferred markup language for building Web pages is HTML.</p>
+  <h2>HTML Elements</h2>
+<p>The HTML element is composed of the start tag and the end tag
+</p>
+<hr>
  
 </div>
 <div class="">
-  <h2>What is HTML?</h2>
-<p>
-  <ul>
-    <li>
-    Hyper Text Markup Language is what HTML stands for.
-    </li>
-    <li>
-    The preferred markup language for building Web pages is HTML.
-    </li>
-    <li>
-    HTML explains how a Web page is put together.
-    </li>
-    <li>
-    There are several different elements in HTML.
-    </li>
-    <li>
-    HTML components instruct browsers on how to display content.
-    </li>
-    <li>
-    The labels "this is a heading," "this is a paragraph," "this is a link," etc., are provided by HTML elements.
-    </li>
-  </ul>
-</p>
+  <h2>HTML Elements</h2>
+<p>The HTML <b>element</b> is everything from the start tag to the end tag:</p>
+<p><code class="">&lt;tagname&gt;</code>Content goes here...<code class="">&lt;/tagname&gt;</code></p>
+<p>Examples of some HTML elements:</p>
+<p><code class="">&lt;h1&gt;</code>My First Heading<code class="">&lt;/h1&gt;</code></p>
+<p><code class="">&lt;p&gt;</code>My first paragraph.<code class="">&lt;/p&gt;</code></p>
 </div>
 
 <div class="">

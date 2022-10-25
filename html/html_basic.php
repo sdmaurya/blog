@@ -248,7 +248,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
     <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
+<a target="_top" href="html_Introduction">HTML Introduction</a>
 <a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
 <a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>
 <a target="_top" href="html_elements.php" title="HTML Elements">HTML Elements</a>
@@ -270,205 +270,127 @@
 <hr>
 
 <div class="">
-  <h2>Introduction to HTML</h2>
-<p>The preferred markup language for building Web pages is HTML.</p>
+  <h2>HTML Basic Examples</h2>
+  <hr>
+<p>In this chapter we will show some basic HTML examples.</p>
+<p>Don't worry if we use tags you have not learned about yet.</p>
+<hr>
  
 </div>
 <div class="">
-  <h2>What is HTML?</h2>
+  <h2>HTML Documents</h2>
 <p>
   <ul>
     <li>
-    Hyper Text Markup Language is what HTML stands for.
+    The document type declaration <code class="">&lt;!DOCTYPE html&gt;</code> must appear at the top of every HTML document.
     </li>
     <li>
-    The preferred markup language for building Web pages is HTML.
+    Beginning with <code class="">&lt;html&gt;</code> and ending with <code class="">&lt;/html&gt;</code>, an HTML document is itself.
     </li>
     <li>
-    HTML explains how a Web page is put together.
-    </li>
-    <li>
-    There are several different elements in HTML.
-    </li>
-    <li>
-    HTML components instruct browsers on how to display content.
-    </li>
-    <li>
-    The labels "this is a heading," "this is a paragraph," "this is a link," etc., are provided by HTML elements.
+    Between <code class="">&lt;body&gt;</code> and <code class="">&lt;/body&gt;</code> is where the HTML document's visible content is located.
     </li>
   </ul>
 </p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My First Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My first paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span> </div>
+</div>
 </div>
 
 <div class="">
-  <h2 title="What is a Git repository">Example Explained</h2>
+  <h2 title="What is a Git repository">The <code class="">&lt;!DOCTYPE&gt;</code> Declaration</h2>
   <p>
-  <ul>
-    <li>
-    This document is an HTML5 document, as indicated by the <code class="">&lt;!DOCTYPE html&gt;</code> declaration.
-    </li>
-    <li>
-    The root element of an HTML page is the <code class="">&lt;html&gt;</code> element.
-    </li>
-    <li>
-    The HTML page's <code class="">&lt;head&gt;</code> element stores meta data about it.
-    </li>
-    <li>
-    The HTML page's title (which appears in the browser's title bar or in the page's tab) is specified by the <code class="">&lt;title&gt;</code> element
-    </li>
-    <li>
-    A document's body is defined by the <code class="">&lt;body&gt;</code> element, which also serves as a container for all of the elements that can be seen, including headings, paragraphs, images, hyperlinks, tables, lists, and so on.
-    </li>
-    <li>
-    A huge heading is defined using the <code class="">&lt;h1&gt;</code> element.
-    </li>
-    <li>
-    The paragraph is defined by the <code class="">&lt;p&gt;</code> element.
-    </li>
-  </ul>
+    The <code class="">&lt;!DOCTYPE&gt;</code> declaration, which represents the document type, aids browsers in correctly displaying web pages.
 </p>
+<p>It needs to show up at the top of the page just once (before any HTML tags).
+</p>
+<p>There is no case distinction in the <code class="">&lt;!DOCTYPE&gt;</code> declaration.
+</p>
+<p>The HTML5 <code class="">&lt;!DOCTYPE&gt;</code> declaration is:
+</p>
+<div class="w3-example">
+ <div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span> </div>
+</div>
 </div>
 
 <div class="">
-  <h2 title="What is a Git repository">What is an HTML Element?</h2>
-<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
-<p>
-<span class="">
-<span class="spes_tag">&lt;</span>tagname<span class="spes_tag">&gt;</span></span><b>Content goes here...</b><span class="">
-<span class="spes_tag">&lt;</span>/tagname<span class="spes_tag">&gt;</span></span>
+  <h2 title="What is a Git repository">HTML Headings</h2>
+<p>The <code class="">&lt;h1&gt;</code> to <code class="">&lt;h6&gt;</code> tags in HTML are used to define headings.
 </p>
 <p>
-The start tag and the end tag together make up the HTML <b>element</b>.
+The most significant heading is defined by <code class="">&lt;h1&gt;</code>. The smallest heading is indicated by the tag <code class="">&lt;h6&gt;</code>:
 </p>
-<p>
-<span class=""><span class="spes_tag">&lt;<span class="">h1</span>&gt;</span></span>My 
-  First Heading<span class=""><span class="spes_tag">&lt;</span>/h1<span class="spes_tag">&gt;</span></span>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is heading 1<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h2<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is heading 2<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h2<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h3<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is heading 3<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h3<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+ </div>
+</div>
+</div>
+
+<div class="">
+  <h2 title="What is a Git repository">HTML Paragraphs</h2>
+<p>HTML paragraphs are defined with the <code class="">&lt;p&gt;</code> tag:</p>
+
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is another paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+ </div>
+</div>
+</div>
+<div class="">
+  <h2 title="What is a Git repository">HTML Links</h2>
+<p>The <code class="">&lt;a&gt;</code> tag is used to define links in HTML.
 </p>
-<p>
-<span class=""><span class="spes_tag">&lt;</span>p<span class="spes_tag">&gt;</span></span>My first paragraph.<span class=""><span class="spes_tag">&lt;</span>/p<span class="spes_tag">&gt;</span></span>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>a<span class="attributecolor" style="color:red"> href<span class="attributevaluecolor" style="color:mediumblue">="https://www.digitalcotech.com"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a link<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/a<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+ </div>
+</div>
+<p>The href attribute specifies the link's final destination.
 </p>
+<p>To give more details about HTML elements, attributes are employed.
+</p>
+<p>You will discover more about traits in the next chapter.</p>
 <div>
-<table class="ws-table-all notranslate">
-<tbody><tr>
-<th>Start tag</th>
-<th>Element content</th>
-<th>End tag</th>
-</tr>
-<tr>
-<td>&lt;h1&gt;</td>
-<td>My First Heading</td>
-<td>&lt;/h1&gt;</td>
-</tr>
-<tr>
-<td>&lt;p&gt;</td>
-<td>My first paragraph.</td>
-<td>&lt;/p&gt;</td>
-</tr>
-<tr>
-<td>&lt;br&gt;</td>
-<td><em>none</em></td>
-<td><em>none</em></td>
-</tr>
-</tbody></table>
 </div>
 </div>
-
-<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
-<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
-element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
-</div>
-
 <div class="">
-  <h2 title="What is a Git repository">Web Browsers</h2>
-<p>Chrome, Edge, Firefox, and Safari are a few examples of web browsers whose primary function is to read and accurately display HTML texts.</p>
-<p>Although they are not displayed themselves, HTML tags are used by browsers to determine how to display a page:
+  <h2 title="What is a Git repository">HTML Images</h2>
+<p>The <code class="">&lt;img&gt;</code> tag is used to define HTML images.</p>
+<p>The following are the properties for width, height, alternate text (alt), and source file (src):
 </p>
-<img src="..img/h1.png" alt="">
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>img<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="w3schools.jpg"</span> alt<span class="attributevaluecolor" style="color:mediumblue">="W3Schools.com"</span> width<span class="attributevaluecolor" style="color:mediumblue">="104"</span> height<span class="attributevaluecolor" style="color:mediumblue">="142"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+ </div>
 </div>
 <div class="">
-  <h2 title="What is a Docker File">HTML Page Structure</h2>
-<p>Here is an illustration of the structure of an HTML page:</p>
- <h5 class="mt-2 mb-1">Example</h5>
- <img src="" alt="">
- <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
-<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
-element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+  <h2 title="What is a Git repository">How to View HTML Source</h2>
+<p>Have you ever visited a website and wondered "Hey! How did they get that off?"
+</p>
+<p><b>View HTML Source Code:</b> 
+<p>In Chrome or Edge, select "View Page Source" or "View Source" from the context menu when you right-click on an HTML page. Other browsers may offer comparable options. This will launch a window containing the page's HTML source code.
+</p>
+</p>
+<p><b>Inspect an HTML Element:
+</b></p>
+<p>Right-click on an HTML element (or a blank space) and choose "Inspect" or "Inspect Element" to view the element's components (you will see both the HTML and the CSS). Additionally, you can rapidly change the HTML or CSS by using the Elements or Styles tab that opens.
+</p>
 </div>
-<div class="">
-  <h2 title="What is a Git repository">HTML History</h2>
-<p>There have been numerous HTML variants since the World Wide Web's inception, including:</p>
-<div>
-<table class="ws-table-all notranslate">
-  <tbody><tr>
-    <th>Year</th>
-    <th>Version</th>
-  </tr>
-  <tr>
-    <td>1989</td>
-    <td>Tim Berners-Lee invented www</td>
-  </tr>
-  <tr>
-    <td>1991</td>
-    <td>Tim Berners-Lee invented HTML</td>
-  </tr>
-  <tr>
-    <td>1993</td>
-    <td>Dave Raggett drafted HTML+</td>
-  </tr>
-  <tr>
-    <td>1995</td>
-    <td>HTML Working Group defined HTML 2.0</td>
-  </tr>
-  <tr>
-    <td>1997</td>
-    <td>DCT Recommendation: HTML 3.2</td>
-  </tr>
-  <tr>
-    <td>1999</td>
-    <td>DCT Recommendation: HTML 4.01</td>
-  </tr>
-  <tr>
-    <td>2000</td>
-    <td>DCT Recommendation: XHTML 1.0</td>
-  </tr>
-  <tr>
-    <td>2008</td>
-    <td>WHATWG HTML5 First Public Draft</td>
-  </tr>
-  <tr>
-    <td>2012</td>
-    <td><a href="" target="_blank">WHATWG HTML5 Living Standard</a></td>
-  </tr>
-  <tr>
-    <td>2014</td>
-    <td><a href="" target="_blank">DCT Recommendation: HTML5</a></td>
-  </tr>
-  <tr>
-    <td>2016</td>
-    <td>DCT Candidate Recommendation: HTML 5.1</td>
-  </tr>
-  <tr>
-    <td>2017</td>
-    <td><a href="" target="_blank">DCT Recommendation: HTML5.1 2nd Edition</a></td>
-  </tr>
-  <tr>
-    <td>2017</td>
-    <td><a href="" target="_blank">DCT Recommendation: HTML5.2</a></td>
-  </tr>
-</tbody></table>
-</div>
-</div>
-<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
-<p><strong>Note: </strong>This tutorial follows the latest HTML5 standard.</p>
 </div>
 </div>
 
 
-
-
-
-
-</div>
 
 </div>
 <?php include('../footer.php') ?>

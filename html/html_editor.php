@@ -248,8 +248,8 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
-<a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
+<a target="_top" href="html_Introduction">HTML Introduction</a>
+<a target="_top" href="html_editor" title="HTML Editors">HTML Editors</a>
 <a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>
 <a target="_top" href="html_elements.php" title="HTML Elements">HTML Elements</a>
 <a target="_top" href="html_attributes.php" title="HTML Attributes">HTML Attributes</a>
@@ -270,203 +270,72 @@
 <hr>
 
 <div class="">
-  <h2>Introduction to HTML</h2>
-<p>The preferred markup language for building Web pages is HTML.</p>
+  <h2>HTML Editors</h2>
+<p>A simple text editor is all you need to learn HTML.
+</p>
  
 </div>
 <div class="">
-  <h2>What is HTML?</h2>
+  <h2>Learn HTML Using Notepad or TextEdit</h2>
 <p>
   <ul>
     <li>
-    Hyper Text Markup Language is what HTML stands for.
+    Professional HTML editors can be used to design and modify web pages.
     </li>
     <li>
-    The preferred markup language for building Web pages is HTML.
+    However, we advise using a basic text editor like Notepad (PC) or TextEdit when learning HTML (Mac).
     </li>
     <li>
-    HTML explains how a Web page is put together.
+    To learn HTML, we think utilising a basic text editor is a smart idea.
     </li>
     <li>
-    There are several different elements in HTML.
-    </li>
-    <li>
-    HTML components instruct browsers on how to display content.
-    </li>
-    <li>
-    The labels "this is a heading," "this is a paragraph," "this is a link," etc., are provided by HTML elements.
+    Create your first web page using Notepad or TextEdit by following the methods listed below.
     </li>
   </ul>
 </p>
 </div>
 
 <div class="">
-  <h2 title="What is a Git repository">Example Explained</h2>
+  <h2 title="What is a Git repository">Step 1: Open Notepad (PC)</h2>
   <p>
-  <ul>
-    <li>
-    This document is an HTML5 document, as indicated by the <code class="">&lt;!DOCTYPE html&gt;</code> declaration.
-    </li>
-    <li>
-    The root element of an HTML page is the <code class="">&lt;html&gt;</code> element.
-    </li>
-    <li>
-    The HTML page's <code class="">&lt;head&gt;</code> element stores meta data about it.
-    </li>
-    <li>
-    The HTML page's title (which appears in the browser's title bar or in the page's tab) is specified by the <code class="">&lt;title&gt;</code> element
-    </li>
-    <li>
-    A document's body is defined by the <code class="">&lt;body&gt;</code> element, which also serves as a container for all of the elements that can be seen, including headings, paragraphs, images, hyperlinks, tables, lists, and so on.
-    </li>
-    <li>
-    A huge heading is defined using the <code class="">&lt;h1&gt;</code> element.
-    </li>
-    <li>
-    The paragraph is defined by the <code class="">&lt;p&gt;</code> element.
-    </li>
-  </ul>
+  <b>Windows 8 or later:</b>
+  <p>
+  Open the <b>Start Screen </b> (the window symbol at the bottom left on your screen). Type <b>Notepad.</b>
+</p>
+<p>
+<b>Windows 7 or earlier:</b>
+</p>
+<p>Open<b> Start > Programs > Accessories > Notepad</b></p>
 </p>
 </div>
 
 <div class="">
-  <h2 title="What is a Git repository">What is an HTML Element?</h2>
-<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
-<p>
-<span class="">
-<span class="spes_tag">&lt;</span>tagname<span class="spes_tag">&gt;</span></span><b>Content goes here...</b><span class="">
-<span class="spes_tag">&lt;</span>/tagname<span class="spes_tag">&gt;</span></span>
+  <h2 title="What is a Git repository">Step 2: Write Some HTML</h2>
+<p>Write or copy the following HTML code into Notepad:
 </p>
-<p>
-The start tag and the end tag together make up the HTML <b>element</b>.
-</p>
-<p>
-<span class=""><span class="spes_tag">&lt;<span class="">h1</span>&gt;</span></span>My 
-  First Heading<span class=""><span class="spes_tag">&lt;</span>/h1<span class="spes_tag">&gt;</span></span>
-</p>
-<p>
-<span class=""><span class="spes_tag">&lt;</span>p<span class="spes_tag">&gt;</span></span>My first paragraph.<span class=""><span class="spes_tag">&lt;</span>/p<span class="spes_tag">&gt;</span></span>
-</p>
-<div>
-<table class="ws-table-all notranslate">
-<tbody><tr>
-<th>Start tag</th>
-<th>Element content</th>
-<th>End tag</th>
-</tr>
-<tr>
-<td>&lt;h1&gt;</td>
-<td>My First Heading</td>
-<td>&lt;/h1&gt;</td>
-</tr>
-<tr>
-<td>&lt;p&gt;</td>
-<td>My first paragraph.</td>
-<td>&lt;/p&gt;</td>
-</tr>
-<tr>
-<td>&lt;br&gt;</td>
-<td><em>none</em></td>
-<td><em>none</em></td>
-</tr>
-</tbody></table>
+<div class="w3-example">
+<div class="w3-code notranslate htmlHigh">
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My First Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My first paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span> </div>
 </div>
+<img src="" alt="">
 </div>
-
+<div class="">
+  <h2 title="What is a Git repository">Step 3: Save the HTML Page</h2>
+<p>Save the file on your computer. Select <b>File > Save </b> as in the Notepad menu.</p>
+<p>Name the file <b>"index.htm"</b> and set the encoding to <b>UTF-8</b> (which is the preferred encoding for HTML files).
+</p>
+<img src="" alt="">
 <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
-<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
-element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+<p><strong>Tip:</strong> You can use either .htm or .html as file extension. There is no difference; it is up to you.</p>
 </div>
-
-<div class="">
-  <h2 title="What is a Git repository">Web Browsers</h2>
-<p>Chrome, Edge, Firefox, and Safari are a few examples of web browsers whose primary function is to read and accurately display HTML texts.</p>
-<p>Although they are not displayed themselves, HTML tags are used by browsers to determine how to display a page:
-</p>
-<img src="..img/h1.png" alt="">
 </div>
 <div class="">
-  <h2 title="What is a Docker File">HTML Page Structure</h2>
-<p>Here is an illustration of the structure of an HTML page:</p>
- <h5 class="mt-2 mb-1">Example</h5>
- <img src="" alt="">
- <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
-<p><strong>Note: </strong> Some HTML elements (like the &lt;br&gt;)
-element are empty. These are referred to as empty elements. Elements with no content do not have an end tag.</p>
+  <h2 title="What is a Docker File">Step 4: View the HTML Page in Your Browser</h2>
+<p>Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with").</p>
+<p>The result will look much like this:</p>
+<img src="" alt="">
 </div>
-<div class="">
-  <h2 title="What is a Git repository">HTML History</h2>
-<p>There have been numerous HTML variants since the World Wide Web's inception, including:</p>
-<div>
-<table class="ws-table-all notranslate">
-  <tbody><tr>
-    <th>Year</th>
-    <th>Version</th>
-  </tr>
-  <tr>
-    <td>1989</td>
-    <td>Tim Berners-Lee invented www</td>
-  </tr>
-  <tr>
-    <td>1991</td>
-    <td>Tim Berners-Lee invented HTML</td>
-  </tr>
-  <tr>
-    <td>1993</td>
-    <td>Dave Raggett drafted HTML+</td>
-  </tr>
-  <tr>
-    <td>1995</td>
-    <td>HTML Working Group defined HTML 2.0</td>
-  </tr>
-  <tr>
-    <td>1997</td>
-    <td>DCT Recommendation: HTML 3.2</td>
-  </tr>
-  <tr>
-    <td>1999</td>
-    <td>DCT Recommendation: HTML 4.01</td>
-  </tr>
-  <tr>
-    <td>2000</td>
-    <td>DCT Recommendation: XHTML 1.0</td>
-  </tr>
-  <tr>
-    <td>2008</td>
-    <td>WHATWG HTML5 First Public Draft</td>
-  </tr>
-  <tr>
-    <td>2012</td>
-    <td><a href="" target="_blank">WHATWG HTML5 Living Standard</a></td>
-  </tr>
-  <tr>
-    <td>2014</td>
-    <td><a href="" target="_blank">DCT Recommendation: HTML5</a></td>
-  </tr>
-  <tr>
-    <td>2016</td>
-    <td>DCT Candidate Recommendation: HTML 5.1</td>
-  </tr>
-  <tr>
-    <td>2017</td>
-    <td><a href="" target="_blank">DCT Recommendation: HTML5.1 2nd Edition</a></td>
-  </tr>
-  <tr>
-    <td>2017</td>
-    <td><a href="" target="_blank">DCT Recommendation: HTML5.2</a></td>
-  </tr>
-</tbody></table>
-</div>
-</div>
-<div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
-<p><strong>Note: </strong>This tutorial follows the latest HTML5 standard.</p>
-</div>
-</div>
-
-
-
-
-
 
 </div>
 

@@ -244,15 +244,13 @@
   </div>
 </div>
 
-
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">GIT</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/git/">GIT Introduction</a>
-<a target="_top" href="git_installation.php" title="Installing Git">Git Installation</a>
-<a target="_top" href="git_command.php" title="GIT Commands List">GIT Commands</a>
-
+<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
+<a target="_top" href="http://myblog.com/blockchain/">Blockchain Introduction</a>
+<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
+<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
 
 
       <br><br>
@@ -263,103 +261,72 @@
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
   
-<h1>GIT<span class="color_h1" title="Git Installation"> Installation</span></h1>
+      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <hr>
 
 
-<p>
-  <a class="btn btn-primary" id="collapse_1" data-bs-toggle="collapse" role="button" aria-expanded="false">GIT Windows Installation </a>
-  <button class="btn btn-primary" id="collapse_2" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">GIT Linux Installation</button>
-  <button class="btn btn-primary" id="collapse_3" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">GIT AWS Installation</button>
+<h2>What is cryptocurrency?</h2>
+<p>Cryptocurrency (or "crypto") is a type of digital asset created through the use of cryptographic techniques that allow people to buy, sell or trade them securely.</p>
+<p>Unlike traditional fiat currencies, which are controlled by national governments, cryptocurrencies can exist without the intervention of a monetary authority, such as a central bank.
 </p>
-<hr>
-<div class="" id="multiCollapseExample1" title="How to Install Git on Windows (Step-by-Step) Guide">
-  <h4 title="Git Installation on Windows">Git Installation on Windows: How to Install Git on Windows (Step-by-Step) Guide</h4>
-  <p>Download the most recent Git version and choose the 64/32 bit option. After downloading the file, install it. After installing, select Launch the Git Bash, then finish.</p>
-  <a href="https://git-scm.com/downloads" class="mb-2">Download Git</a>
-  <p>Type to confirm that the installation was successful.</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-  $ git --version
-</code>
-			</pre>
-  </figure>
-</div>
-<div class=" collapse multi-collapse" id="multiCollapseExample2" title="How to Install Git on Linux (Step-by-Step) Guide">
-  <h4 title="Git Installation on Linux">Git Installation on Linux: How to Install Git on Linux (Step-by-Step) Guide</h4>
-  <p>Debian-based distribution (Debian/Ubuntu/Ubuntu-derivatives)</p>
-  <h5>Step1:</h5>
-  <p>#Perform a quick update on your system:</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-  $ sudo apt-get update
-    </code>
-			</pre>
-  </figure>
-  <h5>Step2:</h5>
-  <p>#After the update is finished, you can install Git:</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-  $ sudo apt-get install git
-    </code>
-			</pre>
-  </figure>
-  <h5>Step3:</h5>
-  <p>#Type to ensure that the git installation was successful:</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-    $ git --version
-        </code>
-			</pre>
-  </figure>
-</div>
-<div class="collapse multi-collapse" id="multiCollapseExample3" title="How to Install Git on AWS EC2 instance (Step-by-Step) Guide">
-  <h4 title="Git installation on AWS EC2 instance">Git Installation on AWS EC2 instance: How to Install Git on AWS EC2 instance (Step-by-Step) Guide</h4>
-  <div> #Create an EC2 instance with Amazon Linux 2 with internet access </div>
-  <div>#Connect to your instance using putty shell </div>
-  <br>
-  <h5>Step1:</h5>
-  <p>#Perform a quick update on your instance:</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-    $ sudo yum update -y
-        </code>
-			</pre>
-  </figure>
-  <h5>Step2:</h5>
-  <p>#Install git in your EC2 instance:</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-    $ sudo yum install git -y
-        </code>
-			</pre>
-  </figure>
-  <h5>Step3:</h5>
-  <p>#Check git version:</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-    $ git --version
-        </code>
-			</pre>
-  </figure>
+<p>You do not own anything tangible if you own cryptocurrencies. What you have is a key that allows you to transfer a record or unit of measure from one person to another without the help of a trusted third party.</p>
+
+<h2>How does cryptocurrency work?</h2>
+<p>Cryptocurrencies are based on the blockchain, a distributed public ledger that keeps track of all transactions updated and maintained by currency holders.</p>
+
+
+
+<h2 title="Why do we need blockchain?">Why do we need blockchain?</h2>
+<p>Here are some of the reasons why blockchain technology has grown in popularity.</p>
+
+<p><strong>Flexibility : </strong>   Blockchain architecture is often replicated. In the event of a massive attack on the system, most nodes continue to run the chain.</p>
+<p><strong>Time Savings : </strong>  In the financial industry, blockchain can play an important role by allowing for faster trade settlement as it eliminates the need for lengthy verification, settlement and clearance processes as all stakeholders need to reach a consensus. A version is accessed. Data on a shared ledger.</p>
+
+<p><strong>Reliability : </strong>  Blockchain validates and verifies the identity of the parties involved. It eliminates duplicate records, reduces rates, and speeds up transactions.
+</p>
+
+<p><strong>Immutable Transactions : </strong>  Since blockchain registers transactions chronologically, it ensures immutability of all transactions, which means that once a new block is added to the chain of ledgers, So it cannot be removed or changed.
+</p>
+<p><strong>Fraud Prevention : </strong>  Shared information and consensus concepts help prevent potential losses from fraud or embezzlement. Blockchain as a monitoring mechanism reduces costs in logistics-based industries.
+</p>
+<p><strong>Transparency : </strong>  All changes made to public blockchains are visible to the public. This improves transparency, and all transactions are final.
+</p>
+<p><strong>Decentralization : </strong>  There are rules that govern how each node exchanges blockchain information.</p>
+
+
+
+
+<h2 title="Blockchain variants?">Blockchain variants?</h2>
+
+<ul>
+  <li> Public Blockchain</li>
+  <li>Private Blockchain</li>
+  <li>Consortium Blockchain</li>
+</ul>
+
+<div class="container">
+  <h2 title="What is Public Blockchain">Public Blockchain</h2>
+  <p>Ledgers on this type of blockchain are visible to everyone on the internet. It enables anybody to check and add a block of transactions to the blockchain. People are encouraged to join public networks, which are also free to use. A public blockchain network is accessible to anyone.
+  </p>
+  <h2 title="What is Private Blockchain">Private Blockchain</h2>
+  <p>A private blockchain exists within a single organization. It only allows certain members of the organization to verify and add blocks of transactions. However, it is generally allowed to be viewed by anyone on the Internet.
+  </p>
+  <h2 title="What is Consortium Blockchain">Consortium Blockchain</h2>
+  <p>A consortium blockchain is a semi-decentralized network in which membership is not granted to a single entity. Instead, it is distributed to a group of people known as "nodes." It provides network security that public chains do not provide. It also gives you more control, faster processing, and makes it more efficient and secure in many ways.
+  </p>
+
+  
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-  $("#collapse_1").click(function(){
-    $('#multiCollapseExample1').toggle('slow');
-  });
- 
-});
-</script>
 
+<div class="container mt-2">
+  <div class="digital-link mt-2">
+    <h4>You Might Like:</h4>
+    <div><a href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a></div>
+    <div> <a href="/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
+
+  </div>
+</div>
 
 </div>
 
@@ -367,7 +334,7 @@
 <?php include('../footer.php') ?>
 
 <script src="../lib/w3schools_footer.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>
 

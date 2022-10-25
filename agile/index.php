@@ -9,22 +9,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
 <meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.">
-<link href="../other.css" rel="stylesheet" >
+<link href="/../other.css" rel="stylesheet" >
 <link rel="icon" href="../favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="../w3css/4/w3.css">
+<link rel="stylesheet" href="/../w3css/4/w3.css">
 <link href='https://fonts.googleapis.com/css?family=Source%20Code%20Pro' rel='stylesheet'>
 <!-- <link href='bootstrap.min.css' rel='stylesheet'> -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-<link rel="stylesheet" href="../main.css">
+<link rel="stylesheet" href="/../main.css">
 <link rel="stylesheet" href="/../w3css/page/page.css">
-<link  href="../font/css/all.min.css" rel="stylesheet" >
+<link  href="/../font/css/all.min.css" rel="stylesheet" >
 
 </head>
 <body>
 <div class='w3-container top'>
   <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
-    <a class='w3schools-logo ' href='../index.html'> <span > <img src="../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
+    <a class='w3schools-logo ' href='../index.html'> <span > <img src="/../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
   <div class='w3-right w3-hide-small w3-wide toptext'>
   <div class="text-light">
         <a href="" class="me-4 text-reset text-decoration-none">
@@ -247,11 +247,10 @@
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">GIT</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/git/">GIT Introduction</a>
-<a target="_top" href="git_installation.php" title="Installing Git">Git Installation</a>
-<a target="_top" href="git_command.php" title="GIT Commands List">GIT Commands</a>
-
+<h2 class="left"><span class="left_h2">Agile</span> Tutorial</h2>
+<a target="_top" href="http://temp.co/agile/">Agile Introduction</a>
+<a target="_top" href="http://temp.co/agile/scrum.php">Scrum</a>
+<a target="_top" href="http://temp.co/agile/daily-scrum.php">Daily Scrum</a>
 
 
       <br><br>
@@ -260,177 +259,116 @@
 </div>
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
-    <div class='w3-col l10 m12' id='main'>
-  
-<h1>GIT<span class="color_h1" title="GIT Commands List"> Commands</span></h1>
+    <div class='w3-col l10 m12 mt-2' id='main'>
+<h1 title="What is Agile">Agile Methodologies Tutorial</span></h1>
+
 
 <hr>
 
-<div class="" title="Basic Git Commands List">
-  <h2 title="Basic Git Commands List">Basic Git Commands</h2>
+<div class="intro-agile">
+  <h2>What is Agile</h2>
+<p>
+Agile is an iterative approach to project management and software development that enables teams to deliver value to customers faster and with fewer headaches. An agile team delivers work in small, but consumable, increments, rather than go all-in on a "big bang" release. Continuous evaluation of requirements, plans, and deliverables provides teams with a natural mechanism to respond quickly to change.</p>
+<div class="Agile-Methodology text-center" >
+<img src="../img/Agile-Methodology.PNG" alt="Agile-Methodology" width="500">
+            <p>Agile Methodology</p>
+            </div>
+
+</div>
+
+<div class="agile-choose">
+  <h2 title="Why choose agile">Why choose agile?</h2>
+
   <ul>
-    <li>git init</li>
-    <li>git clone</li>
-    <li>git config</li>
-    <li>git branch</li>
-    <li>git checkout</li>
-    <li>git push</li>
-    <li>git pull</li>
-    <li>git log</li>
-    <li>git show</li>
-    <li>git add</li>
-    <li>git commit</li>
-    <li>git clean</li>
-    <li>git diff</li>
-    <li>git reset</li>
-    <li>git status</li>
-    <li>git rm</li>
-    <li>git tag</li>
-    <li>git merge</li>
-    <li>git remote</li>
-    <li>git stash</li>
+    <li>Faster feedback cycles</li>
+    <li>Identifies problems early</li>
+    <li>Higher potential for customer satisfaction</li>
+    <li>Time to market is dramatically improved</li>
+    <li>Better visibility / accountability</li>
+    <li>Dedicated teams drive better productivity over time</li>
+    <li>Flexible prioritization focused on value delivery</li>
+  </ul>  
+</div>
+
+
+<div class="sdlc-content">
+  <h2 class="mt-2 mb-1">What Is SDLC?.</h2>
+  <p>The Software Development Life Cycle (SDLC) is a methodology for creating high-quality software that includes clearly defined processes. The SDLC methodology focuses on the following phases of software development in detail:</p>
+  
+  <ul>
+    <li>Requirement analysis</li>
+    <li>Planning</li>
+    <li>Software design such as architectural design</li>
+    <li>Software development</li>
+    <li>Testing</li>
+    <li>Deployment</li>
+    
   </ul>
 </div>
 
-<h4 title="Useful Git commands" class="mb-2"> Useful Git commands</h4>
-<div class="">
-  <h2>Git Version</h2>
-<p>It shows the version of Git
-  installed on your machine.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-   git --version
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Status</h2>
-<p>List the files that are tracked, untracked, and staged.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-   git status
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git log</h2>
-<p>Display the entire commit history for the current repository.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-   git log
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Add</h2>
-<p>It will add all of your files to the git staging area. You can also add individual files to the staging area.
-  For E.g, git add "README.md"
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-   git add .
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Diff</h2>
-<p>It will differentiate between a file in the staging area and a file in the working tree Untracked file .
+<div class="agile-sdlc">
+  <h2 class="mt-2 mb-1">What is Software Development Life Cycle (SDLC) Agile Model</h2>
+  <p>The agile software development lifecycle (SDLC) combines iterative and incremental process models.
+ It prioritizes process adaptability and customer satisfaction through rapid delivery of a functional software product.
+ Agile breaks down the SDLC product into smaller incremental builds. These builds are distributed in iterations.</p>
   
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-   git diff
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Remote</h2>
-<p>This command is used to establish a connection between your local repository and the remote server.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-   git remote add origin remote_url
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Init</h2>
-<p>This command is used to launch a new repository.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-    git init
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Clone</h2>
-<p>This command retrieves a repository from an existing URL.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-    git clone your_git_repo_url .
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Commit</h2>
-<p>The staged snapshot is saved to the project history. This, along with git add, defines the basic workflow for all Git users.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-    git commit -m 'Added index.html'
-  </code></pre></figure>
-</div>
-<div class="">
-  <h2>Git Branch</h2>
-<p>This command returns a list of all local branches in the current repository.
-  </p>
-  <figure class="highlight">
-    <pre><code class="language-html" data-lang="html">
-    git branch
-  </code></pre></figure>
 </div>
 
-<div class="">
-    <h2>Git Checkout</h2>
-  <p>This command creates a new branch and also switches to it.
-    </p>
-    <figure class="highlight">
-      <pre><code class="language-html" data-lang="html">
-      git checkout -b local_branch
-    </code></pre></figure>
-  </div>
-  <div class="">
-    <h2>Git Switch</h2>
-  <p>This command is used to switch between branches.
-    </p>
-    <figure class="highlight">
-      <pre><code class="language-html" data-lang="html">
-      git switch MAIN
-    </code></pre></figure>
-  </div>
-  <div class="">
-    <h2>Git Merge</h2>
-  <p>This command merges the history of the specified branch into the current branch.
-    </p>
-    <figure class="highlight">
-      <pre><code class="language-html" data-lang="html">
-      git merge local_branch MAIN
-    </code></pre></figure>
-  </div>
-  <div class="">
-    <h2>Git Pull</h2>
-  <p>This command retrieves and merges changes from a remote server into your current working directory.
-    </p>
-    <figure class="highlight">
-      <pre><code class="language-html" data-lang="html">
-      git pull
-    </code></pre></figure>
-  </div>
-  <div class="">
-    <h2>Git Push</h2>
-  <p>This command pushes the main branch's committed changes to your remote repository.
-    </p>
-    <figure class="highlight">
-      <pre><code class="language-html" data-lang="html">
-      git push
-    </code></pre></figure>
+<div class="agile-sdlc">
+  <h2 class="mt-2 mb-1">What is an agile epic?</h2>
+  <p>An epic is a large amount of work that can be broken down into several smaller stories, or "issues," in Jira. Epics often involve multiple teams, multiple projects, and can even be tracked across multiple boards.
+
+Epics are almost always delivered in the form of a series of sprints. User stories will be added and removed as a team learns more about an epic through development and customer feedback. The key to an agile epic is this: scope is aligned with customer feedback and team cadence.</p>
+  
+<div class="Agile-Methodology text-center" >
+<img src="../img/EPIC-WBS.PNG" alt="Agile-Methodology" width="500">
+            <p>Epic WBS</p>
+            </div>
+</div>
+
+<div class="agile-sdlc">
+  <h2 class="mt-2 mb-1">What are agile user stories?</h2>
+  <p> In an agile framework, a user story is the smallest unit of work. It is an end goal, not a feature, expressed from the perspective of the software user.</p>
+  <p>A user story is an informal, general description of a software feature written from the perspective of the user or end user.</p>
+  <p>The purpose of a user story is to describe how a job will provide a specific value to the user. Users do not need to be external users in the traditional sense. They may also be internal customers or colleagues within your organization who trust your team.</p>
+
+</div>
+
+<div class="agile-sdlc">
+  <h2 class="mt-2 mb-1">Why create user stories?</h2>  
+  <ul>
+    <li>Stories keep the focus on the user.</li>
+    <li>Stories enable collaboration. </li>
+    <li>Stories drive creative solutions.</li>
+    <li>Stories create momentum.</li>
+  </ul>
+ 
+</div>
+<div class="agile-sdlc">
+  <h2 class="mt-2 mb-1">Definition and Techniques of Agile Estimation ?</h2>  
+<p>Agile estimation is the process of determining the amount of effort required to complete a work item. The practise of weighing work, which emerged in the development field, is now widely used among Agile teams.</p>
+ 
+<p>Every iteration involves cross-functional teams working on multiple areas at the same time, such as - </p>
+<ul>
+  <li>Planning</li>
+  <li>Requirements Analysis</li>
+  <li>Design</li>
+  <li>Coding</li>
+  <li>Unit Testing and</li>
+  <li>Acceptance Testing.</li>
+</ul>
+
+</div>
+
+
+<hr>
+<div class="container">
+    <div class="digital-link">
+      <h4>You Might Like:</h4>
+      <div><a href="scrum.php" title="What is Scrum">What is Scrum</a></div>
+      <div><a href="daily-scrum.php" title="What is Daily Scrum">What is Daily Scrum</a></div>
+
+    </div>
   </div>
 
 
@@ -440,9 +378,9 @@
 </div>
 
 </div>
-<?php include('../footer.php') ?>
+<?php include('./../footer.php') ?>
 
-<script src="../lib/w3schools_footer.js"></script>
+<script src="/../lib/w3schools_footer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>

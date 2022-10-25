@@ -77,19 +77,19 @@
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
+            TERMS
             </h6>
             <p>
-              <a href="#!" class="text-reset">Pricing</a>
+              <a href="#!" class="text-reset">Terms of use</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Settings</a>
+              <a href="#!" class="text-reset"> Privacy Policy</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Orders</a>
+              <a href="#!" class="text-reset">Cookies Policy</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Help</a>
+              <a href="#!" class="text-reset">About</a>
             </p>
           </div>
           <!-- Grid column -->

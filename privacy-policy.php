@@ -5,7 +5,7 @@
 </div>
 
     
-<div class="container  p-5 text-center "> 
+<div class="container  p-5"> 
   <div class="row h-100" >
     
     <h1>Privacy Policy for digitalcotech</h1>

@@ -5,7 +5,7 @@
 </div>
 
     
-<div class="container  p-5 text-center "> 
+<div class="container  p-5"> 
   <div class="row h-100" >
     
     <h2><strong>Terms and Conditions</strong></h2>

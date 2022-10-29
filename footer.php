@@ -80,14 +80,12 @@
             TERMS
             </h6>
             <p>
-              <a href="#!" class="text-reset">Terms of use</a>
+              <a href="/terms-condition.php" class="text-reset">Terms of use</a>
             </p>
             <p>
-              <a href="#!" class="text-reset"> Privacy Policy</a>
+              <a href="/privacy-policy.php" class="text-reset"> Privacy Policy</a>
             </p>
-            <p>
-              <a href="#!" class="text-reset">Cookies Policy</a>
-            </p>
+           
             <p>
               <a href="#!" class="text-reset">About</a>
             </p>

@@ -55,9 +55,9 @@
                         <h4 class="title">Frontend</h4>
                         <ul class="list-unstyled">
                           <li><a href="/html">HTML</a></li>
-                          <li><a href="/css">CSS</a></li>
-                          <li><a href="/javascript">JAVASCRIPT</a></li>
-                          <li><a href="/bootstrap">BOOTSTRAP</a></li>                        
+                          <li><a href="#">CSS</a></li>
+                          <li><a href="#">JAVASCRIPT</a></li>
+                          <li><a href="#">BOOTSTRAP</a></li>                        
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
@@ -74,11 +74,11 @@
                       <div class="col-megamenu">
                         <h4 class="title">Cloud & Devops</h4>
                         <ul class="list-unstyled">
-                          <li><a href="#">CLOUD COMPUTING</a></li>
-                          <li><a href="#">DOCKER</a></li>
-                          <li><a href="#">JENKINS</a></li>
-                          <li><a href="#">AGILE</a></li>
-                          <li><a href="#">LINUX</a></li>                      
+                          <li><a href="/clouds">CLOUD COMPUTING</a></li>
+                          <li><a href="/docker">DOCKER</a></li>
+                          <li><a href="/jenkins">JENKINS</a></li>
+                          <li><a href="/agile">AGILE</a></li>
+                          <li><a href="/linux">LINUX</a></li>                      
                         </ul>
                       </div>  
                     </div>    

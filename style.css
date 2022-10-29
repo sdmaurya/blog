@@ -9,7 +9,7 @@ h2,h3,h4,h5,h6{
 	/* font-family: 'Poppins', sans-serif; */
 }
 p,span{
-	font-family: 'Baloo Bhaijaan 2', cursive;
+	/* font-family: 'Baloo Bhaijaan 2', cursive; */
 }
 
 body{
@@ -72,8 +72,9 @@ footer{
 	background-color: #2f4a5e !important;
 }
 .list-unstyled li a{
-	font-size: 20px;
+	font-size: 18px;
     color: #f1f1f1;
+    text-decoration: none;
 	font-family: Verdana,sans-serif;
     padding: 2px 0 2px 6px!important;
 }

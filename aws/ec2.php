@@ -248,9 +248,12 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">AWS </span> Tutorial</h2>
-<a target="_top" href="http://temp.co/aws/">AWS Introduction</a>
+<a target="_top" href="http://temp.co/aws/index.php">AWS Introduction</a>
 <a target="_top" href="ec2.php" title="What is Elastic Cloud Compute">AWS EC2</a>
 <a target="_top" href="s3.php" title="What is S3">AWS S3</a>
+<a target="_top" href="iam.php" title="What is IAM">AWS IAM</a>
+<a target="_top" href="vpc.php" title="What is VPC">AWS VPC</a>
+<a target="_top" href="route53.php" title="What is Route 53">AWS Route 53</a>
 
 
       <br><br>
@@ -263,6 +266,20 @@
   
       <h1>AWS<span class="color_h1"> Elastic Compute Cloud </span></h1>
       <hr>
+
+<div class="aws-intro" id="aws-intro">
+
+    <h2>Introduction to Amazon EC2</h2>
+   
+    <ul>
+      <li>EC2 stands for Elastic Compute Cloud.</li>
+      <li>Amazon EC2 is the virtual machine in the Cloud Environment.</li>
+      <li>Amazon EC2 provides scalable capacity. Instances can scale up and down automatically based on the traffic.</li>
+      <li>You do not have to invest in the hardware.</li>
+      <li>You can launch as many servers as you want with full control over security, networking and storage.</li>
+      </ul>
+</div>
+
 
 <div class="aws-intro" id="aws-intro">
 
@@ -296,7 +313,7 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
 
 
 
-<h2>What are the different types of instances?</h2>
+<h2>What are the different types of Amazon EC2 Instance?</h2>
 <div class="aws-list">
 <ul>
 <li>General purpose</li>
@@ -309,84 +326,159 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
 
 
 
-<div class="aws-history" id="aws-history">
+<div class="instance-types" id="instance-types">
 
-    <h2>History of AWS</h2>
-    <p>
-        Amazon Web Services began operations in July 2002. Amazon made a significant investment in cloud technology and quickly came to dominate this new category of IT services. Many companies were hesitant to process data outside of the office space due to security and privacy concerns. This cultural resistance slowed the adoption of cloud concepts, and resistance to remote processing and storage has not yet been completely eliminated.
-        </p>
-    <p>Because it created a sense of ownership, the concept of creating virtual servers increased business confidence in the platform. Companies didn't feel like they were entrusting all their data to Amazon; instead, they had their own processing and storage facilities that they leased from Amazon.
-
+    <h3>General purpose</h3>
+    <p class="mb-2">
+    General Purpose instances offer a good mix of compute, memory, and network resources and can be used for a wide variety of workloads. These instances are ideal for applications such as web servers and code repositories that use these resources equally.
     </p>
+  <div class="examples mb-4">
+
+
+   <b>Ex:</b> <span> Mac, T4g, T3, T3a, T2, M6g, M5, M5a, M5n, M5zn, M4, A1</span>
+   </div>
+</div>
+<div class="instance-types" id="instance-types">
+
+    <h3>Computer Optimized</h3>
+    <p class="mb-2">
+    Compute Optimized Instances are best suited for compute-intensive applications that require powerful processors. Instances in this family are ideal for batch processing workloads, media transcoding, high-performance web serving, high-performance computing (HPC), scientific modeling, dedicated game servers and ad serving engines, machine learning and other computationally intensive applications.
+    </p>
+  <div class="examples mb-4">
+
+
+   <b>Ex:</b> <span> C7g, C6g, C6gn, C5, C5a, C5n, C4</span>
+   </div>
+</div>
+<div class="instance-types" id="instance-types">
+
+    <h3>Memory Optimized</h3>
+    <p class="mb-2">
+    Memory Optimized Instances are designed to provide fast performance for workloads that process large data sets in memory.
+    </p>
+  <div class="examples mb-4">
+
+
+   <b>Ex:</b> <span> R6a, R6g, R5, R5a, R5b, R5n, R4, X2gd, X1e, X1, Z1d</span>
+   </div>
+</div>
+<div class="instance-types" id="instance-types">
+
+    <h3>Storage Optimized</h3>
+    <p class="mb-2">
+    Storage Optimized Instances are intended for workloads that require high-performance sequential read and write access to very large data sets on local storage. They are designed to provide applications with tens of thousands of low-latency random I/O operations per second (IOPS).
+    </p>
+  <div class="examples mb-4">
+
+
+   <b>Ex:</b> <span> Im4gn, Is4gen, I4i I3, I3en, D2, D3, D3en, H1</span>
+   </div>
+</div>
+<div class="instance-types" id="instance-types">
+
+    <h3>Accelerated Computing</h3>
+    <p class="mb-2">
+      Accelerated computing instances use hardware accelerators or coprocessors to perform tasks such as floating point number calculations, graph processing, or data pattern matching, rather than software that runs on the CPU.
+    </p>
+  <div class="examples mb-4">
+
+
+   <b>Ex:</b> <span> P4, P3, P2, Inf1, G4dn, G3, F1</span>
+   </div>
 </div>
 
-
-
-<div class="aws-history" id="aws-user">
-
-    <h2>Who's Using AWS (Amazon Web Services)</h2>
-    <ul>
-        <li>Adobe Systems</li>
-        <li>Airbnb</li>
-        <li>Alcatel-Lucent</li>
-        <li>Aon</li>
-        <li>Autodesk</li>
-        <li>BMW</li>
-        <li>Bristol-Myers Squibb</li>
-        <li>Canon</li>
-        <li>Capital One</li>
-        <li>Comcast</li>
-        <li>Docker</li>
-        <li>GE</li>
-        <li>Hearst Corporation</li>
-        <li>Hitachi</li>
-        <li>HTC</li>
-        <li>Intuit</li>
-        <li>Johnson & Johnson</li>
-        <li>Kellogg Company -SAP ERP Migration</li>
-        <li>Lafarge</li>
-        <li>Lyft</li>
-        <li>NASA</li>
-        <li>Netflix</li>
-        <li>News Corp</li>
-        </ul>
-</div>
-
-<div class="aws-important-topic" id="aws-imp-topic">
-
-    <h2>What are the Most Important AWS Cloud Services?</h2>
-    <ul>
-        <li>EC2  Elastic Cloud Compute</li>
-        <li>IAM  Identity and Access Management</li>
-        <li>VPC  Virtual Private Cloud</li>
-        <li>RDS  Relational Database Service</li>
-        <li>EBS  Elastic Block Store</li>
-        <li>ELB  Elastic Load Balancer</li>
-        <li>Auto scaling</li>
-        <li>DNS Route 53 - DNS</li>
-        <li>Amazon Cloudwatch</li>
-        <li>Amazon Lambda</li>
-        <li>Amazon Beanstalk</li>
-        <li>Amazon CloudFront</li>
-        <li>SNS - Simple Notification Service</li>
-    </ul>
-</div>
-<div class="aws-advantages" id="advantages">
-
-  <h2>AWS Benefits and Advantages</h2>
+<div class="instance-types" id="instance-types">
+  <h2>Here are some terms you need to know before creating an EC2 instance:</h2>
   <ul>
-    <li>User-friendly \Flexible</li>
-    <li>Secure</li>
-    <li>Cost-effective</li>
-    <li>Reliable</li>
-    <li>Scalable and elastic</li>
-    <li>Outstanding performer</li>
-    <li>Limitations of AWS</li>
-    <li>Experts are in short supply.</li>
-    <li>Price Variations</li>
-    <li>Issues in General</li>
+    <li>Amazon Machine Image (AMI)</li>
+    <li>Instance Type</li>
+    <li>Network</li>
+    <li>Subnet</li>
+    <li>Public IP</li>
+    <li>Elastic IP</li>
+    <li>Private IP</li>   
+    <li>Root Volume</li>
+    <li>Security Group</li>
+    <li>KeyPair</li>
     </ul>
+
+   
 </div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Amazon Machine Image (AMI)</h3>
+  <p class="mb-2">
+     An Amazon Machine Image (AMI) Provides the information required to launch
+     an instance. An AMI Includes the following, one or more Elastic Block Store snapshot, a template for the
+     root volume of the instance (for example Operating system, software, configurations etc.)
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Instance Type</h3>
+  <p class="mb-2">
+     Instance types comprise varying combinations of CPU, Memory, storage & Networking
+     capacity and give you the flexibility to choose the appropriate mix of resources for your applications.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Subnet</h3>
+  <p class="mb-2">
+     Subnet is a subnetwork in your virtual network of your Amazon Network. By default there is one
+     subnet per availability zone.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Public IP</h3>
+  <p class="mb-2">
+     A public IP is an IP Address which can be used to access internet and allow the communication
+     over the internet. Public IP will be assigned by amazon and it is dynamic. If you stop and start your EC2
+     instance, The public IP will change.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Elastic IP(EIP)</h3>
+  <p class="mb-2">
+     Elastic IP is a kind of Fixed Public IP address which we can attach to our Instances. Elastic
+     IP will not change if we stop & Start our EC2 instances. We need to request EIP from amazon and it will
+     be free if we attach to any instances, if you keep this EIP unused in your account then it will be charged
+     after initial 1st hour.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Private IP</h3>
+  <p class="mb-2">
+     Private IP can be used to establish the communication with in the same network only,
+     Private (internal) addresses are not routed on the Internet and no traffic can be sent to them from the
+     Internet, means no internet access will be available over private address.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Root Volume</h3>
+  <p class="mb-2">
+     The storage which we used to install Operating system for instance is called as root
+     volume (Ex: C:\ Drive). The following volume types are supported as root volumes: General purpose SSD,
+     Provisioned IOPS SSD, Magnetic.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>Security Group</h3>
+  <p class="mb-2">
+     A Security group acts as a virtual firewall for your instance to control incoming &
+     Outgoing traffic. Security groups to be attached and we can attach 5 security groups to each instance.
+  </p>
+</div>
+<div class="instance-types mb-3" id="instance-types">
+  <h3>KeyPair</h3>
+  <p class="mb-2">
+     Key pair is a combination of public key and private key which can be used to encrypt and
+     decrypt the data, is a set of security credentials that you use to prove your identity when connecting to
+     an instance. Amazon EC2 stores the public key and user stores the private key.
+  </p>
+</div>
+
+
+
+
+
 
 <!-- <div class="container mt-2">
   <div class="digital-link mt-2">

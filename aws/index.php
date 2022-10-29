@@ -248,9 +248,12 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">AWS </span> Tutorial</h2>
-<a target="_top" href="http://temp.co/aws/">AWS Introduction</a>
+<a target="_top" href="http://temp.co/aws/index.php">AWS Introduction</a>
 <a target="_top" href="ec2.php" title="What is Elastic Cloud Compute">AWS EC2</a>
 <a target="_top" href="s3.php" title="What is S3">AWS S3</a>
+<a target="_top" href="iam.php" title="What is IAM">AWS IAM</a>
+<a target="_top" href="vpc.php" title="What is VPC">AWS VPC</a>
+<a target="_top" href="route53.php" title="What is Route 53">AWS Route 53</a>
 
 
       <br><br>

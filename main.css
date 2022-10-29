@@ -503,6 +503,9 @@ hr {
   margin-left: 3%;
   vertical-align: middle;
 }
+.w3-container .text-light{
+  display: none;
+}
 }
 
 

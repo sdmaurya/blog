@@ -248,9 +248,9 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/blockchain/">Blockchain Introduction</a>
+<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
 <a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="git_command.php" title="What is Bitcoin">What is Bitcoin</a>
+<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
 
 
       <br><br>

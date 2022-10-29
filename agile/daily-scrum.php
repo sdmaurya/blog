@@ -278,7 +278,7 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
     <div class="row">
         <div class="col-md-12">
         <div class="scrum-intro text-center" >
-            <img src="img/dailyscrummeeting.JPG" width="500" alt="Daily Scrum Meeting">
+            <img src="img/dailyscrummeeting.PNG" width="500" alt="Daily Scrum Meeting">
             <p>Scrum Meeting</p>
             </div>
         </div>
@@ -297,7 +297,7 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 
 
 <div class="scrum-kinds">
-    <h3 title="What is Product Owner">What kinds of scrum meetings are there?</h3>
+    <h3 title="What is Product Owner">Types of Scrum Meetings and Scrum Best Practices</h3>
   <p>
     A scrum meeting is any meeting organized by an agile scrum team during product development. The following are the most common types.
   </p>
@@ -319,19 +319,19 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 
   <ul>
     <li>
-        <b>
+        <h6>
         Daily Scrum meetings help keep the team on track. Team members can share their progress toward the sprint goal, what they're working on during the day, and get feedback on whether they're moving at the right pace. They can also get a clear picture of what other team members are working on, ensuring clarity and visibility throughout the sprint.
-    </b>
+        </h6>
     </li>
     <li>
-    <b>
+    <h6>
         Daily Scrum meetings encourage collaboration. Everyone shares their progress and addresses any issues that have come up during the session. Scrum team members can help each other overcome challenges and implement agile values ​​and principles.
-    </b>
+        </h6>
     </li>
-    <li>
-    <b>
+    <li> <h6>
+    
         Daily Scrum meetings can serve as a problem-solving forum. Have you run into an agile roadblock? Scrum teams can communicate their concerns or problems to other team members, who can then share possible solutions.
-    </b>
+        </h6>
     </li>
   </ul>
 

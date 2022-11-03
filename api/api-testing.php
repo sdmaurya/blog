@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,15 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
       <br><br>
     </div>
   </div>
@@ -228,55 +232,58 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>API Testing?<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
+    <h2>What is API Testing?</h2>
+    <p>
+    API testing examines an application program interface (API) to ensure that it performs as expected in terms of functionality, security, performance and reliability.
+    </p>
+    <p> API testing can improve test coverage, reduce the time and resources required to deliver an application, and protect it from malicious code or hacking.</p>
+    
+    <p>The following are some of the primary advantages of API automation testing:</p>
 
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
+    <p>
+    <span class="strong"><strong>Fast, Accurate</strong></span>:
+    API testing can be done early in the development cycle without waiting for the GUI to be ready. Automated API tests deliver test findings much faster and significantly speed up the development workflow, allowing you to shorten the feedback loop and identify problems earlier. API test automation is not only faster, but also more accurate in detecting defects than manual testing.
+    </p>
 
+    <p>
+    <span class="strong"><strong>Reduced Resources and testing cost</strong></span>:
+    API testing efforts in an organization are primarily manual, with a small amount of automation driven by in-house scripts/tools and a mess of open source or commercially available testing tools. An integrated API testing solution not only reduces the resources required to develop, maintain and execute the recommended test plan. It also enables complex testing with less qualified and technical resources.
+    </p>
+    <p>
+    <span class="strong"><strong>Reduce Risks</strong></span>:
+    It can reveal entire classes of hazards that conventional manual testing methods miss. API testing tools, for example, can inspect the application back-end for proper behavior as test scenarios run and confirm that interoperability standards and best practices are being followed. They can also automatically mimic a wide range of security attacks. These tasks are frequently overlooked because manual testing is inherently inefficient for them.
+    </p>
+    <p>
+    <span class="strong"><strong>Technology Independent</strong></span>:
+    API tests are language independent because data is exchanged using JSON or XML, as well as HTTP requests and HTTP responses.
+    API automation makes integration and regression testing much easier every time a new update is released. It also reduces the time required for comments, patches, and redeployments during execution, making applications more successful and reliable.
+  </p>
 
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
-
-
-
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
 </div>
 
-</div> 
+
+<h2>What Exactly Should You Test in API Testing?</h2>
+<div class="aws-list">
+<ul>
+  <li>Validate the keys using the Minimum and Maximum API ranges (e.g maximum and minimum length)</li>
+  <li>Create a testcase to validate XML and JSON Schema.</li>
+  <li>Verification of keys If we have JSON or XML APIs, we should ensure that all keys are returned.</li>
+  <li>Examine how the API error codes are handled.</li>
+</ul>
 </div>
+
+</div>
+
+<!-- <div class="api-tool">
+
+  <h2>What are the Best API Testing Tools?</h2>
+</div> -->
 
 </div>
 <?php include('../footer.php') ?>

@@ -59,9 +59,12 @@
     <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
       <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
       <a href='../default.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
-      <a class="w3-bar-item w3-button" href='default.html' title='HTML Tutorial'>HTML</a>
-      <a class="w3-bar-item w3-button" href='../css/default.html' title='CSS Tutorial'>CSS</a>
-      <a class="w3-bar-item w3-button" href='../js/default.html' title='JavaScript Tutorial'>JAVASCRIPT</a>   
+      <a class="w3-bar-item w3-button" href='/linux' title='HTML Tutorial'>Linux</a>
+      <a class="w3-bar-item w3-button" href='/aws' title='HTML Tutorial'>AWS</a>
+      <a class="w3-bar-item w3-button" href='/docker' title='CSS Tutorial'>Docker</a>
+      <a class="w3-bar-item w3-button" href='/agile' title='JavaScript Tutorial'>Agile</a>   
+      <a class="w3-bar-item w3-button" href='/blockchain' title='JavaScript Tutorial'>BLOCKCHAIN</a>   
+      <a class="w3-bar-item w3-button" href='/api' title='JavaScript Tutorial'>API</a>   
             <a class="w3-bar-item w3-button" id='topnavbtn_tutorials' href='javascript:void(0);' onclick='w3_open_nav("tutorials")' title='Tutorials'>MORE <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>
 
     </div>
@@ -72,43 +75,19 @@
           <h3>HTML and CSS</h3>
           <a class="w3-bar-item w3-button" href='default.html'>Learn HTML</a>
           <a class="w3-bar-item w3-button" href='../css/default.html'>Learn CSS</a>
-          <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_ver.html'>Learn Bootstrap</a>
-          <a class="w3-bar-item w3-button" href='../w3css/default.html'>Learn W3.CSS</a>
-          <a class="w3-bar-item w3-button" href='../colors/default.html'>Learn Colors</a>
-          <a class="w3-bar-item w3-button" href='../icons/default.html'>Learn Icons</a>
-          <a class="w3-bar-item w3-button" href='../graphics/default.html'>Learn Graphics</a>
-          <a class="w3-bar-item w3-button" href='../graphics/svg_intro.html'>Learn SVG</a>
-          <a class="w3-bar-item w3-button" href='../graphics/canvas_intro.html'>Learn Canvas</a>
-          <a class="w3-bar-item w3-button" href='../howto/default.html'>Learn How To</a>
-          <a class="w3-bar-item w3-button" href='../sass/default.html'>Learn Sass</a>          
+          <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_ver.html'>Learn Bootstrap</a>     
           <div class="w3-hide-large w3-hide-small">
             <h3>XML</h3>
             <a class="w3-bar-item w3-button" href='../xml/default.html'>Learn XML</a>
             <a class="w3-bar-item w3-button" href='../xml/ajax_intro.html'>Learn XML AJAX</a>
-            <a class="w3-bar-item w3-button" href="../xml/dom_intro.html">Learn XML DOM</a>
-            <a class="w3-bar-item w3-button" href='../xml/xml_dtd_intro.html'>Learn XML DTD</a>
-            <a class="w3-bar-item w3-button" href='../xml/schema_intro.html'>Learn XML Schema</a>
-            <a class="w3-bar-item w3-button" href='../xml/xsl_intro.html'>Learn XSLT</a>
-            <a class="w3-bar-item w3-button" href='../xml/xpath_intro.html'>Learn XPath</a>
-            <a class="w3-bar-item w3-button" href='../xml/xquery_intro.html'>Learn XQuery</a>
+            <a class="w3-bar-item w3-button" href="../xml/dom_intro.html">Learn XML DOM</a>         
           </div>
         </div>
         <div class='w3-col l3 m6'>
           <h3>JavaScript</h3>
           <a class="w3-bar-item w3-button" href='../js/default.html'>Learn JavaScript</a>
           <a class="w3-bar-item w3-button" href='../jquery/default.html'>Learn jQuery</a>
-          <a class="w3-bar-item w3-button" href='../react/default.html'>Learn React</a>
-          <a class="w3-bar-item w3-button" href='../angular/default.html'>Learn AngularJS</a>
-          <a class="w3-bar-item w3-button" href="../js/js_json_intro.html">Learn JSON</a>
-          <a class="w3-bar-item w3-button" href='../js/js_ajax_intro.html'>Learn AJAX</a>
-          <a class="w3-bar-item w3-button" href="../w3js/default.html">Learn W3.JS</a>
-          <h3>Programming</h3>
-          <a class="w3-bar-item w3-button" href='../python/default.html'>Learn Python</a>
-          <a class="w3-bar-item w3-button" href='../java/default.html'>Learn Java</a>
-          <a class="w3-bar-item w3-button" href='../cpp/default.html'>Learn C++</a>
-          <a class="w3-bar-item w3-button" href='../cs/default.html'>Learn C#</a>
-          <a class="w3-bar-item w3-button" href='../python/python_ml_getting_started.html'>Learn Machine Learning</a>
-          <div class="w3-hide-small"><br class="w3-hide-medium w3_hide-small"><br class="w3-hide-medium w3_hide-small"></div>
+          <a class="w3-bar-item w3-button" href='../react/default.html'>Learn React</a>          
         </div>
         <div class='w3-col l3 m6'>
           <h3>Server Side</h3>
@@ -116,24 +95,14 @@
           <a class="w3-bar-item w3-button" href='../php/default.html'>Learn PHP</a>
           <a class="w3-bar-item w3-button" href='../asp/default.html'>Learn ASP</a>
           <a class="w3-bar-item w3-button" href='../nodejs/default.html'>Learn Node.js</a>
-          <a class="w3-bar-item w3-button" href='../nodejs/nodejs_raspberrypi.html'>Learn Raspberry Pi</a>          
-          <h3>Web Building</h3>
-          <a class="w3-bar-item w3-button" href="../w3css/w3css_templates.html">Web Templates</a>
-          <a class="w3-bar-item w3-button" href='../browsers/default.html'>Web Statistics</a>
-          <a class="w3-bar-item w3-button" href='../cert/default.html'>Web Certificates</a>
-          <a class="w3-bar-item w3-button" href='../tryit/default.html'>Web Editor</a>
-          <a class="w3-bar-item w3-button" href="../whatis/default.html">Web Development</a>
+          <a class="w3-bar-item w3-button" href='../nodejs/nodejs_raspberrypi.html'>Learn Raspberry Pi</a>                 
         </div>
         <div class='w3-col l3 m6 w3-hide-medium'>
           <h3>XML</h3>
           <a class="w3-bar-item w3-button" href='../xml/default.html'>Learn XML</a>
           <a class="w3-bar-item w3-button" href='../xml/ajax_intro.html'>Learn XML AJAX</a>
           <a class="w3-bar-item w3-button" href="../xml/dom_intro.html">Learn XML DOM</a>
-          <a class="w3-bar-item w3-button" href='../xml/xml_dtd_intro.html'>Learn XML DTD</a>
-          <a class="w3-bar-item w3-button" href='../xml/schema_intro.html'>Learn XML Schema</a>
-          <a class="w3-bar-item w3-button" href='../xml/xsl_intro.html'>Learn XSLT</a>
-          <a class="w3-bar-item w3-button" href='../xml/xpath_intro.html'>Learn XPath</a>
-          <a class="w3-bar-item w3-button" href='../xml/xquery_intro.html'>Learn XQuery</a>
+        
         </div>
       </div>
       <br>
@@ -274,7 +243,102 @@
 <p>Git repository refers to a place where all the Git files are stored. These files can either be stored on the local repository or on the remote repository. </p>
 
 
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" >
+        <img src="../img/html.png" class="card-img-top" alt="HTML Tutorial for Beginners">
+        <div class="card-body">
+      
+         <div class="text-center">
+          <a href="/html" class="btn btn-primary ">HTML</a>
+         </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/linux.png" class="card-img-top" alt="...">
+        <div class="card-body">
+       
+          <div class="text-center">
+          <a href="/linux" class="btn btn-primary">LINUX</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/d.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+      
+          <div class="text-center">
+          <a href="/clouds/devops.php" class="btn btn-primary">DEVOPS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/d.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        
+          <div class="text-center">
+          
+          <a href="/clouds/devops.php" class="btn btn-primary">DEVOPS</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
 
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/aws.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-center">
+          <a href="/aws" class="btn btn-primary">AWS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/block.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-center">
+          <a href="/blockchain" class="btn btn-primary">BLOCKCHIAN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/agile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-center">
+          <a href="/agile" class="btn btn-primary">AGILE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card" >
+      <img src="../img/agile.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="text-center">
+          <a href="/agile" class="btn btn-primary">AGILE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 </div>

@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,14 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
 
       <br><br>
     </div>
@@ -228,54 +233,78 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>HTTP<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
-
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
-
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
+    <h2>What is HTTP</h2>
+    <p>
+    HTTP stands for Hypertext Transfer Protocol.HTTP is a set of rules and regulations, or principles, for performing Internet communication/data transfer tasks on the web (between servers and clients)
+Responsible for client-server communication.
+    </p>
+  <p>HTTP is stateless, which means that each request is completely independent (each request is a unique transaction that does not remember or depend on previous requests).</p>
+    
+  <p>Hypertext Transfer Protocol (Internet communication/web data transfer). A set of rules (and a format) for the transfer of data on the web in the form of HTML, image, audio, video, zip, etc.
+</p>
 
 
+ 
 
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
 </div>
 
-</div> 
+<h3>Hyper Text</h3>
+<div class="api-benefits">
+  <p>
+  A hypertext link is a word, phrase, or piece of text that can be linked to another document or text. Hypertext refers to both textual and graphical hyperlinks. Ted Nelson coined the term in the 1960s and it is one of the key concepts that makes the Internet work. Following a link on a topic to a related article on that topic, one of the main ways to navigate the Web, would be impossible without hypertext.
+</p>
+</div>
+<h3>Protocol</h3>
+<div class="api-benefits">
+  <p>
+  A protocol is a set of rules/standards that two parties (client and server) agree on for communication.Both Client and Server are programmed to understand and apply that specific set of rules (similar to two people from different countries agreeing to speak the same language).
+</p>
+</div>
+
+
+<div class="text-different">
+   <h2>Difference between SOAP API and REST API</h2>
+   <figure class="table">
+    <table class="table table-responsive table-bordered">
+         <tbody>
+            <tr>
+               <td>
+                  <p style="text-align:center"><strong>Protocol</strong></p>
+               </td>
+               <td>
+                  <p style="text-align:center"><strong>Description / Details</strong></p>
+               </td>
+            </tr>
+            <tr>
+        <td><code>IP</code></td>
+        <td><strong><code>Internet Protocol</code></strong></td>
+        </tr>
+        <tr>
+        <td><code>TCP</code></td>
+        <td><strong><code>Transmission Control Protocol</code></strong></td>
+        </tr>
+        <tr>
+        <td><code>HTTP</code></td>
+        <td><strong><code>Hyper Text Transfer Protocol</code></strong>  (Internet Communication/Data Transfer on the web)</td>
+        </tr>
+        <tr>
+        <td><code>FTP</code></td>
+        <td><strong><code>File Transfer Protocol</code></strong> (Files)</td>
+        </tr>
+        <tr>
+        <td><code>SMTP</code></td>
+        <td><strong><code>Simple Mail Transfer Protocol</code></strong> (Email)</td>
+        </tr>     
+         </tbody>
+      </table>
+   </figure> 
+</div>
 </div>
 
 </div>

@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,15 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
       <br><br>
     </div>
   </div>
@@ -228,54 +232,149 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>API<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
-
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
-
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
-
-
-
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
+    <h2>What is an API?</h2>
+    <p>
+    API stands for the Application Programming Interface, They are basically a collection of functions and
+procedures which allows us to communicate two application or library.
+    </p>
+    
+    <!-- <h5>
+        <span class="strong"><strong>Example</strong></span>
+    </h5>
+    <p></p>
+    <h6>
+        <span class="strong"><strong>Courier Example</strong></span>
+    </h6> -->
 </div>
 
-</div> 
+<h2>Benefits Of Using API</h2>
+<div class="api-benefits">
+  <p>
+  APis needed to make the connection between application functions to handle the data from predefined processes.
+</p>
+
+
+<p>
+    <span class="strong"><strong>Ease of integration</strong></span>:
+    APIs can be integrated into any type of software application, allowing you to easily integrate with applications and features shared by multiple websites.
+</p>
+<p>
+    <span class="strong"><strong>Reduce software development effort</strong></span>:
+      Developers can use APIs to provide exact store location to website visitors, reducing development efforts.
+</p>
+<p>
+    <span class="strong"><strong>Security</strong></span>:
+    APIs serve as a secure communication gateway through which various application components can interact and exchange data.
+</p>
+</div>
+
+
+
+
+<h2>How do APIs work?</h2>
+<div class="aws-list">
+  <p>
+APIs can run in four different ways depending on when and why they are created.</p>
+<ul>
+<li>SOAP</li>
+<li>RPC</li>
+<li>REST</li>
+<li>Websocket APIs</li>
+</ul>
+
+
+
+</div>
+
+
+
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>SOAP APIs</strong></span>
+    </h5>
+    <p>
+    SOAP, or Simple Object Access Protocol, is a web communication protocol created by Microsoft in 1998. Nowadays it is used to expose web services and transmit data over HTTP/HTTPS. However, it is not limited to them. SOAP, unlike the REST pattern, supports only the XML data format and strictly adheres to predefined standards such as message structure, encoding rules, and a convention to process requests and responses.
+
+  </p>
+   
+</div>
+
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>RPC APIs</strong></span>
+    </h5>
+    <p>
+    These APIs are known as remote procedure calls. The client performs a function (or procedure) on the server, and the server returns the result to the client.
+
+  </p>
+   
+</div>
+
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>REST APIs</strong></span>
+    </h5>
+    <p>
+    These are the most popular and adaptable APIs available on the web today. As data, the client sends requests to the server. This client input is used by the server to start internal functions and returns output to the client. Let's take a closer look at the REST APIs now.
+
+  </p>   
+</div>
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>Websocket APIs</strong></span>
+    </h5>
+    <p>
+    Another modern web API development that uses JSON objects to pass data is the Websocket API. A WebSocket API allows client and server applications to communicate in both directions. The server can send callback messages to connected clients, which makes it more efficient than the REST API.
+  </p>   
+</div>
+
+
+
+
+
+<div class="aws-history" id="aws-user">
+    <h2>What are the types of APIs and their differences?</h2>
+
+    <div class="internet">
+    <h5>
+        <span class="strong"><strong>Public APIs </strong></span>
+    </h5>
+    <p>
+    A public API is accessible and usable by any developer or outside company. A company that develops and offers public APIs will have a business strategy that includes sharing its applications and data with other companies.
+  </p>   
+</div>
+    <div class="internet">
+    <h5>
+        <span class="strong"><strong>Partner APIs </strong></span>
+    </h5>
+    <p>
+    A partner API, which is only available to specifically selected and authorized third-party developers or API consumers, is one way to facilitate business-to-business activities.
+  </p>   
+</div>
+    <div class="internet">
+    <h5>
+        <span class="strong"><strong>Internal APIs </strong></span>
+    </h5>
+    <p>
+    Internal APIs (also known as private APIs) are not intended to be used by third parties. Internal APIs are only available for use within a company and are designed to help teams and systems transfer data more efficiently.
+  </p>   
+</div>
+    <div class="internet">
+    <h5>
+        <span class="strong"><strong>Composite APIs</strong></span>
+    </h5>
+    <p>
+    Composite APIs combine multiple APIs, allowing developers to group calls or requests together and receive a single, unified response from multiple servers. A Composite API would be used if you need data from multiple applications or data sources. Alternatively, you can use a Composite API to initiate a chain of calls and responses without your intervention.
+  </p>   
+</div>    
+</div>
+
 </div>
 
 </div>

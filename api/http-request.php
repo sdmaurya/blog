@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,14 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
 
       <br><br>
     </div>
@@ -228,54 +233,54 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>HTTP Request<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
+    <h2>What Is a HTTP Request</h2>
+    <p>
+    HTTP stands for Hypertext Transfer Protocol and is a way of sending messages to software
+on another computer over the Internet or over a Network.
+    </p>
+    
+    <ol>
+        <li>URL</li>
+        <li>Request Headers</li>
+        <li>HTTP Request Method</li>
+        <li>Content/Data</li>
+    </ol>
 
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
-
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
-
-
-
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
 </div>
 
-</div> 
+
+<h2>
+What Is a URL?</h2>
+<div class="aws-list">
+<p>The Uniform Resource Locator (URL) is the address we use to access websites and web applications.
+When working with APIs, this is often called a URI (Uniform Resource Identifier).</p>
+</div>
+<h2>What Is a Request Headers</h2>
+<div class="aws-list">
+<p>HTTP headers are messages that contain information about the message, the sender, and how the sender wants to communicate with the recipient. Each HTTP header has a name and a value. The HTTP protocol specifications define and describe the standard set of HTTP headers. Extension headers, which are not part of the HTTP/1.1 or HTTP/1.0 specifications, can be included in HTTP messages.</p>
+<ul>
+    <li>Contains Browser information (current Browswer, OS, Date & Time)</li>
+    <li>Cookies if available (User Details)</li>
+    <li>Authentication information (User ID, Password)</li>
+    <li>Other request information</li>
+</ul>
+</div>
+<h2>What Is a HTTP Request Method</h2>
+<div class="aws-list">
+<ol>
+    <li>GET (Request/Retrieve/Get Data)</li>
+    <li>POST (Send Data)</li>
+    <li>PUT</li>
+    <li>DELETE</li>
+</ol>
+</div>
+
 </div>
 
 </div>

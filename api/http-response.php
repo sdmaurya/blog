@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,14 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
 
       <br><br>
     </div>
@@ -228,55 +233,81 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>HTTP Response<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
-
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
-
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
+    <h2>What is HTTP Response?</h2>
+    <p>
+    A server sends an HTTP response to a client. The purpose of the response is to provide the client with the resource that they requested, or to notify them that the action they requested was completed, or to notify them that an error occurred while processing their request.
+    </p>
+   <h6>The following items are typically included in a response message (sent from server to client):</h6>
+    <ul>
+        <li>Response headers</li>
+        <li>Content/data</li>
+    </ul>
+</div>
+<h2>HTTP Response</h2>
+<div class="aws-list">
 <ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
+    <li>Contains HTTP response code (200, 400, 404 and so on)</li>
+    <li>Cookies if available (User Details)</li>
+    <li>Content-type, size (file type - HTML, image, zip with file size in the form of bytes sent from server to client)</li>
+</ul>
+</div>
+<h2>Content/data</h2>
+<div class="aws-list">
+<ul>
+    <li>The result from the server (HTML) as a Response body</li>
 
 </ul>
 
+<p><strong>Example</strong></p>
+<p>Response Header</p>
+<figure class="highlight">
+    <p>General</p>
+      <pre>
+			<code class="language-html" data-lang="html">
+        Request URL: https://catfact.ninja/fact
+        Request Method: GET
+        Status Code: 200 
+        Remote Address: 104.131.8.184:443
+        Referrer Policy: strict-origin-when-cross-origin
+            </code>
+		</pre>
+    </figure>
+        <p>Response Header</p>
+<figure class="highlight">
 
+      <pre>
+			<code class="language-html" data-lang="html">
+        access-control-allow-origin: *
+        cache-control: no-cache, private
+        content-encoding: gzip
+        content-type: application/json
+        date: Tue, 01 Nov 2022 01:07:53 GMT
+            </code>
+		</pre>
+    </figure>
 
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
+    <p>The above response has:</p>
+    <ul>
+        <li>A status code of 200, indicating that the request was successful.</li>
+        <li>A Content-Type header of application/json indicates that the body is a JSON response.</li>
+        <li>A body that contains the server's actual payload response.</li>
+       
+    </ul>
 </div>
 
-</div> 
+
 </div>
+
+<!-- <div class="api-tool">
+
+  <h2>What are the Best API Testing Tools?</h2>
+</div> -->
 
 </div>
 <?php include('../footer.php') ?>

@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,14 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
 
       <br><br>
     </div>
@@ -228,55 +233,80 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>HTTPS<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
-
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
-
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
-
-
-
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
+    <h2>What is HTTPS?</h2>
+    <p>
+    HTTPS encrypts the data that is transmitted from the browser to the server over the network. Therefore, no one can sniff the data during transmission.
+    </p>
+   <!-- <h6>The following  are typically included in a response message (sent from server to client):</h6> -->
+    <ul>
+        <li>Integrity and Authentication</li>
+        <li>Privacy</li>
+        <li>User Experience</li>
+        <li>Compatibility</li>
+        <li>SEO</li>
+    </ul>
 </div>
 
-</div> 
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>Integrity and Authentication</strong></span>
+    </h5>
+    <p>
+    HTTPS protects the integrity of communication between a website and a user's browsers through encryption and authentication. Your users will know that the data sent from your web server was not intercepted and/or altered in transit by a third party.
+  </p>   
 </div>
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>Privacy</strong></span>
+    </h5>
+    <p>
+    Of course, no one wants intruders to steal their credit card numbers and passwords while they're shopping or banking online, and HTTPS is great at preventing this. But do you really want everything else you see and do on the Internet to be an open book to anyone who wants to pry (including governments, employers, or someone who creates a profile to de-anonymize your online activities)? HTTPS is also important in this case.
+  </p>   
+</div>
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>User Experience</strong></span>
+    </h5>
+    <p>
+    Due to recent browser UI changes, HTTP sites are now marked as not secure. Do you want your customers' browsers to display a crossed-out padlock or warn them that your website is "not secure" when they visit it? No way!.
+  </p>   
+</div>
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>SEO</strong></span>
+    </h5>
+    <p>
+    Search engines (including Google) use HTTPS as a ranking signal when generating search results. As a result, website owners can easily improve their SEO by simply configuring their web servers to use HTTPS instead of HTTP.
+  </p>   
+</div>
+<div class="internet">
+    <h5>
+        <span class="strong"><strong>User Experience</strong></span>
+    </h5>
+    <p>
+    Due to recent browser UI changes, HTTP sites are now marked as not secure. Do you want your customers' browsers to display a crossed-out padlock or warn them that your website is "not secure" when they visit it? No way!.
+  </p>   
+</div>
+
+<div class="https-work">
+    <h2>How does HTTPS work? What are its benefits?</h2>
+    <p>HTTPS is the HTTP protocol's secured version. The main function of HTTP is to connect to the server and return HTML pages to the user's browser. Because the HTTP connection is not encrypted, sensitive data travels in plain text from browsers to servers. Cyber ​​attackers can intercept and view data that has not been encrypted.</p>
+    <p>
+    HTTPS (which stands for secure) is an HTTP extension. TLS (Transport Layer Security) technology encrypts all data in transit between browsers and servers, making it impossible for hackers to decrypt.</p>
+</div>
+
+</div>
+
+<!-- <div class="api-tool">
+
+  <h2>What are the Best API Testing Tools?</h2>
+</div> -->
 
 </div>
 <?php include('../footer.php') ?>

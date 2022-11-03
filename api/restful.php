@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,14 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
-
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
 
       <br><br>
     </div>
@@ -228,54 +233,154 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
+      <h1>RESTFUL API<span class="color_h1"> Introduction</span></h1>
       <hr>
 
+<div class="aws-intro" id="aws-intro">
 
-  <div class="container">   
+    <h2>What Is A RESTFUL API And REST API?</h2>
+    <p>
+    REST is an acronym that stands for Representational State Transfer. REST defines a set of functions that clients can use to access data from the server, such as GET, PUT, DELETE, etc. HTTP is used by clients and servers to exchange data.
+    </p>
+    <p>
+    The main feature of REST API is statelessness. Stateless servers do not save client data between requests. Client requests to the server are analogous to the URLs you enter into your browser to access a website. The response from the server is simple data, without the typical graphical representation of a web page.
+    </p>
+    
+ <p>There four basic HTTP requests a client can make are:</p>
 
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
-
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
-
-
-
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
+ <p>
+    <span class="strong"><strong>GET</strong></span>:
+    To get a resource.
+</p>
+ <p>
+    <span class="strong"><strong>POST</strong></span>:
+    Create a new resource.
+</p>
+ <p>
+    <span class="strong"><strong>PUT or PATCH</strong></span>:
+    Update or edit an existing resource.
+</p>
+ <p>
+    <span class="strong"><strong>DELETE</strong></span>:
+    Delete a resource.
+</p>
 
 
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
 </div>
 
-</div> 
+<h2>Benefits Of Using API</h2>
+<div class="api-benefits">
+  <p>
+  APis needed to make the connection between application functions to handle the data from predefined processes.
+</p>
+
+
+<p>
+    <span class="strong"><strong>Ease of integration</strong></span>:
+    APIs can be integrated into any type of software application, allowing you to easily integrate with applications and features shared by multiple websites.
+</p>
+<p>
+    <span class="strong"><strong>Reduce software development effort</strong></span>:
+      Developers can use APIs to provide exact store location to website visitors, reducing development efforts.
+</p>
+<p>
+    <span class="strong"><strong>Security</strong></span>:
+    APIs serve as a secure communication gateway through which various application components can interact and exchange data.
+</p>
+</div>
+
+<div class="sample-api">
+<h2>Example REST API</h2>
+
+<figure class="highlight">
+      <pre>
+			<code class="language-html" data-lang="html">
+        {
+            "id": 1,
+            "email": "boo.gmail.com",
+            "first_name": "bob",
+            "last_name": "Lawson"
+        }
+            </code>
+		</pre>
+    </figure>
+</div>
+
+<h2>What are the advantages of a REST API?</h2>
+<ul>
+    <li>REST API is easy to learn.</li>
+    <li>An HTTP proxy server can be used to manage high load.</li>
+    <li>It is cleaner and easier to navigate.</li>
+    <li>The user will have access to identical standard data and objects, unlike SOAP-based web services.</li>
+    <li>It can also organize complex applications into a simple resource.</li>
+</ul>
+
+
+<!-- <h2>Differentiating between REST API and SOAP API</h2> -->
+
+<div class="text-different">
+   <h2>Difference between SOAP API and REST API</h2>
+   <figure class="table">
+    <table class="table table-responsive table-bordered">
+         <tbody>
+            <tr>
+               <td>
+                  <p style="text-align:center"><strong>SOAP API</strong></p>
+               </td>
+               <td>
+                  <p style="text-align:center"><strong>REST API</strong></p>
+               </td>
+            </tr>
+            <tr>
+               <td>SOAP stands for Simple Object Access Protocol</td>
+               <td>REST stands for Representational State Transfer</td>
+            </tr>
+            <tr>
+               <td>Protocol</td>
+               <td>Architectural style</td>
+            </tr>
+            <tr>
+               <td>SOAP cannot use REST because REST cannot use the SOAP web services protocol</td>
+               <td>REST web services can use SOAP web services because it is a concept that can be used by any protocol like HTTP or SOAP</td>
+            </tr>
+            <tr>
+               <td>XML only</td>
+               <td>
+                Permits many data formats, 
+                including plain text, HTML, XML,and JSON</td>
+            </tr>
+            <tr>
+               <td>It is not possible to cached</td>
+               <td>It is possible to cached</td>
+            </tr>        
+            <tr>
+               <td>JavaScript calls SOAP, but it is hard to implement.</td>
+               <td>Easy to call JavaScript</td>
+            </tr>        
+         </tbody>
+      </table>
+   </figure> 
+</div>
+
+
+<div class="rest mt-3">
+    <h2>Why REST is better than SOAP?</h2>
+    <p>Let's briefly explain why REST is better than SOAP web services in modern-day contexts:</p>
+
+    <p>1. REST can be used by any client, including Java, C++, and Python clients, as well as web browsers that support Ajax and JavaScript.</p>
+
+<p>2. REST is lighter than SOAP because it eliminates the need for CPU-intensive XML parsing and uses less bandwidth because, unlike SOAP, REST does not require a SOAP header for each message.</p>
+
+
+<p>3. Soap is an old technology; REST-like APIs are used by all modern tech giants such as Google, Twitter, and Flickr.</p>
+
+<p>4. REST is simple to understand because it only uses nouns and verbs. It&apos;s even simpler if you already know how to use HTTP methods.</p>
+
+</div>
+
+
+
 </div>
 
 </div>

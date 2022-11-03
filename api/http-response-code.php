@@ -4,7 +4,7 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>AWS Tutorial</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
@@ -212,13 +212,19 @@
     </div>
   </div>
 </div>
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Blockchain </span> Tutorial</h2>
-<a target="_top" href="/blockchain/index.php">Blockchain Introduction</a>
-<a target="_top" href="cryptocurrency_intro.php" title="What is cryptocurrency?">What is Cryptocurrency</a>
-<a target="_top" href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a>
+<h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
+<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="restful.php">RESTFUL API</a>
+<a target="_top" href="api-testing.php">API Testing</a>
+<a target="_top" href="http-method.php">HTTP METHOD</a>
+<a target="_top" href="http-request.php">HTTP REQUEST</a>
+<a target="_top" href="http-response.php">HTTP RESPONSE</a>
+<a target="_top" href="https.php">HTTPS</a>
+<a target="_top" href="http-response-code.php">HTTP Response Code</a>
 
 
       <br><br>
@@ -228,55 +234,107 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-        
   
-      <h1>Blockchain<span class="color_h1"> Tutorial</span></h1>
-      <hr>
+ 
+    <h2>HTTP response status codes</h2>
+    <p>
+    Servers frequently return a response code in response to an HTTP request, indicating that the request is being processed, that an error occurred with the request, or that the request is being redirected. They range from 100 to 500.
+    </p>   
 
 
-  <div class="container">   
+    <div class="internet">
+        <table class="table table-responsive table-bordered">
+           <thead>
+              <tr>
+                 <th>Status Code Range</th>
+                 <th>Description / Details</th>
+              </tr>
+           </thead>
+           <tbody>
+              <tr>
+                 <td><code>1xx</code></td>
+                 <td><strong><code>Informational</code></strong>  <br> Request received / processing</td>
+              </tr>
+              <tr>
+                 <td><code>2xx</code></td>
+                 <td><strong><code>Success</code></strong>  <br> Successfully Received, understood and accepted</td>
+              </tr>
+              <tr>
+                 <td><code>3xx</code></td>
+                 <td><strong><code>Redirect</code></strong>  <br> Further action must be taken / redirect</td>
+              </tr>
+              <tr>
+                 <td><code>4xx</code></td>
+                 <td><strong><code>Client Error</code></strong>  <br> Request does not have what it needs (something is missing in the request, wrong data passed )</td>
+              </tr>
+              <tr>
+                 <td><code>5xx</code></td>
+                 <td><strong><code>Server Error</code></strong>  <br> Server failed to fulfil an apparent valid request</td>
+              </tr>
+           </tbody>
+        </table>
+     </div>
+     <div class="common-http">
+        <p>Common response codes include:</p>
+        <table class="table table-responsive table-bordered">
+           <thead>
+              <tr>
+                 <th>Status Code</th>
+                 <th>Description / Details</th>
+              </tr>
+           </thead>
+           <tbody>
+              <tr>
+                 <td><code>200</code></td>
+                 <td><strong><code>OK</code></strong>  <br> The request such as GET or POST, worked and is being acted upon</td>
+              </tr>
+              <tr>
+                 <td><code>201</code></td>
+                 <td><strong><code>OK Created</code></strong></td>
+              </tr>
+              <tr>
+                 <td><code>300</code></td>
+                 <td><strong><code>Moved Permanently</code></strong>  <br> This response code means that the URI of the requested resource has been changed permanently</td>
+              </tr>
+              <tr>
+                 <td><code>301</code></td>
+                 <td><strong><code>Moved to the new URL</code></strong></td>
+              </tr>
+              <tr>
+                 <td><code>304</code></td>
+                 <td><strong><code>Not modified (cached version)</code></strong></td>
+              </tr>
+              <tr>
+                 <td><code>400</code></td>
+                 <td><strong><code>Bad request</code></strong></td>
+              </tr>
+              <tr>
+                 <td><code>401</code></td>
+                 <td><strong><code>Unauthorized</code></strong> <br> The client ie. the user requesting the server has not been authenticated</td>
+              </tr>
+              <tr>
+                 <td><code>403</code></td>
+                 <td><strong><code>Forbidden</code></strong> <br> The client's identity is known but has not been given access authorization</td>
+              </tr>
+              <tr>
+                 <td><code>404</code></td>
+                 <td><strong><code>Not Found</code></strong> <br> This is the most frequent and most recognized error code. It means that the URL is nor recognized or the resource at the location does not exist</td>
+              </tr>
+              <tr>
+                 <td><code>500</code></td>
+                 <td><strong><code>Internal Server Error</code></strong> <br> The server has encountered a situation it doesn't know how to handle</td>
+              </tr>
+           </tbody>
+        </table>
+     </div>
 
-<h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
 
-
-<h2>The top 10 cryptocurrencies in terms of market capitalization</h2>
-
-
-
-<ul>
-<li>Bitcoin</li>
-<li>Ethereum</li>
-<li>Tether</li>
-<li>USD Coin</li>
-<li>Ripple</li>
-<li>Dogecoin</li>
-
-</ul>
-
-
-
-<h2 title="Why do we need blockchain?">How to Purchase?</h2>
-
-<ul>
-<li>Decide where you want to buy Bitcoin. Coinbase and some traditional brokers, such as Robinhood, can help you get started investing in Bitcoin.</li>
-<li>Consider where you will keep your cryptocurrency. Are you going to store your Bitcoin in a hot or cold wallet.</li>
-<li>Buy your item. Determine how much money you want to put into Bitcoin.</li>
-<li>Control your investment. Make a long-term plan for this asset.</li>
-</ul>
-
-
-<div class="container mt-2">
-  <div class="digital-link mt-2">
-    <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-    <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
-
-  </div>
 </div>
 
-</div> 
-</div>
+<!-- <div class="api-tool">
+
+  <h2>What are the Best API Testing Tools?</h2>
+</div> -->
 
 </div>
 <?php include('../footer.php') ?>

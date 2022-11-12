@@ -1,15 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2:wght@700&family=Baloo+Bhai+2:wght@800&family=Baloo+Bhaijaan+2:wght@500&family=IBM+Plex+Sans:ital,wght@1,200;1,300&family=Oswald&family=Poppins:ital,wght@0,600;1,200&family=Uchen&family=Work+Sans:ital,wght@0,200;0,800;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 h1{
-	font-family: 'Baloo Bhaijaan 2', cursive
+ font-family: 'Poppins', sans-serif;
 	/* font-family: 'Poppins', sans-serif; */
+  /* font-size: 34px; */
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: inherit;
+
+}
+b, strong {
+  font-weight: 700;
 }
 h2,h3,h4,h5,h6{
-	font-family: 'Baloo Bhaijaan 2', cursive
+ font-family: 'Poppins', sans-serif;
+ /* font-size: 34px; */
+    line-height: 46px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
 	/* font-family: 'Poppins', sans-serif; */
 }
 p{
-  font-family: Verdana,sans-serif;
+  font-family: 'Poppins', sans-serif;
+      /* font-family: Poppins, sans-serif; */
 } 
 
 .w3-light-grey a{
@@ -442,12 +459,12 @@ hr[id^="ez-insert-after-placeholder"] {margin-top: 0;}
   margin-right:-32px;
   padding:16px 32px;
 }
-h1 {
+/* h1 {
   font-size: 42px;
 }
 h2 {
   font-size: 32px;
-}
+} */
 .w3-btn:hover,.w3-btn:active,.w3-example a:focus,.nextprev a:focus {
   box-shadow: none;
   background-color: #46a049!important;
@@ -469,11 +486,52 @@ a.btnplayit:hover {box-shadow:none;}
   padding: 20px;
   margin:32px -20px;
 }
-p {
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
-  font-size: 15px;
+/* p {
+    padding-top: 1rem;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: rgba(0,0,0,.6);
+} */
+
+address, blockquote, body, dd, dl, dt, fieldset, figure, hr, html, iframe, legend, li, ol, p,  textarea, ul {
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  list-style-position: inside;
 }
+
+h1{
+  color: #333333;
+}
+h2,h3,h4{
+
+  color: #444444;
+}
+
+p,li,strong{
+  color: #444444;
+}
+
+
+p{
+  margin-bottom: 1.75em;
+  font-size: 16px;
+}
+/* li{
+  padding-top: 1rem;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  color: rgba(0,0,0,.6);
+} */
+
 hr {
   margin:20px -16px;
 }

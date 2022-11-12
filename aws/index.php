@@ -229,117 +229,122 @@
     </div>
   </div>
 </div>
+
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
-    <div class='w3-col l10 m12' id='main'>
-  
-      <h1>AWS<span class="color_h1"> Introduction</span></h1>
-      <hr>
-
-<div class="aws-intro" id="aws-intro">
-
-    <h2>What is AWS (Amazon Web Services) and How Does it Work?</h2>
-    <p>AWS is an abbreviation for Amazon Web Services. It is a platform that provides cloud computing solutions that are flexible, reliable, scalable, easy to use and cost-effective.</p>
-    <p>AWS is a comprehensive and easy-to-use computing platform provided by Amazon. The platform is built on a combination of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS).
-    </p>
-</div>
-
-
-
-
-
-<h2>In this tutorial, you can learn,</h2>
-<div class="aws-list">
-    <ul>
-        <li><a href="">What is Cloud Computing? </a></li>
-        <li><a href="aws.php#aws-intro">What is AWS? </a></li>
-        <li><a href=""> History of AWS</a></li>
-        <li><a href="aws.php#aws-imp-topic"> Important AWS Services</a></li>        
-        <li><a href="aws.php#aws-user">Companies using AWS </a></li>
-        <li><a href="aws.php#advantages">Advantages of AWS</a></li>
-    </ul>
-</div>
-
-
-
-<div class="aws-history" id="aws-history">
-
-    <h2>History of AWS</h2>
-    <p>
-        Amazon Web Services began operations in July 2002. Amazon made a significant investment in cloud technology and quickly came to dominate this new category of IT services. Many companies were hesitant to process data outside of the office space due to security and privacy concerns. This cultural resistance slowed the adoption of cloud concepts, and resistance to remote processing and storage has not yet been completely eliminated.
-        </p>
-    <p>Because it created a sense of ownership, the concept of creating virtual servers increased business confidence in the platform. Companies didn't feel like they were entrusting all their data to Amazon; instead, they had their own processing and storage facilities that they leased from Amazon.
-
-    </p>
-</div>
-
-
-
-<div class="aws-history" id="aws-user">
-
-    <h2>Who's Using AWS (Amazon Web Services)</h2>
-    <ul>
-        <li>Adobe Systems</li>
-        <li>Airbnb</li>
-        <li>Alcatel-Lucent</li>
-        <li>Aon</li>
-        <li>Autodesk</li>
-        <li>BMW</li>
-        <li>Bristol-Myers Squibb</li>
-        <li>Canon</li>
-        <li>Capital One</li>
-        <li>Comcast</li>
-        <li>Docker</li>
-        <li>GE</li>
-        <li>Hearst Corporation</li>
-        <li>Hitachi</li>
-        <li>HTC</li>
-        <li>Intuit</li>
-        <li>Johnson & Johnson</li>
-        <li>Kellogg Company -SAP ERP Migration</li>
-        <li>Lafarge</li>
-        <li>Lyft</li>
-        <li>NASA</li>
-        <li>Netflix</li>
-        <li>News Corp</li>
-        </ul>
-</div>
-
-<div class="aws-important-topic" id="aws-imp-topic">
-
-    <h2>What are the Most Important AWS Cloud Services?</h2>
-    <ul>
-        <li>EC2  Elastic Cloud Compute</li>
-        <li>IAM  Identity and Access Management</li>
-        <li>VPC  Virtual Private Cloud</li>
-        <li>RDS  Relational Database Service</li>
-        <li>EBS  Elastic Block Store</li>
-        <li>ELB  Elastic Load Balancer</li>
-        <li>Auto scaling</li>
-        <li>DNS Route 53 - DNS</li>
-        <li>Amazon Cloudwatch</li>
-        <li>Amazon Lambda</li>
-        <li>Amazon Beanstalk</li>
-        <li>Amazon CloudFront</li>
-        <li>SNS - Simple Notification Service</li>
-    </ul>
-</div>
-<div class="aws-advantages" id="advantages">
-
+  <div class='w3-col l10 m12' id='main'>
+  <h1>AWS<span class="color_h1"> Introduction</span></h1>
+  <hr>
+  <h2>What is AWS (Amazon Web Services) and How Does it Work?</h2>
+  <div class="container">
+     <div class="row">
+        <div class="aws-intro" id="aws-intro">
+           <p>AWS is an abbreviation for Amazon Web Services. It is a platform that provides cloud computing solutions that are flexible, reliable, scalable, easy to use and cost-effective.</p>
+           <p>AWS is a comprehensive and easy-to-use computing platform provided by Amazon. The platform is built on a combination of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS).
+           </p>
+        </div>
+     </div>
+  </div>
+  <h2>In this tutorial, you can learn,</h2>
+  <div class="container mb-3">
+     <div class="row">
+        <div class="aws-list">
+           <ul>
+              <li><a href="">What is Cloud Computing? </a></li>
+              <li><a href="aws.php#aws-intro">What is AWS? </a></li>
+              <li><a href=""> History of AWS</a></li>
+              <li><a href="aws.php#aws-imp-topic"> Important AWS Services</a></li>
+              <li><a href="aws.php#aws-user">Companies using AWS </a></li>
+              <li><a href="aws.php#advantages">Advantages of AWS</a></li>
+           </ul>
+        </div>
+     </div>
+  </div>
+  <h2>History of AWS</h2>
+  <div class="container mb-3">
+     <div class="row">
+        <div class="aws-history" id="aws-history">
+           <p>
+              Amazon Web Services began operations in July 2002. Amazon made a significant investment in cloud technology and quickly came to dominate this new category of IT services. Many companies were hesitant to process data outside of the office space due to security and privacy concerns. This cultural resistance slowed the adoption of cloud concepts, and resistance to remote processing and storage has not yet been completely eliminated.
+           </p>
+           <p>Because it created a sense of ownership, the concept of creating virtual servers increased business confidence in the platform. Companies didn't feel like they were entrusting all their data to Amazon; instead, they had their own processing and storage facilities that they leased from Amazon.
+           </p>
+        </div>
+     </div>
+  </div>
+  <h2>Who's Using AWS (Amazon Web Services)</h2>
+  <div class="container mb-3">
+     <div class="row">
+        <div class="aws-history" id="aws-user">
+           <ul>
+              <li>Adobe Systems</li>
+              <li>Airbnb</li>
+              <li>Alcatel-Lucent</li>
+              <li>Aon</li>
+              <li>Autodesk</li>
+              <li>BMW</li>
+              <li>Bristol-Myers Squibb</li>
+              <li>Canon</li>
+              <li>Capital One</li>
+              <li>Comcast</li>
+              <li>Docker</li>
+              <li>GE</li>
+              <li>Hearst Corporation</li>
+              <li>Hitachi</li>
+              <li>HTC</li>
+              <li>Intuit</li>
+              <li>Johnson & Johnson</li>
+              <li>Kellogg Company -SAP ERP Migration</li>
+              <li>Lafarge</li>
+              <li>Lyft</li>
+              <li>NASA</li>
+              <li>Netflix</li>
+              <li>News Corp</li>
+           </ul>
+        </div>
+     </div>
+  </div>
+  <h2>What are the Most Important AWS Cloud Services?</h2>
+  <div class="container mb-3">
+     <div class="row">
+        <div class="aws-important-topic" id="aws-imp-topic">
+           <ul>
+              <li>EC2  Elastic Cloud Compute</li>
+              <li>IAM  Identity and Access Management</li>
+              <li>VPC  Virtual Private Cloud</li>
+              <li>RDS  Relational Database Service</li>
+              <li>EBS  Elastic Block Store</li>
+              <li>ELB  Elastic Load Balancer</li>
+              <li>Auto scaling</li>
+              <li>DNS Route 53 - DNS</li>
+              <li>Amazon Cloudwatch</li>
+              <li>Amazon Lambda</li>
+              <li>Amazon Beanstalk</li>
+              <li>Amazon CloudFront</li>
+              <li>SNS - Simple Notification Service</li>
+           </ul>
+        </div>
+     </div>
+  </div>
   <h2>AWS Benefits and Advantages</h2>
-  <ul>
-    <li>User-friendly \Flexible</li>
-    <li>Secure</li>
-    <li>Cost-effective</li>
-    <li>Reliable</li>
-    <li>Scalable and elastic</li>
-    <li>Outstanding performer</li>
-    <li>Limitations of AWS</li>
-    <li>Experts are in short supply.</li>
-    <li>Price Variations</li>
-    <li>Issues in General</li>
-    </ul>
-</div>
+  <div class="container mb-3">
+     <div class="row">
+        <div class="aws-advantages" id="advantages">
+           <ul>
+              <li>User-friendly \Flexible</li>
+              <li>Secure</li>
+              <li>Cost-effective</li>
+              <li>Reliable</li>
+              <li>Scalable and elastic</li>
+              <li>Outstanding performer</li>
+              <li>Limitations of AWS</li>
+              <li>Experts are in short supply.</li>
+              <li>Price Variations</li>
+              <li>Issues in General</li>
+           </ul>
+        </div>
+     </div>
+  </div>
 
 <!-- <div class="container mt-2">
   <div class="digital-link mt-2">

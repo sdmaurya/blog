@@ -374,7 +374,7 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
    
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Amazon Machine Image (AMI)</h3>
+  <h4>Amazon Machine Image (AMI)</h4>
   <p class="mb-2">
      An Amazon Machine Image (AMI) Provides the information required to launch
      an instance. An AMI Includes the following, one or more Elastic Block Store snapshot, a template for the
@@ -382,21 +382,21 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Instance Type</h3>
+  <h4>Instance Type</h4>
   <p class="mb-2">
      Instance types comprise varying combinations of CPU, Memory, storage & Networking
      capacity and give you the flexibility to choose the appropriate mix of resources for your applications.
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Subnet</h3>
+  <h4>Subnet</h4>
   <p class="mb-2">
      Subnet is a subnetwork in your virtual network of your Amazon Network. By default there is one
      subnet per availability zone.
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Public IP</h3>
+  <h4>Public IP</h4>
   <p class="mb-2">
      A public IP is an IP Address which can be used to access internet and allow the communication
      over the internet. Public IP will be assigned by amazon and it is dynamic. If you stop and start your EC2
@@ -404,7 +404,7 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Elastic IP(EIP)</h3>
+  <h4>Elastic IP(EIP)</h4>
   <p class="mb-2">
      Elastic IP is a kind of Fixed Public IP address which we can attach to our Instances. Elastic
      IP will not change if we stop & Start our EC2 instances. We need to request EIP from amazon and it will
@@ -413,7 +413,7 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Private IP</h3>
+  <h4>Private IP</h4>
   <p class="mb-2">
      Private IP can be used to establish the communication with in the same network only,
      Private (internal) addresses are not routed on the Internet and no traffic can be sent to them from the
@@ -421,7 +421,7 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Root Volume</h3>
+  <h4>Root Volume</h4>
   <p class="mb-2">
      The storage which we used to install Operating system for instance is called as root
      volume (Ex: C:\ Drive). The following volume types are supported as root volumes: General purpose SSD,
@@ -429,14 +429,14 @@ Amazon is adaptable and supports a wide range of operating systems.</p>
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>Security Group</h3>
+  <h4>Security Group</h4>
   <p class="mb-2">
      A Security group acts as a virtual firewall for your instance to control incoming &
      Outgoing traffic. Security groups to be attached and we can attach 5 security groups to each instance.
   </p>
 </div>
 <div class="instance-types mb-3" id="instance-types">
-  <h3>KeyPair</h3>
+  <h4>KeyPair</h4>
   <p class="mb-2">
      Key pair is a combination of public key and private key which can be used to encrypt and
      decrypt the data, is a set of security credentials that you use to prove your identity when connecting to

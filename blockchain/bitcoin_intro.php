@@ -237,7 +237,20 @@
   <div class="container">   
 
 <h2>What is Bitcoin?</h2>
-<p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p>
+<!-- <p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown..</p> -->
+
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="bg-image">
+        <img src="img/blockchain-g289dff409_640.jpg" alt="Bitcoin">
+      </div>  
+    </div>
+    <div class="col-md-6">
+      <p>Bitcoin, which was founded in 2009, was the first cryptocurrency and is still the most traded. Satoshi Nakamoto created the coin, which is supposed to be a pseudonym for an individual or group of people whose precise identity is unknown.</p>
+    </div>
+  </div>
+  </div>
 
 
 <h2>The top 10 cryptocurrencies in terms of market capitalization</h2>

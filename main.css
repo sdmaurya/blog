@@ -171,8 +171,16 @@ padding:2px 0 2px 6px!important;
 color: #000;
 background-color: #ccc;
 }
+img, svg {
+  vertical-align: middle;
+  width: -webkit-fill-available;
+}
+footer  p{
+  color: #FFFFFF;
+}
 #nav_tutorials h3,#nav_references h3,#nav_exercises h3{
 padding-left:6px;
+color: #FFFFFF;
 }
 .ref_overview{display:none}
 .tut_overview{

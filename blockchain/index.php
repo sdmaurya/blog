@@ -235,8 +235,20 @@
 
 
 <h2>What is Blockchain</h2>
-<p>A blockchain is a distributed database or ledger that is shared between nodes on a computer network. As a database, a blockchain stores information electronically in a digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, in keeping a secure and decentralized record of transactions.</p>
-<p>Blockchain is a continuously growing ledger that keeps a permanent record of all transactions in a secure, chronologically, and immutable manner.</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="bg-image">
+        <img src="img/blockchain-g1d5459727_640.png" alt="Blockchain">
+      </div>  
+    </div>
+    <div class="col-md-6">
+      <p>A blockchain is a distributed database or ledger that is shared between nodes on a computer network. As a database, a blockchain stores information electronically in a digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, in keeping a secure and decentralized record of transactions.</p>
+      <p>Blockchain is a continuously growing ledger that keeps a permanent record of all transactions in a secure, chronologically, and immutable manner.</p>
+      </div>
+  </div>
+  </div>
 
 <h2>Who makes use of blockchain?</h2>
 <p>Blockchain technology has the potential to be applied in a variety of fields. Blockchains are most commonly used as a distributed ledger for cryptocurrencies. It shows great promise in a wide range of business applications, such as banking, finance, government, healthcare, insurance, media and entertainment, retail, etc. </p>

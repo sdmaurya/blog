@@ -235,10 +235,24 @@
 
 
 <h2>What is cryptocurrency?</h2>
-<p>Cryptocurrency (or "crypto") is a type of digital asset created through the use of cryptographic techniques that allow people to buy, sell or trade them securely.</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="bg-image">
+        <img src="img/crypto-currency-gfbbd2060c_640.jpg" alt="Cryptocurrency">
+      </div>  
+    </div>
+    <div class="col-md-6">
+    <p>Cryptocurrency (or "crypto") is a type of digital asset created through the use of cryptographic techniques that allow people to buy, sell or trade them securely.</p>
 <p>Unlike traditional fiat currencies, which are controlled by national governments, cryptocurrencies can exist without the intervention of a monetary authority, such as a central bank.
 </p>
 <p>You do not own anything tangible if you own cryptocurrencies. What you have is a key that allows you to transfer a record or unit of measure from one person to another without the help of a trusted third party.</p>
+
+    </div>
+  </div>
+  </div>
+
 
 <h2>How does cryptocurrency work?</h2>
 <p>Cryptocurrencies are based on the blockchain, a distributed public ledger that keeps track of all transactions updated and maintained by currency holders.</p>
@@ -274,17 +288,15 @@
 </ul>
 
 <div class="container">
-  <h2 title="What is Public Blockchain">Public Blockchain</h2>
+  <h4 title="What is Public Blockchain">Public Blockchain</h4>
   <p>Ledgers on this type of blockchain are visible to everyone on the internet. It enables anybody to check and add a block of transactions to the blockchain. People are encouraged to join public networks, which are also free to use. A public blockchain network is accessible to anyone.
   </p>
-  <h2 title="What is Private Blockchain">Private Blockchain</h2>
+  <h4 title="What is Private Blockchain">Private Blockchain</h4>
   <p>A private blockchain exists within a single organization. It only allows certain members of the organization to verify and add blocks of transactions. However, it is generally allowed to be viewed by anyone on the Internet.
   </p>
-  <h2 title="What is Consortium Blockchain">Consortium Blockchain</h2>
+  <h4 title="What is Consortium Blockchain">Consortium Blockchain</h4>
   <p>A consortium blockchain is a semi-decentralized network in which membership is not granted to a single entity. Instead, it is distributed to a group of people known as "nodes." It provides network security that public chains do not provide. It also gives you more control, faster processing, and makes it more efficient and secure in many ways.
-  </p>
-
-  
+  </p>  
 </div>
 
 
@@ -293,7 +305,6 @@
     <h4>You Might Like:</h4>
     <div><a href="bitcoin_intro.php" title="What is Bitcoin">What is Bitcoin</a></div>
     <div> <a href="/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
-
   </div>
 </div>
 

@@ -234,222 +234,73 @@
   
 <h1>Docker<span class="color_h1" title="Git Installation"> Installation</span></h1>
 
-
 <p>
-  <a class="btn btn-primary" id="collapse_1" data-bs-toggle="collapse"  role="button" aria-expanded="false" >Docker Windows Installation </a>
-  <button class="btn btn-primary" id="collapse_2"  type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" title="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</button>
-  <button class="btn btn-primary" id="collapse_3"  type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3" title="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</button>
+<a href="docker_ubuntu_installation.php" alt="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</a> &nbsp;&nbsp;&nbsp;
+<a href="docker_rhel_installation.php" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a>
+
 </p>
 
 <hr>
 
 <div class="" id="multiCollapseExample1" title="How to install Docker on Windows (Step-by-Step) Guide">
-  <h4 title="Install Docker Desktop on Windows">Docker Installation on Windows: How to install Docker on Windows (Step-by-Step) Guide</h4>
-  <p>Requirements.</p>
-  <ul>
-    <li>
-    64-bit processor with Second Level Address Translation (SLAT).</li>
-    <li>Windows should have the Hyper V, WSL 2, and Container features enabled.</li>
-    <li>BIOS-level hardware virtualization support must be enabled in the BIOS settings.</li>
-    <li>Minimum 4GB system RAM.</li>
-  </ul>
-
-  <div title="Docker Installation">Installation</div>
-  <ul>
-    <li> <a href="https://docs.docker.com/desktop/install/windows-install/" class="mb-2">Download Docker</a></li>
-    <li> Then, double-click on the Docker Desktop Installer.exe to run the installer.</li>
-    <li>Follow the instructions in the installation wizard to allow the installer and complete the installation.</li>
-    <li>After successful installation, click Close to finish the installation process.</li>
-  </ul>
-
-
-  <div title="How to set up from the command line.">How to set up from the command line.</div>
-  <ul>
-    <li>To work as a terminal,<code> "Docker Desktop Installer.exe" </code> installation.</li>
-    <li>If you're using PowerShell, execute it as
-      <code>
-      Start-Process 'Docker Desktop Installer.exe' -Wait install
-      </code>
-    </li>
-    <li>If you're using  Windows Command Prompt, execute it as
-      <code>
-      start /w "" "Docker Desktop Installer.exe" install
-      </code>
-    </li>
-  
-  </ul>
-
+  <h2 title="Install Docker Desktop on Windows">Docker Installation on Windows: How to install Docker on Windows (Step-by-Step) Guide</h2>
+  <h6 class="mb-0 mt-1">Requirements.</h6>
+<div class="container">
+  <div class="row">
+    <ul>
+      <li>
+      64-bit processor with Second Level Address Translation (SLAT).</li>
+      <li>Windows should have the Hyper V, WSL 2, and Container features enabled.</li>
+      <li>BIOS-level hardware virtualization support must be enabled in the BIOS settings.</li>
+      <li>Minimum 4GB system RAM.</li>
+    </ul>
+  </div>
 </div>
 
-<div class="collapse multi-collapse" id="multiCollapseExample2" title="How to Install Git on Linux (Step-by-Step) Guide">
-  <h4 title="Git Installation on Linux">How to Install and Use Docker on Ubuntu (Step-by-Step) Guide</h4>
-  <p>Debian-based distribution (Debian/Ubuntu/Ubuntu-derivatives)</p>
-  <h5>Step1:</h5>
-  <p>Installing Docker</p>
-  <p>Use the following command to see if the system is up to date</p>
-  <figure class="highlight">
-    <pre>
-			<code class="language-html" data-lang="html">
-  $ sudo apt-get update
-      </code>
-		</pre>
-  </figure>
-  <h5>Step2:</h5>
-  <p>Remove any Docker files that are running in the system, using the following command</p>
-  <figure class="highlight">
-    <pre>
-			<code class="language-html" data-lang="html">
-  $ sudo apt-get remove docker docker-engine docker.io
-  </code>
-		</pre>
-  </figure>
-  <h5>Step3:</h5>
-  <p>Install Docker using the following command</p>
-  <figure class="highlight">
-    <pre>
-			<code class="language-html" data-lang="html">
-  $ sudo apt install docker.io
-</code>
-		</pre>
-    <div class="h-100">
-      <img src="ubuntu/1.PNG" alt="Install Docker using the following command">
+  <h6 title="Docker Installation" class="mb-0 mt-1">Installation.</h6>
+  <div class="container">
+    <div class="row">
+      <ul>
+        <li> <a href="https://docs.docker.com/desktop/install/windows-install/" class="mb-2">Download Docker</a></li>
+        <li> Then, double-click on the Docker Desktop Installer.exe to run the installer.</li>
+        <li>Follow the instructions in the installation wizard to allow the installer and complete the installation.</li>
+        <li>After successful installation, click Close to finish the installation process.</li>
+      </ul>
     </div>
-  </figure>
-  <h5>Step4:</h5>
-  <p>Install all the dependency packages using the following command</p>
-  <figure class="highlight">
-    <pre>
-				<code class="language-html" data-lang="html">
-  $ sudo snap install docker
-</code>
-			</pre>
-    <div class="h-100">
-      <img src="ubuntu/3.PNG" alt="Docker Install all the dependency packages">
+  </div>
+  <h6 title="How to set up from the command line." class="mb-0 mt-1">How to set up from the command line.</h6>
+
+  <div class="container">
+    <div class="row">
+      <ul>
+        <li>To work as a terminal,<code> "Docker Desktop Installer.exe" </code> installation.</li>
+        <li>If you're using PowerShell, execute it as
+          <code>
+          Start-Process 'Docker Desktop Installer.exe' -Wait install
+          </code>
+        </li>
+        <li>If you're using  Windows Command Prompt, execute it as
+          <code>
+          start /w "" "Docker Desktop Installer.exe" install
+          </code>
+        </li>  
+      </ul>
     </div>
-  </figure>
-  <h5>Step5:</h5>
-  <p>Verify that Docker Engine is installed correctly by running the hello-world image</p>
-  <figure class="highlight">
-    <pre>
-					<code class="language-html" data-lang="html">
-  $ docker --version
-  </code>
-				</pre>
-  </figure>
-  <h5>Step6:</h5>
-  <p> Pull an image from the Docker hub using the following command</p>
-  <figure class="highlight">
-    <pre>
-					<code class="language-html" data-lang="html">
-  $ sudo docker run hello-world
-</code>
-				</pre>
-    <div class="h-100">
-      <img src="ubuntu/4.PNG" alt="Docker pull and run hello world container">
-    </div>
-  </figure>
-  <h5>Step7:</h5>
-  <p> Check if the docker image has been pulled and is present in your system using the following command</p>
-  <figure class="highlight">
-    <pre>
-						<code class="language-html" data-lang="html">
-  $ sudo docker images
-</code>
-					</pre>
-    <div class="h-100">
-      <img src="ubuntu/5.PNG" alt="Docker images show">
-    </div>
-  </figure>
+  </div>
+
 </div>
+<hr>
+<h4 class="mb-0">You Might Like:</h4>
+<div class="container mb-0">
+  <div class="digital-link mb-0">
+   
+    <div> <a href="docker_ubuntu_installation.php" alt="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</a></div>
+    <div><a href="docker_rhel_installation.php" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a></div>
 
-<div class="collapse multi-collapse" id="multiCollapseExample3" title="How to Install Docker Engine on RHEL.">
-  <h4 title="How to install Docker Engine on RHEL.">How to install Docker Engine on RHEL (Step-by-Step) Guide</h4>
-  <h5>Step1:</h5>
-  <p>First, uninstall any previous versions of Docker.</p> 
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html">
-      $ sudo yum remove docker \
-      docker-client \
-      docker-client-latest \
-      docker-common \
-      docker-latest \
-      docker-latest-logrotate \
-      docker-logrotate \
-      docker-engine \
-      podman \
-      runc
-     </code></pre>
-  </figure>
-  <h5>Step2:</h5>
-  <p>Then, install any required packages</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html">
-      $ sudo yum install -y yum-utils     
-    </code></pre>
-    <img src="redhat/1.PNG" alt="Docker images show">
-  </figure>
+  </div>
 
-  <h5>Step3:</h5>
-  <p>Set up the docker-ce repo</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-    </code></pre>
-    <img src="redhat/2.PNG" alt="Docker images show">
-  </figure>
 
-  <h5>Step4:</h5>
-  <p>Install Docker using the following command</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo yum install docker-ce
-    </code></pre>
-    <img src="redhat/5.PNG" alt="Docker images show">
-  </figure>
-  <h5>Step5:</h5>
-  <p>Enable Docker Service</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo systemctl enable docker.service
-    </code></pre>
-    <img src="redhat/6.PNG" alt="Docker Service Enable">
-  </figure>
-  <h5>Step6:</h5>
-  <p>Start the Docker service</p>
-  <figure class="highlight">
-     <pre><code class="language-html" data-lang="html"> 
-      $ sudo systemctl start docker.service
-    </code></pre>
-    <img src="redhat/7.PNG" alt="Start the Docker service">
-  </figure>
-  
-<h5>Step7:</h5>
-<p>Verify that Docker Engine is installed</p>
-<figure class="highlight">
-   <pre><code class="language-html" data-lang="html"> 
-    $  sudo docker --version
-  </code></pre>
-  <img src="redhat/8.PNG" alt="Verify that Docker Engine is installed">
-</figure>
-<h5>Step8:</h5>
-<p>Pull an image from the Docker hub using the following command</p>
-<figure class="highlight">
-   <pre><code class="language-html" data-lang="html"> 
-    $   sudo docker pull hello-world
-  </code></pre>
-  <img src="redhat/9.PNG" alt="Docker pull image from Docker Hub">
-</figure>
-<h5>Step9:</h5>
-<p>Check if the docker image has been pulled and is present in your system using the following command</p>
-<figure class="highlight">
-   <pre><code class="language-html" data-lang="html"> 
-    $ sudo docker images 
-  </code></pre>
-  <img src="redhat/10.PNG" alt="Docker show images">
-</figure>
 </div>
-
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
@@ -460,18 +311,11 @@
  
 });
 </script>
-
-
-
 </div>
-
 </div>
 <?php include('../footer.php') ?>
-
 <script src="../lib/w3schools_footer.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
-
 </body>
 
-<!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:28 GMT -->
+
 </html>

@@ -244,15 +244,12 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 </div>
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-        <div class="scrum-intro text-center" >
-            <img src="img/dailyscrummeeting.PNG" width="500" alt="Daily Scrum Meeting">
-            <p>Scrum Meeting</p>
-            </div>
-        </div>
-    </div>
+  <div class="row">
+    <img src="img/dailyscrummeeting.PNG" alt="Daily Scrum Meeting">
+    <strong class="Scrum Meeting text-center">Scrum Meeting</strong>
+  </div>
 </div>
+
 
 <div class="scrum-master">
     <h2 title="Who is present at the daily Scrum meeting?">Who is present at the daily Scrum meeting?</h2>
@@ -265,7 +262,7 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
   </div>
 
 
-<div class="scrum-kinds">
+<div class="scrum-kinds mb-2">
     <h3 title="What is Product Owner">Types of Scrum Meetings and Scrum Best Practices</h3>
   <p>
     A scrum meeting is any meeting organized by an agile scrum team during product development. The following are the most common types.
@@ -286,23 +283,23 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
     Daily scrum meetings are extremely beneficial for Agile teams focused on developing a supportive work environment, achieving sprint goals, and ensuring efficient collaboration. Daily scrum meetings have the following benefits when properly planned:
   </p>
 
-  <ul>
-    <li>
-        <h6>
+  <ol>
+    <li class="mb-2">
+        
         Daily Scrum meetings help keep the team on track. Team members can share their progress toward the sprint goal, what they're working on during the day, and get feedback on whether they're moving at the right pace. They can also get a clear picture of what other team members are working on, ensuring clarity and visibility throughout the sprint.
-        </h6>
+      
     </li>
-    <li>
-    <h6>
+    <li class="mb-2">
+    
         Daily Scrum meetings encourage collaboration. Everyone shares their progress and addresses any issues that have come up during the session. Scrum team members can help each other overcome challenges and implement agile values ​​and principles.
-        </h6>
+        
     </li>
-    <li> <h6>
+    <li class="mb-2"> 
     
         Daily Scrum meetings can serve as a problem-solving forum. Have you run into an agile roadblock? Scrum teams can communicate their concerns or problems to other team members, who can then share possible solutions.
-        </h6>
+     
     </li>
-  </ul>
+  </ol>
 
 
 </div>
@@ -342,6 +339,31 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 </div>
 <?php include('../footer.php') ?>
 
+  <style>
+ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+ 
+ol>li {
+  margin:0;
+  text-align: justify;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+ 
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}
+        </style>
 <script src="../lib/w3schools_footer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 

@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Linux</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/linux/">Linux Introduction</a>
+<a target="_top" href="http://temp.co/linux/index.php">Linux Introduction</a>
 <a target="_top" href="linux_command.php" title="Linux Commands List">Linux Commands</a>
 
 
@@ -229,16 +229,16 @@
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
      
-<h4 title="Linux Basic Commands">Linux Basic Commands</span></h4>
+<h1 title="Linux Basic Commands">Linux Basic Commands</span></h1>
 
 
 <hr>
 
-<div class="card card-body mb-3">
-  <h5>The Most Popular Linux Commands</h5>
+<div class="linux-command">
+  <h4>The Most Popular Linux Commands</h4>
 
   <div id="pwd" class="mt-2">
-    <h6 style="font-size: 22px;">pwd</h6>
+    <h4 style="font-size: 22px;">pwd</h4>
     <p>The Linux pwd (print working directory) command displays your current working directory.</p>
     <figure class="highlight">
       <pre>
@@ -247,7 +247,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">ls</h6>
+    <h4 style="font-size: 22px;">ls</h4>
     <p>The ls command displays a list of files and directories on a system.</p>
     <figure class="highlight">
       <pre>
@@ -256,7 +256,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">cd </h6>
+    <h4 style="font-size: 22px;">cd </h4>
     <p>The ls command displays a list of files and directories on a system.The cd command in Linux is used to change the current working directory.</p>
     <figure class="highlight">
       <pre>
@@ -265,7 +265,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">mv</h6>
+    <h4 style="font-size: 22px;">mv</h4>
     <p>The mv command in Linux is used to move an existing file or directory. It can also be used to change the name of a file or directory.</p>
     <figure class="highlight">
       <pre>
@@ -274,7 +274,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">cp </h6>
+    <h4 style="font-size: 22px;">cp </h4>
     <p>The cp command is used to copy files or directories and their contents.</p>
     <figure class="highlight">
       <pre>
@@ -283,7 +283,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">clear</h6>
+    <h4 style="font-size: 22px;">clear</h4>
     <p>Clear the terminal display.</p>
     <figure class="highlight">
       <pre>
@@ -292,7 +292,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">less</h6>
+    <h4 style="font-size: 22px;">less</h4>
     <p>Less is a Linux utility that reads the contents of a text file one page (one screen) at a time.</p>
     <figure class="highlight">
       <pre>
@@ -301,7 +301,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">mkdir</h6>
+    <h4 style="font-size: 22px;">mkdir</h4>
     <p>The mkdir command is used to create folders in the shell.</p>
     <figure class="highlight">
       <pre>
@@ -310,7 +310,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">rm</h6>
+    <h4 style="font-size: 22px;">rm</h4>
     <p>Delete files or directories that have been touched - Make blank or empty files.</p>
     <figure class="highlight">
       <pre>
@@ -320,7 +320,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">locate</h6>
+    <h4 style="font-size: 22px;">locate</h4>
     <p>The locate command can find a file in the database system.</p>
     <figure class="highlight">
       <pre>
@@ -329,7 +329,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">diff</h6>
+    <h4 style="font-size: 22px;">diff</h4>
     <p>The diff command compares two files' contents line by line.</p>
     <figure class="highlight">
       <pre>
@@ -338,7 +338,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">ifconfig</h6>
+    <h4 style="font-size: 22px;">ifconfig</h4>
     <p>Show network interfaces and IP addresses.</p>
     <figure class="highlight">
       <pre>
@@ -347,7 +347,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">find </h6>
+    <h4 style="font-size: 22px;">find </h4>
     <p>Find files in a directory hierarchy.</p>
     <figure class="highlight">
       <pre>
@@ -356,7 +356,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">history</h6>
+    <h4 style="font-size: 22px;">history</h4>
     <p>Displays the most recently used commands./</p>
     <figure class="highlight">
       <pre>
@@ -365,7 +365,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">cat</h6>
+    <h4 style="font-size: 22px;">cat</h4>
     <p> Display file contents on the terminal.</p>
     <figure class="highlight">
       <pre>
@@ -374,7 +374,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">echo </h6>
+    <h4 style="font-size: 22px;">echo </h4>
     <p>The echo command outputs specified text to the terminal.</p>
     <figure class="highlight">
       <pre>
@@ -383,7 +383,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">grep</h6>
+    <h4 style="font-size: 22px;">grep</h4>
     <p>Display lines that match a pattern.</p>
     <figure class="highlight">
       <pre>
@@ -392,7 +392,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">grep</h6>
+    <h4 style="font-size: 22px;">grep</h4>
     <p>Display lines that match a pattern.</p>
     <figure class="highlight">
       <pre>
@@ -401,7 +401,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">man</h6>
+    <h4 style="font-size: 22px;">man</h4>
     <p>Displays all information about the command.</p>
     <figure class="highlight">
       <pre>
@@ -410,7 +410,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">help</h6>
+    <h4 style="font-size: 22px;">help</h4>
     <p>Displays the command's available options.</p>
     <figure class="highlight">
       <pre>
@@ -419,7 +419,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">chmod</h6>
+    <h4 style="font-size: 22px;">chmod</h4>
     <p>change file access permissions .</p>
     <figure class="highlight">
       <pre>
@@ -428,7 +428,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">chown</h6>
+    <h4 style="font-size: 22px;">chown</h4>
     <p>change file owner and group.</p>
     <figure class="highlight">
       <pre>
@@ -437,7 +437,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">su</h6>
+    <h4 style="font-size: 22px;">su</h4>
     <p>change user ID or become super­user.</p>
     <figure class="highlight">
       <pre>
@@ -446,7 +446,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">passwd</h6>
+    <h4 style="font-size: 22px;">passwd</h4>
     <p>Update a user’s authentication tokens.</p>
     <figure class="highlight">
       <pre>
@@ -455,7 +455,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">who</h6>
+    <h4 style="font-size: 22px;">who</h4>
     <p>Display who is logged.</p>
     <figure class="highlight">
       <pre>
@@ -464,7 +464,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">ps</h6>
+    <h4 style="font-size: 22px;">ps</h4>
     <p>Show active processes.</p>
     <figure class="highlight">
       <pre>
@@ -473,7 +473,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">kill</h6>
+    <h4 style="font-size: 22px;">kill</h4>
     <p>Show active processes.</p>
     <figure class="highlight">
       <pre>
@@ -482,7 +482,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">tar</h6>
+    <h4 style="font-size: 22px;">tar</h4>
     <p>The tar command compresses multiple files into a TAR file, which is a common Linux format similar to ZIP.</p>
     <figure class="highlight">
       <pre>
@@ -491,7 +491,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">zip</h6>
+    <h4 style="font-size: 22px;">zip</h4>
     <p>Use the zip command to compress your files into a ZIP file.</p>
     <figure class="highlight">
       <pre>
@@ -500,7 +500,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">unzip</h6>
+    <h4 style="font-size: 22px;">unzip</h4>
     <p>The unzip command is used to extract zipped files from an archive.</p>
     <figure class="highlight">
       <pre>
@@ -509,7 +509,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">reboot</h6>
+    <h4 style="font-size: 22px;">reboot</h4>
     <p>Restart the system.</p>
     <figure class="highlight">
       <pre>
@@ -518,7 +518,7 @@
   </code>
       </pre>
     </figure>
-    <h6 style="font-size: 22px;">poweroff</h6>
+    <h4 style="font-size: 22px;">poweroff</h4>
     <p>Turn off the system.</p>
     <figure class="highlight">
       <pre>

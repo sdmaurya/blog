@@ -247,7 +247,7 @@ Agile is an iterative approach to project management and software development th
       The main objective of Scrum is to satisfy customer needs through an environment of transparent communication, collective responsibility and continuous progress.</p>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-12">
         <div class="scrum-intro text-center" >
@@ -256,6 +256,13 @@ Agile is an iterative approach to project management and software development th
             </div>
         </div>
     </div>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <img src="img/scrum.PNG" alt="What is Scrum">
+    <strong class="Scrum text-center">The Scrum Method</strong>
+  </div>
 </div>
 
 <div class="scrum-master">

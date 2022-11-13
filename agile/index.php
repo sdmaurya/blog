@@ -238,9 +238,12 @@
   <h2>What is Agile</h2>
 <p>
 Agile is an iterative approach to project management and software development that enables teams to deliver value to customers faster and with fewer headaches. An agile team delivers work in small, but consumable, increments, rather than go all-in on a "big bang" release. Continuous evaluation of requirements, plans, and deliverables provides teams with a natural mechanism to respond quickly to change.</p>
-<div class="Agile-Methodology text-center" >
-<img src="img/Agile-Methodology.PNG" alt="Agile-Methodology" width="500">
-            <p>Agile Methodology</p>
+
+            <div class="container">
+              <div class="row mb-0">
+                <img src="img/Agile-Methodology.PNG" alt="Agile-Methodology">
+                <strong class="Agile-Methodology text-center">Agile Methodology</strong>
+              </div>
             </div>
 
 </div>
@@ -289,9 +292,16 @@ Agile is an iterative approach to project management and software development th
 
 Epics are almost always delivered in the form of a series of sprints. User stories will be added and removed as a team learns more about an epic through development and customer feedback. The key to an agile epic is this: scope is aligned with customer feedback and team cadence.</p>
   
-<div class="Agile-Methodology text-center" >
+<!-- <div class="Agile-Methodology text-center" >
 <img src="img/EPIC-WBS.PNG" alt="Agile-Methodology" width="500">
             <p>Epic WBS</p>
+            </div> -->
+
+            <div class="container">
+              <div class="row">
+                <img src="img/EPIC-WBS.PNG" alt="Agile-Methodology">
+                <strong class="Agile-Methodology text-center">Epic WBS</strong>
+              </div>
             </div>
 </div>
 

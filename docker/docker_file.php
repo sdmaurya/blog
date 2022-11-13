@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">Docker Introduction</a>
+<a target="_top" href="http://temp.co/docker/">Docker Introduction</a>
 <a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
 <a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
 <a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>
@@ -229,15 +229,15 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-<h4 title="Docker File">Docker File</span></h4>
+<h1 title="Docker File">Docker File</span></h1>
 <hr>
 
 <div class="">
-  <h5>What is a Dockerfile</h5>
+  <h2>What is a Dockerfile</h2>
   <p>Docker File is a text file that contains all of the instructions needed to run a dockerimage. Each instruction in the image creates a dockerlayer.</p>
 </div>
 <div class="">
-  <h5>How to Create a Dockerfile.</h5>
+  <h2>How to Create a Dockerfile.</h2>
   <p>To create a Dockerfile, use commands such as FROM, PULL, RUN, and CMD.</p>
   <p class="mt-0">
     <span>
@@ -274,7 +274,7 @@
 </div>
 
   <div class="">
-    <h5>Creating a Dockerfile Example</h5>
+    <h2>Creating a Dockerfile Example</h2>
     <figure class="highlight">
       <pre>
 			<code class="language-html" data-lang="html">

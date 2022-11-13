@@ -213,12 +213,15 @@
   </div>
 </div>
 
+
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Linux</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/linux/index.php">Linux Introduction</a>
-<a target="_top" href="linux_command.php" title="Linux Commands List">Linux Commands</a>
+<h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
+<a target="_top" href="http://myblog.com/docker/">Docker Introduction</a>
+<a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
+<a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
+<a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>
 
 
       <br><br>
@@ -228,94 +231,138 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12' id='main'>
-     
-<h1 title="Linux/Unix Tutorial for Beginners">Linux/Unix Tutorial for Beginners</span></h1>
+  
+<h1>Docker<span class="color_h1" title="Git Installation"> Installation</span></h1>
 
 
-<hr>
-
-<div class="mb-3">
-  <h2>Introduction to Linux</h2>
 <p>
-    Linux is a free and open operating system. It is similar to Windows, Mac, Android, and so on.
-    Linus Torvalds developped the OS kernel called Linux in 1991.</p>
- 
-</div>
-<div class="mb-3">
-  <h2>What is Linux</h2>
-<p> Linux is a free and open operating system. It is similar to Windows, Mac, Android, and so on.
-  </p>
-
-<h4>Some of the popular Linux distributions include :</h4>
-<ul>
-    <li>CentOS    
-        </li>
-        <li>Ubuntu</li>
-        <li>    RHEL</li>
-</ul>
-</div>
-<div class="mb-3">
-<h2>What is Unix</h2>
-<p>
-    Unix is an operating system just like Linux. It is a commercial operating system. It has three parts, Kernal, Shell and Programs. 
+<a href="docker_installation.php" alt="How to Install Docker on Windows">Docker Windows Installation</a> &nbsp;&nbsp;&nbsp;
+<a href="docker_rhel_installation.php" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a>
 </p>
-</div>
-
-<h2 title="Basic Linux Commands for Beginners">Basic Linux Commands for Beginners</span></h2>
-<hr>
-<div class="container mb-3">
-  <ul>
-    <li>pwd</li>
-    <li>ls</li>
-    <li>cd</li>
-    <li> touch</li>
-    <li>cat</li>
-    <li>nano</li>
-    <li>man</li>
-    <li>mkdir</li>
-    <li>mkdir</li>
-    <li>rmdir</li>
-    <li>mv</li>
-    <li>cp</li>
-    <li>grep</li>
-    <li>--help</li>
-    <li>find</li>
-    <li>top </li>
-    <li>kill </li>
-    <li> jobs</li>
-    <li>vim </li>
-    <li>sudo</li>
-    <li>su</li>
-    <li>useradd</li>
-    <li>passwd </li>
-    <li>ping </li>
-    <li>history </li>
-    <li>crontab </li>
-    <li> clear</li>
-    <li> who</li>
-    <li> whoami</li>
-    <li> which</li>
-    <li> chmod</li>
-    <li>chown</li>
-    <li>echo</li>
-    <li>less</li>
-    <li>tail</li>
-    <li>zip </li>
-    <li>unzip</li>
-    <li>poweroff</li>
-    <li>reboot</li>
-    <li>tar</li>
-
-  </ul>
-</div>
 
 <hr>
-<div class="container">
-    <div class="digital-link">
-      <h4>You Might Like:</h4>
-      <div><a href="/linux/linux_command.php" title="What is Scrum">Linux Basic Commands</a></div>
+
+
+<div  title="How to Install Git on Linux (Step-by-Step) Guide">
+  <h4 title="Git Installation on Linux">How to Install and Use Docker on Ubuntu (Step-by-Step) Guide</h4>
+  <p>Debian-based distribution (Debian/Ubuntu/Ubuntu-derivatives)</p>
+  <h5>Step1:</h5>
+  <p>Installing Docker</p>
+  <p>Use the following command to see if the system is up to date</p>
+  <figure class="highlight">
+    <pre>
+			<code class="language-html" data-lang="html">
+  $ sudo apt-get update
+      </code>
+		</pre>
+  </figure>
+  <h5>Step2:</h5>
+  <p>Remove any Docker files that are running in the system, using the following command</p>
+  <figure class="highlight">
+    <pre>
+			<code class="language-html" data-lang="html">
+  $ sudo apt-get remove docker docker-engine docker.io
+  </code>
+		</pre>
+  </figure>
+  <h5>Step3:</h5>
+  <p>Install Docker using the following command</p>
+  <figure class="highlight">
+    <pre>
+			<code class="language-html" data-lang="html">
+  $ sudo apt install docker.io
+</code>
+		</pre>
+    <div class="h-100">
+    
+    </div>
+  </figure>
+
+  <div class="conntainer">
+    <div class="row">
+        <img src="ubuntu/1.PNG" alt="Install Docker using the following command">
     </div>
   </div>
+
+  <h5>Step4:</h5>
+  <p>Install all the dependency packages using the following command</p>
+  <figure class="highlight">
+    <pre>
+				<code class="language-html" data-lang="html">
+  $ sudo snap install docker
+</code>
+			</pre>
+    <div class="h-100">
+   
+    </div>
+  </figure>
+
+  <div class="conntainer">
+    <div class="row">
+        <img src="ubuntu/3.PNG" alt="Docker Install all the dependency packages">
+    </div>
+  </div>
+
+  <h5>Step5:</h5>
+  <p>Verify that Docker Engine is installed correctly by running the hello-world image</p>
+  <figure class="highlight">
+    <pre>
+					<code class="language-html" data-lang="html">
+  $ docker --version
+  </code>
+				</pre>
+  </figure>
+  <h5>Step6:</h5>
+  <p> Pull an image from the Docker hub using the following command</p>
+  <figure class="highlight">
+    <pre>
+					<code class="language-html" data-lang="html">
+  $ sudo docker run hello-world
+</code>
+				</pre>
+    <div class="h-100">
+    
+    </div>
+  </figure>
+  <div class="conntainer">
+    <div class="row">
+        <img src="ubuntu/4.PNG" alt="Docker pull and run hello world container">
+    </div>
+  </div>
+
+  <h5>Step7:</h5>
+  <p> Check if the docker image has been pulled and is present in your system using the following command</p>
+  <figure class="highlight">
+    <pre>
+						<code class="language-html" data-lang="html">
+  $ sudo docker images
+</code>
+					</pre>
+    <div class="h-100">
+  
+    </div>
+  </figure>
+  <div class="conntainer">
+    <div class="row">
+        <img src="ubuntu/5.PNG" alt="Docker images show">
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $("#collapse_1").click(function(){
+    $('#multiCollapseExample1').toggle('slow');
+  });
+ 
+});
+</script>
+
 
 
 </div>
@@ -324,7 +371,7 @@
 <?php include('../footer.php') ?>
 
 <script src="../lib/w3schools_footer.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
 
 </body>
 

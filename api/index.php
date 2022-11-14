@@ -242,15 +242,7 @@
     <p>
     API stands for the Application Programming Interface, They are basically a collection of functions and
 procedures which allows us to communicate two application or library.
-    </p>
-    
-    <!-- <h5>
-        <span class="strong"><strong>Example</strong></span>
-    </h5>
-    <p></p>
-    <h6>
-        <span class="strong"><strong>Courier Example</strong></span>
-    </h6> -->
+    </p>             
 </div>
 
 <h2>Benefits Of Using API</h2>

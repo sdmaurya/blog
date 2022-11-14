@@ -54,6 +54,33 @@ p{
   vertical-align: middle;
 }
 
+/* New CSS ADDed */
+
+ol {
+  margin:0 0 1.5em;
+  padding:0;
+  counter-reset:item;
+}
+ 
+ol>li {
+  margin:0;
+  text-align: justify;
+  padding:0 0 0 2em;
+  text-indent:-2em;
+  list-style-type:none;
+  counter-increment:item;
+}
+ 
+ol>li:before {
+  display:inline-block;
+  width:1.5em;
+  padding-right:0.5em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item) ".";
+}
+/* New CSS ADDed */
+
 a:hover,a:active{color:#4CAF50}
 table.w3-table-all{margin:20px 0}
 /*OPPSETT AV TOP, TOPNAV, SIDENAV, MAIN, RIGHT OG FOOTER:*/

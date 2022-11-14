@@ -340,29 +340,7 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 <?php include('../footer.php') ?>
 
   <style>
-ol {
-  margin:0 0 1.5em;
-  padding:0;
-  counter-reset:item;
-}
- 
-ol>li {
-  margin:0;
-  text-align: justify;
-  padding:0 0 0 2em;
-  text-indent:-2em;
-  list-style-type:none;
-  counter-increment:item;
-}
- 
-ol>li:before {
-  display:inline-block;
-  width:1.5em;
-  padding-right:0.5em;
-  font-weight:bold;
-  text-align:right;
-  content:counter(item) ".";
-}
+
         </style>
 <script src="../lib/w3schools_footer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

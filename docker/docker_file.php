@@ -278,8 +278,20 @@
     <figure class="highlight">
       <pre>
 			<code class="language-html" data-lang="html">
-  FROM httpd:2.4
-  COPY ./public-html/ /usr/local/apache2/htdocs/
+  <!-- FROM httpd:2.4
+  COPY ./public-html/ /usr/local/apache2/htdocs/ -->
+  # base image: last debian release
+  FROM debian:wheezy
+  # install the latest upgrades
+  RUN apt-get update && apt-get -y dist-upgrade
+  # install nginx
+  RUN apt-get -y install nginx
+  # set the default container command
+  # −> run nginx in the foreground
+  CMD ["nginx", "-g", "daemon off;"]
+  # Tell the docker engine that there will be somenthing listening on the tcp port 80
+  EXPOSE 80
+
         </code>
 		</pre>
     </figure>

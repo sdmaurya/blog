@@ -240,31 +240,42 @@
 <div class="aws-intro" id="aws-intro">
 
     <h2>What Is A RESTFUL API And REST API?</h2>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/Rest-API.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <p>
+            REST is an acronym that stands for Representational State Transfer. REST defines a set of functions that clients can use to access data from the server, such as GET, PUT, DELETE, etc. HTTP is used by clients and servers to exchange data.
+            </p>
+            <p>
+            The main feature of REST API is statelessness. Stateless servers do not save client data between requests. Client requests to the server are analogous to the URLs you enter into your browser to access a website. The response from the server is simple data, without the typical graphical representation of a web page.
+            </p>
+            
+  
+        </div>
+      </div>
+    </div>
+    <p>There four basic HTTP requests a client can make are:</p>
+        
     <p>
-    REST is an acronym that stands for Representational State Transfer. REST defines a set of functions that clients can use to access data from the server, such as GET, PUT, DELETE, etc. HTTP is used by clients and servers to exchange data.
-    </p>
+       <span class="strong"><strong>GET</strong></span>:
+       To get a resource.
+   </p>
     <p>
-    The main feature of REST API is statelessness. Stateless servers do not save client data between requests. Client requests to the server are analogous to the URLs you enter into your browser to access a website. The response from the server is simple data, without the typical graphical representation of a web page.
-    </p>
-    
- <p>There four basic HTTP requests a client can make are:</p>
-
- <p>
-    <span class="strong"><strong>GET</strong></span>:
-    To get a resource.
-</p>
- <p>
-    <span class="strong"><strong>POST</strong></span>:
-    Create a new resource.
-</p>
- <p>
-    <span class="strong"><strong>PUT or PATCH</strong></span>:
-    Update or edit an existing resource.
-</p>
- <p>
-    <span class="strong"><strong>DELETE</strong></span>:
-    Delete a resource.
-</p>
+       <span class="strong"><strong>POST</strong></span>:
+       Create a new resource.
+   </p>
+    <p>
+       <span class="strong"><strong>PUT or PATCH</strong></span>:
+       Update or edit an existing resource.
+   </p>
+    <p>
+       <span class="strong"><strong>DELETE</strong></span>:
+       Delete a resource.
+   </p>
 
 
 </div>
@@ -306,21 +317,26 @@
 		</pre>
     </figure>
 </div>
-
 <h2>What are the advantages of a REST API?</h2>
-<ul>
-    <li>REST API is easy to learn.</li>
-    <li>An HTTP proxy server can be used to manage high load.</li>
-    <li>It is cleaner and easier to navigate.</li>
-    <li>The user will have access to identical standard data and objects, unlike SOAP-based web services.</li>
-    <li>It can also organize complex applications into a simple resource.</li>
-</ul>
+<div class="container mb-3">
+
+  <ul>
+      <li>REST API is easy to learn.</li>
+      <li>An HTTP proxy server can be used to manage high load.</li>
+      <li>It is cleaner and easier to navigate.</li>
+      <li>The user will have access to identical standard data and objects, unlike SOAP-based web services.</li>
+      <li>It can also organize complex applications into a simple resource.</li>
+  </ul>
+  
+</div>
 
 
 <!-- <h2>Differentiating between REST API and SOAP API</h2> -->
-
+<h2>Difference between SOAP API and REST API</h2>
 <div class="text-different">
-   <h2>Difference between SOAP API and REST API</h2>
+  <div class="container">
+
+
    <figure class="table">
     <table class="table table-responsive table-bordered">
          <tbody>
@@ -361,21 +377,35 @@
          </tbody>
       </table>
    </figure> 
+  </div>
 </div>
 
 
 <div class="rest mt-3">
     <h2>Why REST is better than SOAP?</h2>
+
     <p>Let's briefly explain why REST is better than SOAP web services in modern-day contexts:</p>
 
-    <p>1. REST can be used by any client, including Java, C++, and Python clients, as well as web browsers that support Ajax and JavaScript.</p>
 
-<p>2. REST is lighter than SOAP because it eliminates the need for CPU-intensive XML parsing and uses less bandwidth because, unlike SOAP, REST does not require a SOAP header for each message.</p>
+<ol>
+  <li class="mb-2">
+      
+    REST can be used by any client, including Java, C++, and Python clients, as well as web browsers that support Ajax and JavaScript.
+    
+  </li>
+  <li class="mb-2">
+  
+    REST is lighter than SOAP because it eliminates the need for CPU-intensive XML parsing and uses less bandwidth because, unlike SOAP, REST does not require a SOAP header for each message.
+      
+  </li>
+  <li class="mb-2">   
+    Soap is an old technology; REST-like APIs are used by all modern tech giants such as Google, Twitter, and Flickr.   
+  </li>
+  <li class="mb-2">   
+    REST is simple to understand because it only uses nouns and verbs. It&apos;s even simpler if you already know how to use HTTP methods.
+  </li>
+</ol>
 
-
-<p>3. Soap is an old technology; REST-like APIs are used by all modern tech giants such as Google, Twitter, and Flickr.</p>
-
-<p>4. REST is simple to understand because it only uses nouns and verbs. It&apos;s even simpler if you already know how to use HTTP methods.</p>
 
 </div>
 

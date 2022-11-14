@@ -268,43 +268,7 @@ Responsible for client-server communication.
 </div>
 
 
-<div class="text-different">
-   <h2>Difference between SOAP API and REST API</h2>
-   <figure class="table">
-    <table class="table table-responsive table-bordered">
-         <tbody>
-            <tr>
-               <td>
-                  <p style="text-align:center"><strong>Protocol</strong></p>
-               </td>
-               <td>
-                  <p style="text-align:center"><strong>Description / Details</strong></p>
-               </td>
-            </tr>
-            <tr>
-        <td><code>IP</code></td>
-        <td><strong><code>Internet Protocol</code></strong></td>
-        </tr>
-        <tr>
-        <td><code>TCP</code></td>
-        <td><strong><code>Transmission Control Protocol</code></strong></td>
-        </tr>
-        <tr>
-        <td><code>HTTP</code></td>
-        <td><strong><code>Hyper Text Transfer Protocol</code></strong>  (Internet Communication/Data Transfer on the web)</td>
-        </tr>
-        <tr>
-        <td><code>FTP</code></td>
-        <td><strong><code>File Transfer Protocol</code></strong> (Files)</td>
-        </tr>
-        <tr>
-        <td><code>SMTP</code></td>
-        <td><strong><code>Simple Mail Transfer Protocol</code></strong> (Email)</td>
-        </tr>     
-         </tbody>
-      </table>
-   </figure> 
-</div>
+
 </div>
 
 </div>

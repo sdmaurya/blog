@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="style.css" rel="stylesheet" >
     <link href="bootstrap.min.css" rel="stylesheet" >
-    <link  href="font/css/all.min.css" rel="stylesheet" >
+    <!-- <link  href="font/css/all.min.css" rel="stylesheet" > -->
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(){
         /////// Prevent closing from click inside dropdown
@@ -37,7 +37,7 @@
                 </a>
               </li>     
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact-us.php">Contact</a>
@@ -99,14 +99,9 @@
         </div>
       </nav>
 
-      <div class="social">
+      <!-- <div class="social">
       <ul class="scl">
-        <!-- <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-github"></i><span>Github</span></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-youtube"></i><span>Youtube</span></a></li> -->
+      
         <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#" class="scls"><i class="fab fa-twitter"></i></a></li>
         <li><a href="#" class="scls"><i class="fab fa-instagram"></i></a></li>
@@ -114,4 +109,4 @@
         <li><a href="#" class="scls"><i class="fab fa-github"></i></a></li>
         <li><a href="#" class="scls"><i class="fab fa-youtube"></i></a></li>
       </ul>
-    </div>
+    </div> -->

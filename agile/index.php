@@ -24,7 +24,7 @@
 <body>
 <div class='w3-container top'>
   <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
-    <a class='w3schools-logo ' href='../index.html'> <span > <img src="/../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
+    <a class='w3schools-logo ' href='/'> <span > <img src="/../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
   <div class='w3-right w3-hide-small w3-wide toptext'>
   <div class="text-light">
         <a href="" class="me-4 text-reset text-decoration-none">
@@ -58,7 +58,7 @@
   <div style="overflow:auto;">
     <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
       <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
-      <a href='../default.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
+      <a href='/agile' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
       <a class="w3-bar-item w3-button" href='/linux' title='HTML Tutorial'>Linux</a>
       <a class="w3-bar-item w3-button" href='/aws' title='HTML Tutorial'>AWS</a>
       <a class="w3-bar-item w3-button" href='/docker' title='CSS Tutorial'>Docker</a>

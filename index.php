@@ -172,21 +172,21 @@
      <div class="col-lg-4 col-md-6">
         <div class="single-course-category">
            <div class="course-content">
-              <h3 class="course-category-title"> <a >Computer Science</a>  </h3>
+              <h3 class="course-category-title"> <a >Docker</a>  </h3>
            </div>
         </div>
      </div>
      <div class="col-lg-4 col-md-6">
         <div class="single-course-category">
            <div class="course-content">
-              <h3 class="course-category-title"> <a >Web Development</a>  </h3>
+              <h3 class="course-category-title"> <a >Jenkins</a>  </h3>
            </div>
         </div>
      </div>
      <div class="col-lg-4 col-md-6">
         <div class="single-course-category">
            <div class="course-content">
-              <h3 class="course-category-title"> <a >Data Science</a>  </h3>
+              <h3 class="course-category-title"> <a >GIT</a>  </h3>
            </div>
         </div>
      </div>    
@@ -196,21 +196,21 @@
     <div class="col-lg-4 col-md-6">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Engineering</a>  </h3>
+            <h3 class="course-category-title"> <a >API</a>  </h3>
          </div>
       </div>
    </div>
    <div class="col-lg-4 col-md-6">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Architecture</a>  </h3>
+            <h3 class="course-category-title"> <a >JSON</a>  </h3>
          </div>
       </div>
    </div>
    <div class="col-lg-4 col-md-6">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Art &amp; Design</a>  </h3>
+            <h3 class="course-category-title"> <a >PHP</a>  </h3>
          </div>
       </div>
    </div>
@@ -219,14 +219,14 @@
     <div class="col-lg-4 col-md-6">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Engineering</a>  </h3>
+            <h3 class="course-category-title"> <a >Kubernates</a>  </h3>
          </div>
       </div>
    </div>
    <div class="col-lg-4 col-md-6">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Architecture</a>  </h3>
+            <h3 class="course-category-title"> <a >Cloud Computing</a>  </h3>
          </div>
       </div>
    </div>
@@ -278,7 +278,11 @@
       color: #333;
   }
  
-  
+  .card-text{
+ white-space: nowrap;  
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  }
   
   </style>
 

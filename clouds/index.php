@@ -234,18 +234,24 @@
 
 <div class="container">
 <h2>What is Cloud Computing</h2>
-<p>Cloud computing refers to the storage and access of data and computing services over the Internet. </p>
-<p> It refers to the availability on demand of computer services such as servers, data storage, networks and databases.
-The main goal of cloud computing is to provide many users with access to data centers. Users can also access data stored on a remote server. </p>
 
+              <div class="container mb-2">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="bg-image">
+                      <img src="img/cloud-computing.PNG" alt="Cloud Computing">
+                    </div>  
+                  </div>
+                  <div class="col-md-6">
+                    <p>Cloud computing refers to the storage and access of data and computing services over the Internet. </p>
+                    <p>It refers to the availability on demand of computer services such as servers, data storage, networks and databases.
+                      The main goal of cloud computing is to provide many users with access to data centers. Users can also access data stored on a remote server.</p>
+                    </div>
+                </div>
+                </div>
 
-<div class="Cloud-Computing text-center" >
-  <img src="img/cloud-computing.PNG" alt="Cloud Computing" width="500">
-              <p> <strong>Cloud Computing</strong> </p>
-              </div>
-
-<div class="cloud-types">
-  <h3 title="Types of Clouds">Types of Clouds</h3>
+<div class="cloud-types mb-2">
+  <h2 title="Types of Clouds">Types of Clouds</h2>
   
   <ul>
     <li> Public Cloud</li>    
@@ -257,8 +263,8 @@ The main goal of cloud computing is to provide many users with access to data ce
   
 </div>
 
-<div class="cloud-public">
-  <h3>Public Cloud</h3>
+<div class="cloud-public mb-2">
+  <h4>Public Cloud</h4>
   <p>
   The public cloud is available to everyone for data storage and access over the Internet. It employs the pay-as-you-go model, with the computing resources managed and managed by the cloud service provider (CSP).
   </p>  
@@ -269,17 +275,14 @@ The main goal of cloud computing is to provide many users with access to data ce
   
 </div>
 <div class="cloud-private">
-  <h3>Private Cloud</h3>
+  <h4>Private Cloud</h4>
   <p>
   The private cloud model is a unique, secure, and adaptable cloud model. It can only be accessed by a single company or organisation.
 Organizations use the private cloud (internal cloud/corporate cloud) to develop and manage data centers internally or through a third party. It is built with open source tools like Eucalyptus and OpenStack.
-  </p>  
-
-
-  
+  </p>   
 </div>
 <div class="cloud-hybrid">
-  <h3>Hybrid Cloud</h3>
+  <h4>Hybrid Cloud</h4>
   <p>
   A hybrid cloud is one that combines public and private clouds.
 The main objective of combining these cloud services (public and private) is to create a unified, automated and well-managed computing environment.
@@ -288,8 +291,8 @@ Because of this configuration, the hybrid cloud is only partially secure. The pu
 
   
 </div>
-<div class="cloud-community">
-  <h3>Community Cloud</h3>
+<div class="cloud-community mb-2">
+  <h4>Community Cloud</h4>
   <p>
   A community cloud is a cloud infrastructure that enables a group of organizations to share information by making systems and services available. It is owned, managed, and operated by one or more community organizations, a third party, or a combination of these.
   </p>  
@@ -298,7 +301,7 @@ Because of this configuration, the hybrid cloud is only partially secure. The pu
 </div>
 </div>
 
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
     <h2>Types of Cloud Computing Services</h2>
     <ul>
@@ -310,9 +313,9 @@ Because of this configuration, the hybrid cloud is only partially secure. The pu
   </div>
 </div>
 
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
-    <h3>Software as a Service (SaaS)</h3>
+    <h4>Software as a Service (SaaS)</h4>
     <p>
     SaaS (also known as cloud application services) is mainly used to run applications directly through the web browser instead of downloading and installing them.
     </p>
@@ -320,18 +323,18 @@ Because of this configuration, the hybrid cloud is only partially secure. The pu
     <p >Dropbox, Google Apps, Slack, Hubspot, Salesforce, Cisco WebEx, and other services are examples.</p>
   </div>
 </div>
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
-    <h3>Software as a Service (SaaS)</h3>
+    <h4>Software as a Service (SaaS)</h4>
     <p>
     SaaS (also known as cloud application services) is mainly used to run applications directly through the web browser instead of downloading and installing them.
     </p>    
     <p >Dropbox, Google Apps, Slack, Hubspot, Salesforce, Cisco WebEx, and other services are examples.</p>
   </div>
 </div>
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
-    <h3>Platform as a Service (PaaS)</h3>
+    <h4>Platform as a Service (PaaS)</h4>
     <p>
     PaaS (cloud platform services) is similar to SaaS in that it provides a platform for software development.
     </p>
@@ -339,9 +342,9 @@ Because of this configuration, the hybrid cloud is only partially secure. The pu
     <p >Examples include Windows Azure, Magento Commerce Cloud, Force.com, OpenShift, and others.</p>
   </div>
 </div>
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
-    <h3>Infrastructure as a Service (IaaS)</h3>
+    <h4>Infrastructure as a Service (IaaS)</h4>
     <p>
     Infrastructure as a Service (IaaS) cloud infrastructure services are comprised of highly scalable and automated computing resources.
 Infrastructure as a Service is a service provided by cloud service providers that allows customers to access and monitor computers, networks, and other services. IaaS enables customers to purchase resources on demand instead of purchasing expensive and difficult to maintain hardware.
@@ -349,9 +352,9 @@ Infrastructure as a Service is a service provided by cloud service providers tha
     <p >Google Compute Engine (GCE), AWS EC2, Cisco Metapod, and other services are examples.</p>
   </div>
 </div>
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
-    <h3>Functions as a Service (FaaS)</h3>
+    <h4>Functions as a Service (FaaS)</h4>
     <p>
     FaaS is a brand new and very young cloud computing service that is changing many businesses. It is a serverless computing concept that enables software developers to build applications and deploy a single "function," business logic, or action without the need for a server. This improves efficiency because developers do not have to worry about server operations as they are hosted elsewhere.
     </p>    
@@ -360,7 +363,7 @@ Infrastructure as a Service is a service provided by cloud service providers tha
 </div>
 
 
-<div class="container">
+<div class="container mb-2">
   <div class="cloud-types">
     <h2 class="mt-3">Advantages of Cloud Computing</h2>
     <div class="container">

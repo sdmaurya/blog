@@ -234,14 +234,29 @@
 
 <div class="container">
 <h2>What is DevOps?</h2>
-<p>DevOps is a set of practises, methodologies, and tools that bring together development (dev) and IT operations (ops)
+<!-- <p>DevOps is a set of practises, methodologies, and tools that bring together development (dev) and IT operations (ops)
     to improve an organization's ability to deliver superior software solutions, applications, and other digital products at a much faster pace.
     </p>
 
 <div class="Cloud-Computing text-center" >
   <img src="img/devops.jpg" alt="Devops" width="500">
               <p> <strong>Devops</strong> </p>
-              </div>
+              </div> -->
+
+              <div class="container mb-2">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="bg-image">
+                      <img src="img/devops.jpg" alt="Cloud Computing">
+                    </div>  
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <p>DevOps is a set of practises, methodologies, and tools that bring together development (dev) and IT operations (ops)
+                      to improve an organization's ability to deliver superior software solutions, applications, and other digital products at a much faster pace.
+                      </p>
+                </div>
+                </div>
+                </div>
 
 <div class="devops-benefite">
   <h3 title="What Is DevOps Lifecycle?">What Is DevOps Lifecycle?</h3>

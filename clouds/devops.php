@@ -216,7 +216,7 @@
 <div class='w3-sidebar w3-collapse' id='sidenav'>
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
-<h2 class="left"><span class="left_h2">Cloud Computing</span> Tutorial</h2>
+<h2 class="left"><span class="left_h2">Cloud Computing</span></h2>
 <a target="_top" href="http://temp.co/clouds/">Cloud Computing Introduction</a>
 <a target="_top" href="devops.php" title="Devops Tutorial">Devops</a>
 

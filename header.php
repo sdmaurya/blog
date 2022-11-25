@@ -26,7 +26,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">
         <div class="container-fluid">
           <img src="img/lo.png" alt="digitalcotech.com">
-          <a class="navbar-brand" href="#"><span class="h1 text-danger">D</span><span class="h4 text-warning">igitalCoTech</span></a>
+          <!-- <a class="navbar-brand" href="/"><span class="h1 text-danger">D</span><span class="h4 text-warning">igitalCoTech</span></a> -->
+          <a class="navbar-brand" href="/"><span class="h2 text-warning">Digitalcotech</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

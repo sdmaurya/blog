@@ -2,14 +2,12 @@
       <!-- Footer -->
       <footer class="text-center text-lg-start text-light">
     <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
-      <!-- Left -->
+    <!-- <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
+   
       <div class="me-5 d-none d-lg-block">
         <span>Get connected with us on social networks:</span>
       </div>
-      <!-- Left -->
-  
-      <!-- Right -->
+     
       <div>
         <a  class="me-4 text-reset text-decoration-none">
           <i class="fab fa-facebook-f"></i>
@@ -30,12 +28,12 @@
           <i class="fab fa-github"></i>
         </a>
       </div>
-      <!-- Right -->
-    </section>
+
+    </section> -->
     <!-- Section: Social media -->
   
     <!-- Section: Links  -->
-    <section class="">
+    <section class="pt-3">
       <div class="container text-center text-md-start mt-3 mb-0">
         <!-- Grid row -->
         <div class="row mt-3">
@@ -53,7 +51,7 @@
           <!-- Grid column -->
   
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+          <div class="footer-content col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               Products
@@ -74,7 +72,7 @@
           <!-- Grid column -->
   
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+          <div class="footer-content col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
             TERMS
@@ -93,7 +91,7 @@
           <!-- Grid column -->
   
           <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div class="footer-content col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
             <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>

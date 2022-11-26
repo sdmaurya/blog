@@ -59,7 +59,7 @@
     </div>
   </div>
 </div>
-<div class="container2 container  p-5 text-center">
+<div class="container2 container  p-5 pb-0 text-center ">
   <div class="row">
     <div class="col-md-4">
       <div class="card" >
@@ -94,146 +94,87 @@
   </div>
 </div>
 
-<div class="container  p-5 text-center pb-0 pt-0 mt-0 mb-0">
+<div class="container  p-5 pt-0 pb-0 feat-course">
   <div class="row">
-<div class="elementor-widget-container">
-			
-  <div class="ts-section-title title-left">
-   <h2 class="section-title ">
-             <span class="sub-title">Featured Courses</span>
-             Pick a Course to Get Started
-                </h2>
-              <i class=""></i>
-                 
+    <div class="col-md-12">
+      <span class="sub-title text-left mb-2">Featured Courses</span>
+      <h2 class="section-title">      
+        Pick a Course to Get Started
+           </h2>         
+    </div>
   </div>
-   
-       </div>
-       </div>
        </div>
        
-       <style>
-      .sub-title {
-    /* color: #777;
-    font-family: "Rubik",Sans-serif;
-    font-weight: 400; */
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 23px;
-    margin: 0px 0px 10px 0px;
-  }
-
-  .ts-section-title .sub-title {
-    margin: 0;
-}
-
-.section-title {
-  text-align: left;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-}
-.ts-section-title .section-title {
-    margin-bottom: 20px;
-   
-}
-
-.elementor-1766  .sub-title {
-    color: #777;
-    font-family: "Rubik",Sans-serif;
-    font-weight: 400;
-}
-.ts-section-title .section-title span {
-    color: #333;
-    text-align: left;
-    margin-bottom: 15px;
-}
-.sub-title {
-    display: block;
-    font-size: 17px;
-    color: #555;
-}
-       </style>
-       <!-- <style>
-        
 
 
- .ts-section-title .section-title {
-    margin: 0;
-}
 
-
-  .ts-section-title .sub-title {
-    margin: 0;
-}
-
-       </style> -->
-<div class="container2 container  p-5 text-center">
-  <div class="row mb-5">
-     <div class="col-lg-4 col-md-6">
+<div class="container   p-5 text-center">
+  <div class="row">
+     <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
         <div class="single-course-category">
            <div class="course-content">
-              <h3 class="course-category-title"> <a >Docker</a>  </h3>
+              <h3 class="course-category-title"> <a href="/docker">Docker</a>  </h3>
            </div>
         </div>
      </div>
-     <div class="col-lg-4 col-md-6">
+     <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
         <div class="single-course-category">
            <div class="course-content">
-              <h3 class="course-category-title"> <a >Jenkins</a>  </h3>
+              <h3 class="course-category-title"> <a href="/linux">Linux</a>  </h3>
            </div>
         </div>
      </div>
-     <div class="col-lg-4 col-md-6">
+     <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
         <div class="single-course-category">
            <div class="course-content">
-              <h3 class="course-category-title"> <a >GIT</a>  </h3>
+              <h3 class="course-category-title"> <a href="/git">GIT</a>  </h3>
            </div>
         </div>
      </div>    
   </div>
 
-  <div class="row mb-5">
-    <div class="col-lg-4 col-md-6">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >API</a>  </h3>
+            <h3 class="course-category-title"> <a href="/api">API</a>  </h3>
          </div>
       </div>
    </div>
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >JSON</a>  </h3>
+            <h3 class="course-category-title"> <a href="/json">JSON</a>  </h3>
          </div>
       </div>
    </div>
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >PHP</a>  </h3>
+            <h3 class="course-category-title"> <a href="/html">Html</a>  </h3>
          </div>
       </div>
    </div>
   </div>
   <div class="row">
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Kubernates</a>  </h3>
+            <h3 class="course-category-title"> <a href="/blockchain">Blockchain</a>  </h3>
          </div>
       </div>
    </div>
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Cloud Computing</a>  </h3>
+            <h3 class="course-category-title"> <a href="/clouds">Cloud Computing</a>  </h3>
          </div>
       </div>
    </div>
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
       <div class="single-course-category">
          <div class="course-content">
-            <h3 class="course-category-title"> <a >Art &amp; Design</a>  </h3>
+            <h3 class="course-category-title"> <a href="/aws">AWS</a>  </h3>
          </div>
       </div>
    </div>
@@ -245,6 +186,7 @@
 <style>
  .single-course-category {
       text-align: left;
+      text-decoration: none;
       padding: 28px;
       border-style: solid;
       border-width: 2px;
@@ -253,6 +195,7 @@
   }
  .single-course-category:hover {
     background-color: #0eb582;
+    color: black !important;
 }
   .ts-course-category .single-course-category {
       padding: 20px;
@@ -273,9 +216,18 @@
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
   }
+  .course-category-title a{
+    text-decoration: none;
+  }
+  
+  .course-category-title a:hover{
+    text-decoration: none;
+    color: #333;
+  }
   
   .ts-course-category .single-course-category .course-category-title a {
       color: #333;
+      text-decoration: none;
   }
  
   .card-text{

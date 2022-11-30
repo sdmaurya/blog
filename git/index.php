@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">GIT</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/git/">GIT Introduction</a>
+<a target="_top" href="https://digitalcotech.com/git/">GIT Introduction</a>
 <a target="_top" href="git_installation.php" title="Installing Git">Git Installation</a>
 <a target="_top" href="git_command.php" title="GIT Commands List">GIT Commands</a>
 

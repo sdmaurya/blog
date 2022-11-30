@@ -282,7 +282,7 @@
 <div class="container mt-2">
   <div class="digital-link mt-2">
     <h4>You Might Like:</h4>
-    <div><a href="http://myblog.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
+    <div><a href="https://digitalcotech.com/blockchain/" title="What is Blockchain">What is Blockchain</a></div>
     <div> <a href="cryptocurrency_intro.php" title="What is cryptocurrency">What is cryptocurrency</a></div>
 
   </div>

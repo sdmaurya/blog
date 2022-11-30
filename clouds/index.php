@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Cloud Computing</span></h2>
-<a target="_top" href="http://temp.co/clouds/">Cloud Computing Introduction</a>
+<a target="_top" href="https://digitalcotech.com/clouds/">Cloud Computing Introduction</a>
 <a target="_top" href="devops.php" title="Devops Tutorial">Devops</a>
 
 

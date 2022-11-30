@@ -216,9 +216,9 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Agile</span> Tutorial</h2>
-<a target="_top" href="http://temp.co/agile/">Agile Introduction</a>
-<a target="_top" href="http://temp.co/agile/scrum.php">Scrum</a>
-<a target="_top" href="http://temp.co/agile/daily-scrum.php">Daily Scrum</a>
+<a target="_top" href="https://digitalcotech.com/agile/">Agile Introduction</a>
+<a target="_top" href="https://digitalcotech.com/agile/scrum.php">Scrum</a>
+<a target="_top" href="https://digitalcotech.com/agile/daily-scrum.php">Daily Scrum</a>
 
 
 

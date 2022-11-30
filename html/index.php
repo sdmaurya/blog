@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
     <h2 class="left"><span class="left_h2">HTML</span> Tutorial</h2>
-<a target="_top" href="http://myblog.com/docker/">HTML Introduction</a>
+<a target="_top" href="https://digitalcotech.com/docker/">HTML Introduction</a>
 <a target="_top" href="html_editor.php" title="HTML Editors">HTML Editors</a>
 <a target="_top" href="html_basic.php" title="HTML Basic">HTML Basic</a>
 <a target="_top" href="html_elements.php" title="HTML Elements">HTML Elements</a>

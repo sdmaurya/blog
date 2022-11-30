@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
-<a target="_top" href="http://temp.co/docker/">Docker Introduction</a>
+<a target="_top" href="https://digitalcotech.com/docker/">Docker Introduction</a>
 <a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
 <a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
 <a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>

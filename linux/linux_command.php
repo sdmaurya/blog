@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Linux</span> Tutorial</h2>
-<a target="_top" href="http://temp.co/linux/index.php">Linux Introduction</a>
+<a target="_top" href="https://digitalcotech.com/linux/index.php">Linux Introduction</a>
 <a target="_top" href="linux_command.php" title="Linux Commands List">Linux Commands</a>
 
 

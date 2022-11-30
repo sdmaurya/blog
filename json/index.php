@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
     <h2 class="left"><span class="left_h2">JSON</span> Tutorial</h2>
-<a target="_top" href="http://temp.co/json/">JSON Introduction</a>
+<a target="_top" href="https://digitalcotech.com/json/">JSON Introduction</a>
 <a target="_top" href="json_datatypes.php" title="JSON Data Types">JSON Data Types</a>
 
 

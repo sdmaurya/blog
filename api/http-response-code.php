@@ -217,7 +217,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">API </span> Tutorial</h2>
-<a target="_top" href="http://temp.co/api/index.php">Api Introduction</a>
+<a target="_top" href="https://digitalcotech.com/api/index.php">Api Introduction</a>
 <a target="_top" href="restful.php">RESTFUL API</a>
 <a target="_top" href="api-testing.php">API Testing</a>
 <a target="_top" href="http-method.php">HTTP METHOD</a>

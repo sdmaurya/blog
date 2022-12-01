@@ -25,13 +25,21 @@
     
 <div class="container  p-5 text-center "> 
   <div class="row h-100" >
-    
+  <?php
+if(isset($_SESSION['flash_message'])) {
+    $message = $_SESSION['flash_message'];
+    unset($_SESSION['flash_message']);
+    echo "<div class='d-flex justify-content-center'>
+      <div>.$message.</div>
+  </div>";
+}
+?>
     <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4 m-0 todo-form" style="margin-top: -2%;">
         <div class="card mx-auto" style="border-radius: 1rem;" id="cardcomm">
         <div class="row g-0">
             <div class="col-md-12  d-flex align-items-center">
                 <div class="card-body p-4 text-black">
-                    <form name="data" class="Scrumlog" action="" method="POST" id="addproject" enctype="multipart/form-data">              
+                    <form name="data" class="Scrumlog" action="send.php" method="POST" id="addproject" enctype="multipart/form-data">              
                 
                    <div class="alert alert-warning alert-dismissible fade show text-center" role="alert" style="border-radius: unset;">
                     <p class="mb-0"><strong>Contact DigitalCoTech<strong></p>

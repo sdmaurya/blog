@@ -1,4 +1,6 @@
-
+<?php 
+include('../central.php');
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -217,7 +219,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Agile</span> Tutorial</h2>
-<a target="_top" href="https://digitalcotech.com/agile/">Agile Introduction</a>
+<a target="_top" href="https://digitalcotech.com/agile/index.php">Agile Introduction</a>
 <a target="_top" href="https://digitalcotech.com/agile/scrum.php">Scrum</a>
 <a target="_top" href="https://digitalcotech.com/agile/daily-scrum.php">Daily Scrum</a>
 
@@ -245,7 +247,7 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 
 <div class="container">
   <div class="row">
-    <img src="img/dailyscrummeeting.PNG" alt="Daily Scrum Meeting">
+    <img src="<?= URL(); ?>/agile/img/dailyscrummeeting.PNG" alt="Daily Scrum Meeting">
     <strong class="Scrum Meeting text-center">Scrum Meeting</strong>
   </div>
 </div>

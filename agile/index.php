@@ -1,4 +1,6 @@
-
+<?php 
+include('../central.php');
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -217,7 +219,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Agile</span> Tutorial</h2>
-<a target="_top" href="https://digitalcotech.com/agile/">Agile Introduction</a>
+<a target="_top" href="https://digitalcotech.com/agile/index.php">Agile Introduction</a>
 <a target="_top" href="https://digitalcotech.com/agile/scrum.php">Scrum</a>
 <a target="_top" href="https://digitalcotech.com/agile/daily-scrum.php">Daily Scrum</a>
 
@@ -240,8 +242,8 @@
 Agile is an iterative approach to project management and software development that enables teams to deliver value to customers faster and with fewer headaches. An agile team delivers work in small, but consumable, increments, rather than go all-in on a "big bang" release. Continuous evaluation of requirements, plans, and deliverables provides teams with a natural mechanism to respond quickly to change.</p>
 
             <div class="container">
-              <div class="row mb-0">
-                <img src="img/Agile-Methodology.PNG" alt="Agile-Methodology">
+              <div class="row mb-0">          
+                <img src="<?= URL(); ?>/agile/img/Agile-Methodology.png" alt="Agile-Methodology">
                 <strong class="Agile-Methodology text-center">Agile Methodology</strong>
               </div>
             </div>

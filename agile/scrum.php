@@ -1,4 +1,6 @@
-
+<?php 
+include('../central.php');
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -216,7 +218,7 @@
   <div id='leftmenuinner'>
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Agile</span> Tutorial</h2>
-<a target="_top" href="https://digitalcotech.com/agile/">Agile Introduction</a>
+<a target="_top" href="https://digitalcotech.com/agile/index.php">Agile Introduction</a>
 <a target="_top" href="https://digitalcotech.com/agile/scrum.php">Scrum</a>
 <a target="_top" href="https://digitalcotech.com/agile/daily-scrum.php">Daily Scrum</a>
 
@@ -260,7 +262,7 @@ Agile is an iterative approach to project management and software development th
 
 <div class="container">
   <div class="row">
-    <img src="img/scrum.PNG" alt="What is Scrum">
+    <img src="<?= URL(); ?>/agile/img/scrum.PNG" alt="What is Scrum">
     <strong class="Scrum text-center">The Scrum Method</strong>
   </div>
 </div>

@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="style.css" rel="stylesheet" >
     <link href="bootstrap.min.css" rel="stylesheet" >
-    <!-- <link  href="font/css/all.min.css" rel="stylesheet" > -->
+    <link  href="font/css/all.min.css" rel="stylesheet" >
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(){
         /////// Prevent closing from click inside dropdown
@@ -25,7 +25,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">
         <div class="container-fluid">
-          <img src="img/lo.png" alt="digitalcotech.com">
+          <img src="img/lo.png" class="digitalcotech-logo" alt="digitalcotech.com">
           <!-- <a class="navbar-brand" href="/"><span class="h1 text-danger">D</span><span class="h4 text-warning">igitalCoTech</span></a> -->
           <a class="navbar-brand" href="/"><span class="h2 text-warning">Digitalcotech</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                    
                       <div class="col-megamenu">
-                        <h4 class="title">Frontend</h4>
+                        <h3 class="title">Frontend</h3>
                         <ul class="list-unstyled">
                           <li><a href="/html">HTML</a></li>
                           <li><a href="#">CSS</a></li>
@@ -64,7 +64,7 @@
                     </div><!-- end col-3 -->
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h4 class="title">Backend</h4>
+                        <h3 class="title">Backend</h3>
                         <ul class="list-unstyled">
                           <li><a href="/php">PHP</a></li>
                           <li><a href="/python">PYTHON</a></li>                         
@@ -73,7 +73,7 @@
                     </div><!-- end col-3 -->
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h4 class="title">Cloud & Devops</h4>
+                        <h3 class="title">Cloud & Devops</h3>
                         <ul class="list-unstyled">
                           <li><a href="/clouds">CLOUD COMPUTING</a></li>
                           <li><a href="/docker">DOCKER</a></li>
@@ -85,7 +85,7 @@
                     </div>    
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h4 class="title">Others</h4>
+                        <h3 class="title">Others</h3>
                         <ul class="list-unstyled">
                           <li><a href="/blockchain">BLOCKCHAIN</a></li>                          
                         </ul>
@@ -100,7 +100,7 @@
         </div>
       </nav>
 
-      <!-- <div class="social">
+      <div class="social">
       <ul class="scl">
       
         <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i></a></li>
@@ -110,4 +110,4 @@
         <li><a href="#" class="scls"><i class="fab fa-github"></i></a></li>
         <li><a href="#" class="scls"><i class="fab fa-youtube"></i></a></li>
       </ul>
-    </div> -->
+    </div>

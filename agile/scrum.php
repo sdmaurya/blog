@@ -262,7 +262,7 @@ Agile is an iterative approach to project management and software development th
 
 <div class="container">
   <div class="row">
-    <img src="<?= URL(); ?>/agile/img/scrum.PNG" alt="What is Scrum">
+    <img src="<?= URL(); ?>/agile/img/scrum.png" alt="What is Scrum">
     <strong class="Scrum text-center">The Scrum Method</strong>
   </div>
 </div>

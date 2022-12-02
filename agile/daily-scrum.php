@@ -247,7 +247,7 @@ The Development Team uses the Daily Scrum, a timed 15-minute meeting, to coordin
 
 <div class="container">
   <div class="row">
-    <img src="<?= URL(); ?>/agile/img/dailyscrummeeting.PNG" alt="Daily Scrum Meeting">
+    <img src="<?= URL(); ?>/agile/img/dailyscrummeeting.png" alt="Daily Scrum Meeting">
     <strong class="Scrum Meeting text-center">Scrum Meeting</strong>
   </div>
 </div>

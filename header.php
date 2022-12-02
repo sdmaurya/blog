@@ -106,11 +106,11 @@ session_start();
       <div class="social">
       <ul class="scl">
       
-        <li><a href="#" class="scls"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/people/Digitalcotech/100088403738077/?is_tour_completed=true" class="scls"><i class="fab fa-facebook-f"></i></a></li>
+        <!-- <li><a href="#" class="scls"><i class="fab fa-twitter"></i></a></li> -->
+        <li><a href="https://www.instagram.com/digitalcotech/" class="scls"><i class="fab fa-instagram"></i></a></li>
         <li><a href="#" class="scls"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-github"></i></a></li>
-        <li><a href="#" class="scls"><i class="fab fa-youtube"></i></a></li>
+        <!-- <li><a href="#" class="scls"><i class="fab fa-github"></i></a></li> -->
+        <li><a href="https://www.youtube.com/@digitalcotech/channels" class="scls"><i class="fab fa-youtube"></i></a></li>
       </ul>
     </div>

@@ -165,19 +165,19 @@ footer{
 .social li:nth-child(1) a{
   background: #4267B2;
 }
-.social li:nth-child(2) a{
+/* .social li:nth-child(2) a{
   background: #1DA1F2;
-}
-.social li:nth-child(3) a{
+} */
+.social li:nth-child(2) a{
   background: #E1306C;
 }
-.social li:nth-child(4) a{
+.social li:nth-child(3) a{
   background: #2867B2;
 }
-.social li:nth-child(5) a{
+/* .social li:nth-child(5) a{
   background: #333;
-}
-.social li:nth-child(6) a{
+} */
+.social li:nth-child(4) a{
   background: #ff0000;
 }
 .social li a i{

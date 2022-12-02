@@ -1,10 +1,8 @@
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader
 require './vendor/autoload.php';
 require 'cred.php';
 
@@ -26,22 +24,16 @@ try {
     //Server settings
     $mail->IsSMTP();
     $mail->Host = 'smtp.gmail.com';
-
-			$mail->SMTPAuth = true;			                     
-                          
+    $mail->SMTPAuth = true;		                                             
     $mail->Username   = Username;                     
-    $mail->Password   = Password;                          
-                       
-    $mail->SMTPSecure = 'tls';           
-    // $mail->SMTPSecure = '';
-    $mail->Port       = 587;                                 
-    // $mail->SMTPDebug = 2;  
-    //Recipients
+    $mail->Password   = Password;                                               
+    $mail->SMTPSecure = 'tls';         
+    $mail->Port       = 587;                           
     $mail->setFrom(Username);
-    $mail->addAddress('surendradkdev@gmail.com');     //Add a recipient
-   
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
+    $mail->addAddress('surendradkdev@gmail.com');   
+    $mail->addCC('granjeet937@gmail.com');     
+    $mail->isHTML(true);                                
+    $mail->Subject = $subject;
     $mail->Body    = "<html>
     <head>
           <title>DigitalCoTech</title>
@@ -79,7 +71,8 @@ try {
     header("Location:contact-us.php");
 // echo "<script> location.href='/contact-us.php'<script>";
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    $_SESSION['flash_message'] = "Message could not be sent.";
+    header("Location:contact-us.php");
 }
 }
 ?>

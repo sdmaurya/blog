@@ -297,7 +297,7 @@ Epics are almost always delivered in the form of a series of sprints. User stori
 
             <div class="container">
               <div class="row">
-                <img src="img/EPIC-WBS.PNG" alt="Agile-Methodology">
+                <img src="<?= URL(); ?>/agile/img/EPIC-WBS.png" alt="Agile-Methodology">             
                 <strong class="Agile-Methodology text-center">Epic WBS</strong>
               </div>
             </div>

@@ -41,7 +41,7 @@
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4">
-            <img src="img/lo.png" style="width:7%" class="digitalcotech-logo" alt="digitalcotech.com"> &nbsp;DigitalCoTech
+            <img src="/img/lo.png" style="width:7%" class="digitalcotech-logo" alt="digitalcotech.com"> &nbsp;DigitalCoTech
             </h6>
             <p>
             Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.Use our platform to learn or enhance your skills, and it keeps students and professionals up-to-date with the latest developments in the technology industry.

@@ -7,10 +7,14 @@ session_start();
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript,Clouds,Devops,Agile,Linux,Git,Jenkins,Blockchain">
+    <meta name="author" content="Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.
+Use our platform to learn or enhance your skills, and keeps students and professionals up-to-date with the latest developments in the technology industry.
+">
     <!-- Bootstrap CSS -->
     <link href="style.css" rel="stylesheet" >
-    <link href="bootstrap.min.css" rel="stylesheet" >
+    <link href="bootstrap.min.css" rel="stylesheet" > 
     <link  href="font/css/all.min.css" rel="stylesheet" >
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(){
@@ -23,7 +27,11 @@ session_start();
     }); 
 	// DOMContentLoaded  end
 </script>
-    <title>DigitalCoTech Online Web Tutorials</title>
+    <title>
+Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.
+Use our platform to learn or enhance your skills, and keeps students and professionals up-to-date with the latest developments in the technology industry.
+
+</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">

@@ -40,7 +40,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-2">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-warning">
             <img src="/img/lo.png" style="width:7%" class="digitalcotech-logo" alt="digitalcotech.com"> &nbsp;DigitalCoTech
             </h6>
             <p>

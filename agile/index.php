@@ -28,24 +28,18 @@ include('../central.php');
   <!-- <a class='w3schools-logo notranslate' href='../index.html'>D<span class='dotcom'>igitalCoTech</span></a> -->
     <a class='w3schools-logo ' href='/'> <span > <img src="/../img/lo.png" alt=""></span> <span class="h1 text-danger">D</span><span class='dotcom h4 text-warning'>igitalCoTech</span></a>
   <div class='w3-right w3-hide-small w3-wide toptext'>
-  <div class="text-light">
-        <a href="" class="me-4 text-reset text-decoration-none">
+<div class="text-light">
+        <a href="https://www.facebook.com/people/Digitalcotech/100088403738077/?is_tour_completed=true" class="me-4 text-reset text-decoration-none">
           <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset text-decoration-none">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset text-decoration-none">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset text-decoration-none">
+        </a>        
+        <a href="https://www.instagram.com/digitalcotech/" class="me-4 text-reset text-decoration-none">
           <i class="fab fa-instagram"></i>
         </a>
         <a href="" class="me-4 text-reset text-decoration-none">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="" class="me-4 text-reset text-decoration-none">
-          <i class="fab fa-github"></i>
+        <a href="https://www.youtube.com/@digitalcotech/channels" class="me-4 text-reset text-decoration-none">
+          <i class="fab fa-youtube"></i>
         </a>
       </div>
   </div>

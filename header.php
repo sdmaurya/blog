@@ -5,13 +5,33 @@ session_start();
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <title>
+    Digitalcotech
+</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript,Clouds,Devops,Agile,Linux,Git,Jenkins,Blockchain">
+  <meta name="keywords" content="Digitalcotech, Html tutorial, linux tutorial, beginners, professionals, Blockchain, Agile, Aws tutorial">
     <meta name="author" content="Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.
 Use our platform to learn or enhance your skills, and keeps students and professionals up-to-date with the latest developments in the technology industry.
 ">
+<link rel="apple-touch-icon" sizes="57x57" href="image/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="image/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="image/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="image/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="image/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="image/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="image/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="image/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="image/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="image/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="image/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+<link rel="manifest" href="image/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="image/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
     <!-- Bootstrap CSS -->
     <link href="style.css" rel="stylesheet" >
     <link href="bootstrap.min.css" rel="stylesheet" > 
@@ -27,11 +47,7 @@ Use our platform to learn or enhance your skills, and keeps students and profess
     }); 
 	// DOMContentLoaded  end
 </script>
-    <title>
-Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.
-Use our platform to learn or enhance your skills, and keeps students and professionals up-to-date with the latest developments in the technology industry.
-
-</title>
+    
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">

@@ -4,6 +4,16 @@ session_start();
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZXYD6YL56"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6ZXYD6YL56');
+</script> -->
+<meta name="google-site-verification" content="d4h29-qQsuc3zcbGtvJZ8Oxtv0oJKdpGEjZ3shxzp5Q" />
     <!-- Required meta tags -->
     <title>
     Digitalcotech
@@ -80,40 +90,45 @@ Use our platform to learn or enhance your skills, and keeps students and profess
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                    
                       <div class="col-megamenu">
-                        <h3 class="title">Frontend</h3>
+                        <!-- <h3 class="title">Frontend</h3> -->
                         <ul class="list-unstyled">
                           <li><a href="/html">HTML</a></li>
-                          <li><a href="#">CSS</a></li>
+                          <li><a href="/git">Git</a></li>  
+                          <!-- <li><a href="#">CSS</a></li>
                           <li><a href="#">JAVASCRIPT</a></li>
-                          <li><a href="#">BOOTSTRAP</a></li>                        
+                          <li><a href="#">BOOTSTRAP</a></li>                         -->
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h3 class="title">Backend</h3>
+                        <!-- <h3 class="title">Backend</h3> -->
                         <ul class="list-unstyled">
-                          <li><a href="/php">PHP</a></li>
-                          <li><a href="/python">PYTHON</a></li>                         
+                        <li><a href="/agile">AGILE</a></li>
+                          <li><a href="/linux">LINUX</a></li>  
+                          <!-- <li><a href="/php">PHP</a></li>
+                          <li><a href="/python">PYTHON</a></li>                          -->
                         </ul>
                       </div>  
                     </div><!-- end col-3 -->
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h3 class="title">Cloud & Devops</h3>
+                        <!-- <h3 class="title">Cloud & Devops</h3> -->
                         <ul class="list-unstyled">
-                          <li><a href="/clouds">CLOUD COMPUTING</a></li>
+               
+                          <li><a href="/json">Json</a></li>
                           <li><a href="/docker">DOCKER</a></li>
-                          <li><a href="/jenkins">JENKINS</a></li>
+                          <!-- <li><a href="/jenkins">JENKINS</a></li> -->
                           <li><a href="/agile">AGILE</a></li>
-                          <li><a href="/linux">LINUX</a></li>                      
+                                           
                         </ul>
                       </div>  
                     </div>    
                     <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
                       <div class="col-megamenu">
-                        <h3 class="title">Others</h3>
+                        <!-- <h3 class="title">Others</h3> -->
                         <ul class="list-unstyled">
+                        <li><a href="/clouds">CLOUD COMPUTING</a></li>
                           <li><a href="/blockchain">BLOCKCHAIN</a></li>                          
                         </ul>
                       </div>  

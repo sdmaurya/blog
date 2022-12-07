@@ -4,6 +4,7 @@ session_start();
 <!doctype html>
 <html lang="en">
   <head>
+  <title>Digitalcotech Online Learning Platform.</title>
     <!-- Google tag (gtag.js) -->
 <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZXYD6YL56"></script>
 <script>
@@ -12,12 +13,10 @@ session_start();
   gtag('js', new Date());
 
   gtag('config', 'G-6ZXYD6YL56');
-</script> -->
-<meta name="google-site-verification" content="d4h29-qQsuc3zcbGtvJZ8Oxtv0oJKdpGEjZ3shxzp5Q" />
+</script>
+<meta name="google-site-verification" content="d4h29-qQsuc3zcbGtvJZ8Oxtv0oJKdpGEjZ3shxzp5Q" /> -->
     <!-- Required meta tags -->
-    <title>
-    Digitalcotech
-</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Free Web tutorials">
@@ -119,7 +118,7 @@ Use our platform to learn or enhance your skills, and keeps students and profess
                           <li><a href="/json">Json</a></li>
                           <li><a href="/docker">DOCKER</a></li>
                           <!-- <li><a href="/jenkins">JENKINS</a></li> -->
-                          <li><a href="/agile">AGILE</a></li>
+                        
                                            
                         </ul>
                       </div>  

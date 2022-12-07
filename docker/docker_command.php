@@ -62,40 +62,39 @@
             <a class="w3-bar-item w3-button" id='topnavbtn_tutorials' href='javascript:void(0);' onclick='w3_open_nav("tutorials")' title='Tutorials'>MORE <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>
 
     </div>
-    <div id='nav_tutorials' class='w3-bar-block w3-card-2' style="display:none;">
+ <div id='nav_tutorials' class='w3-bar-block w3-card-2' style="display:none;">
       <span onclick='w3_close_nav("tutorials")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
       <div class='w3-row-padding' style="padding:24px 48px">
         <div class='w3-col l3 m6'>
-          <h3>HTML and CSS</h3>
-          <a class="w3-bar-item w3-button" href='default.html'>Learn HTML</a>
-          <a class="w3-bar-item w3-button" href='../css/default.html'>Learn CSS</a>
-          <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_ver.html'>Learn Bootstrap</a>     
+          <!-- <h3>HTML and CSS</h3> -->
+          <a class="w3-bar-item w3-button" href='/html'>HTML</a>
+          <a class="w3-bar-item w3-button" href='/git'>GIT</a>        
           <div class="w3-hide-large w3-hide-small">
-            <h3>XML</h3>
-            <a class="w3-bar-item w3-button" href='../xml/default.html'>Learn XML</a>
-            <a class="w3-bar-item w3-button" href='../xml/ajax_intro.html'>Learn XML AJAX</a>
-            <a class="w3-bar-item w3-button" href="../xml/dom_intro.html">Learn XML DOM</a>         
+            <!-- <h3>XML</h3> -->
+            <!-- <a class="w3-bar-item w3-button" href='/agile'>Agile</a>
+            <a class="w3-bar-item w3-button" href='/linux'>Linux</a>         -->
           </div>
         </div>
         <div class='w3-col l3 m6'>
-          <h3>JavaScript</h3>
-          <a class="w3-bar-item w3-button" href='../js/default.html'>Learn JavaScript</a>
-          <a class="w3-bar-item w3-button" href='../jquery/default.html'>Learn jQuery</a>
-          <a class="w3-bar-item w3-button" href='../react/default.html'>Learn React</a>          
+          <!-- <h3>JavaScript</h3> -->
+          <a class="w3-bar-item w3-button" href='/agile'>AGILE</a>
+            <a class="w3-bar-item w3-button" href='/linux'>LINUX</a>  
+             
         </div>
         <div class='w3-col l3 m6'>
-          <h3>Server Side</h3>
-          <a class="w3-bar-item w3-button" href='../sql/default.html'>Learn SQL</a>
-          <a class="w3-bar-item w3-button" href='../php/default.html'>Learn PHP</a>
-          <a class="w3-bar-item w3-button" href='../asp/default.html'>Learn ASP</a>
-          <a class="w3-bar-item w3-button" href='../nodejs/default.html'>Learn Node.js</a>
-          <a class="w3-bar-item w3-button" href='../nodejs/nodejs_raspberrypi.html'>Learn Raspberry Pi</a>                 
+          <!-- <h3>Server Side</h3> -->
+          <a class="w3-bar-item w3-button" href='/json'>JSON</a>
+          <a class="w3-bar-item w3-button" href='/docker'>DOCKER</a>            
         </div>
+        <!-- <div class='w3-col l3 m6 w3-hide-medium'>        
+          <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>
+            <a class="w3-bar-item w3-button" href='/blockchain'>BLOCKCHAIN</a>  
+        
+        </div> -->
         <div class='w3-col l3 m6 w3-hide-medium'>
-          <h3>XML</h3>
-          <a class="w3-bar-item w3-button" href='../xml/default.html'>Learn XML</a>
-          <a class="w3-bar-item w3-button" href='../xml/ajax_intro.html'>Learn XML AJAX</a>
-          <a class="w3-bar-item w3-button" href="../xml/dom_intro.html">Learn XML DOM</a>
+          <!-- <h3>XML</h3> -->
+          <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>
+            <a class="w3-bar-item w3-button" href='/blockchain'>BLOCKCHAIN</a>  
         
         </div>
       </div>

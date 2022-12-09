@@ -598,6 +598,11 @@ hr {
 }
 
 @media (max-width: 992px){
+  .footer-content p{
+    text-align: center;
+  }
+}
+@media (max-width: 992px){
 .top img {
     display: unset;
     margin: auto;

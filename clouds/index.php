@@ -234,7 +234,7 @@ include('../central.php');
                 <div class="row">
                   <div class="col-md-6">
                     <div class="bg-image">
-                      <img src="<?= URL(); ?>/clouds/img/cloud-computing.PNG" alt="Cloud Computing">
+                      <img src="<?= URL(); ?>/clouds/img/cloud-computing.png" alt="Cloud Computing">
                     </div>  
                   </div>
                   <div class="col-md-6">

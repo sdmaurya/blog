@@ -211,9 +211,9 @@
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
 <a target="_top" href="https://digitalcotech.com/docker/">Docker Introduction</a>
-<a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
-<a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
-<a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>
+<a target="_top" href="docker_installation" title="Installing Docker">Docker Installation</a>
+<a target="_top" href="docker_command" title="Docker Commands List">Docker Commands</a>
+<a target="_top" href="docker_file" title="Docker File Instruction List">Docker File</a>
 
       <br><br>
     </div>
@@ -295,7 +295,7 @@
 </div>
 
 </div>
-<?php include('../footer.php') ?>
+<?php include('../footer') ?>
 
 <script src="../lib/w3schools_footer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

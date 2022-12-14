@@ -212,9 +212,9 @@
     <div class='w3-light-grey' id='leftmenuinnerinner'>
 <h2 class="left"><span class="left_h2">Docker</span> Tutorial</h2>
 <a target="_top" href="https://digitalcotech.com/docker/">Docker Introduction</a>
-<a target="_top" href="docker_installation.php" title="Installing Docker">Docker Installation</a>
-<a target="_top" href="docker_command.php" title="Docker Commands List">Docker Commands</a>
-<a target="_top" href="docker_file.php" title="Docker File Instruction List">Docker File</a>
+<a target="_top" href="docker_installation" title="Installing Docker">Docker Installation</a>
+<a target="_top" href="docker_command" title="Docker Commands List">Docker Commands</a>
+<a target="_top" href="docker_file" title="Docker File Instruction List">Docker File</a>
 
 
       <br><br>
@@ -228,8 +228,8 @@
 <h1>Docker<span class="color_h1" title="Git Installation"> Installation</span></h1>
 
 <p>
-<a href="docker_ubuntu_installation.php" alt="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</a> &nbsp;&nbsp;&nbsp;
-<a href="docker_rhel_installation.php" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a>
+<a href="docker_ubuntu_installation" alt="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</a> &nbsp;&nbsp;&nbsp;
+<a href="docker_rhel_installation" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a>
 
 </p>
 
@@ -287,8 +287,8 @@
 <div class="container mb-0">
   <div class="digital-link mb-0">
    
-    <div> <a href="docker_ubuntu_installation.php" alt="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</a></div>
-    <div><a href="docker_rhel_installation.php" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a></div>
+    <div> <a href="docker_ubuntu_installation" alt="How to Install Docker on Ubuntu 22.04">Docker Installation in Ubuntu 22.04</a></div>
+    <div><a href="docker_rhel_installation" alt="How Install Docker on Reahat Linux , RHEL, Fedora">Docker RHEL Linux Installation</a></div>
 
   </div>
 
@@ -306,7 +306,7 @@
 </script>
 </div>
 </div>
-<?php include('../footer.php') ?>
+<?php include('../footer') ?>
 <script src="../lib/w3schools_footer.js"></script>
 </body>
 

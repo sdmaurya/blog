@@ -74,10 +74,10 @@ Use our platform to learn or enhance your skills, and keeps students and profess
                 </a>
               </li>     
               <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact-us">Contact</a>
+                <a class="nav-link" href="/contact-us.php">Contact</a>
               </li>      
               
               <li class="nav-item dropdown has-megamenu">

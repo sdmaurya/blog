@@ -97,7 +97,7 @@
             <p><i class="fas fa-home me-3"></i>  Mumbai Maharshtra</p>
             <p>
               <i class="fas fa-envelope me-3"></i>
-             <a href="/contact-us.php">Contact Form</a>
+             <a href="/contact-us.php" class="digital-contact">Contact Form</a>
             </p>
             <!-- <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
             <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->

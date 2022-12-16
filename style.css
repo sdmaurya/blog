@@ -118,6 +118,12 @@ footer{
 }
 
 @media(max-width: 768px){
+
+  
+  .list-unstyled {    
+    margin: 0;
+    padding: 0;
+}
 	
 	.col-md-4{
 		margin-bottom: 10%;

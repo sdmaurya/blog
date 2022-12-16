@@ -97,7 +97,7 @@
 <div class="container  p-5 pt-0 pb-0 feat-course">
   <div class="row">
     <div class="col-md-12">
-      <span class="sub-title text-left mb-2">Featured Courses</span>
+      <span class="sub-title text-left mb-2 h4 fw-bold">Featured Courses</span>
       <h2 class="section-title">      
         Pick a Course to Get Started
            </h2>         

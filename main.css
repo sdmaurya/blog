@@ -46,7 +46,9 @@ p{
 .left{
   color: #FFFFFF;
 }
-
+.digital-contact{
+  color: #18bc9c !important;
+}
 .w3-bar{
   background-color: #2f4a5e;
 }

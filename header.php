@@ -6,7 +6,7 @@ session_start();
   <head>
   <title>Digitalcotech Online Learning Platform.</title>
     <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZXYD6YL56"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZXYD6YL56"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -14,7 +14,7 @@ session_start();
 
   gtag('config', 'G-6ZXYD6YL56');
 </script>
-<meta name="google-site-verification" content="d4h29-qQsuc3zcbGtvJZ8Oxtv0oJKdpGEjZ3shxzp5Q" /> -->
+<meta name="google-site-verification" content="d4h29-qQsuc3zcbGtvJZ8Oxtv0oJKdpGEjZ3shxzp5Q" />
     <!-- Required meta tags -->
 
     <meta charset="utf-8">
@@ -47,14 +47,14 @@ Use our platform to learn or enhance your skills, and keeps students and profess
     <link  href="font/css/all.min.css" rel="stylesheet" >
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(){
-        /////// Prevent closing from click inside dropdown
+
         document.querySelectorAll('.dropdown-menu').forEach(function(element){
         	element.addEventListener('click', function (e) {
         		e.stopPropagation();
         	});
         })
     }); 
-	// DOMContentLoaded  end
+
 </script>
     
   </head>
@@ -62,7 +62,7 @@ Use our platform to learn or enhance your skills, and keeps students and profess
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-header sticky-top">
         <div class="container-fluid">
           <img src="img/lo.png" class="digitalcotech-logo" alt="digitalcotech.com">
-          <!-- <a class="navbar-brand" href="/"><span class="h1 text-danger">D</span><span class="h4 text-warning">igitalCoTech</span></a> -->
+         
           <a class="navbar-brand" href="/"><span class="h2 text-warning">Digitalcotech</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -74,10 +74,10 @@ Use our platform to learn or enhance your skills, and keeps students and profess
                 </a>
               </li>     
               <li class="nav-item">
-                <a class="nav-link" href="about.php">About</a>
+                <a class="nav-link" href="about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact-us.php">Contact</a>
+                <a class="nav-link" href="/contact-us">Contact</a>
               </li>      
               
               <li class="nav-item dropdown has-megamenu">
@@ -86,46 +86,42 @@ Use our platform to learn or enhance your skills, and keeps students and profess
                   <div class="container">
                   <div class="row g-0">
                   <h2 class="text-center">Tutorials List</h2>
-                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
+                    <div class="col-lg-3 col-md-6 col-xs-12">
                    
                       <div class="col-megamenu">
-                        <!-- <h3 class="title">Frontend</h3> -->
+            
                         <ul class="list-unstyled">
                           <li><a href="/html">HTML</a></li>
                           <li><a href="/git">Git</a></li>  
-                          <!-- <li><a href="#">CSS</a></li>
-                          <li><a href="#">JAVASCRIPT</a></li>
-                          <li><a href="#">BOOTSTRAP</a></li>                         -->
+                          
                         </ul>
                       </div>  
-                    </div><!-- end col-3 -->
-                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
                       <div class="col-megamenu">
-                        <!-- <h3 class="title">Backend</h3> -->
+               
                         <ul class="list-unstyled">
                         <li><a href="/agile">AGILE</a></li>
                           <li><a href="/linux">LINUX</a></li>  
-                          <!-- <li><a href="/php">PHP</a></li>
-                          <li><a href="/python">PYTHON</a></li>                          -->
+                          
                         </ul>
                       </div>  
-                    </div><!-- end col-3 -->
-                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-xs-12">
                       <div class="col-megamenu">
-                        <!-- <h3 class="title">Cloud & Devops</h3> -->
+                       
                         <ul class="list-unstyled">
                
                           <li><a href="/json">Json</a></li>
                           <li><a href="/docker">DOCKER</a></li>
-                          <!-- <li><a href="/jenkins">JENKINS</a></li> -->
+                         
                         
                                            
                         </ul>
                       </div>  
                     </div>    
-                    <div class="col-lg-3 col-md-6 col-xs-12 mb-3">
-                      <div class="col-megamenu">
-                        <!-- <h3 class="title">Others</h3> -->
+                    <div class="col-lg-3 col-md-6 col-xs-12">
+                      <div class="col-megamenu">                       
                         <ul class="list-unstyled">
                         <li><a href="/clouds">CLOUD COMPUTING</a></li>
                           <li><a href="/blockchain">BLOCKCHAIN</a></li>                          
@@ -145,10 +141,10 @@ Use our platform to learn or enhance your skills, and keeps students and profess
       <ul class="scl">
       
         <li><a href="https://www.facebook.com/people/Digitalcotech/100088403738077/?is_tour_completed=true" class="scls"><i class="fab fa-facebook-f"></i></a></li>
-        <!-- <li><a href="#" class="scls"><i class="fab fa-twitter"></i></a></li> -->
+  
         <li><a href="https://www.instagram.com/digitalcotech/" class="scls"><i class="fab fa-instagram"></i></a></li>
         <li><a href="" class="scls"><i class="fab fa-linkedin-in"></i></a></li>
-        <!-- <li><a href="#" class="scls"><i class="fab fa-github"></i></a></li> -->
+
         <li><a href="https://www.youtube.com/@digitalcotech/channels" class="scls"><i class="fab fa-youtube"></i></a></li>
       </ul>
     </div>

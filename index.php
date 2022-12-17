@@ -1,5 +1,8 @@
 <?php include('header.php') ?>
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
   <p class="mb-0"><strong>Thank you for contacting <b class="alert">DigitalCoTech..</b><strong></p>
 </div>
@@ -14,10 +17,10 @@
                     <div class="text-white">
                         <h2 class="mb-3 mt-3" style="background-color: rgba(0, 0, 0, 0.6);" >Learn to Code</h2>
                         <h4 class="mb-3">Master the Skills to Drive your Career.</h4>
-                        <form class="form-inline my-2 my-lg-0">
-                         <input class="form-control mr-sm-2 mb-3" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+                       
+                         <input class="form-control mr-sm-2 mb-3" type="search" id="tags" placeholder="Aws,Agile..." aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" id="digital-search" onClick="myFunction()" type="submit">Search</button>
+                        
                         <a href=""><h3 class="mb-3 mt-3 text-warning">Not Sure Where To Begin?</h3></a>
                 </div>
             </div>
@@ -241,19 +244,10 @@
     text-overflow: ellipsis; 
 
   }
-  /* .card-text + a {
-display: inline-block;
-  vertical-align: top;
-  color:green;
-  margin-top: -1px;
-} */
-  /* .truncate + a {
-display: inline-block;
-  vertical-align: top;
-  margin-top: -1px;
-}
-   */
   </style>
+
+
+<script src="../lib/search.js"></script>
 
 <?php include('footer.php') ?>
 

@@ -13,7 +13,6 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #eeffe0;
 }
 .digitalcotech-logo{
   margin-top: 1%;

@@ -19,7 +19,7 @@ session_start();
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free Web tutorials">
+    <meta name="description" content="Digitalcotech is an online learning and testing platform.It allows students and professionals to improve their skills by following an interactive learning path.">
   <meta name="keywords" content="Digitalcotech, Html tutorial, linux tutorial, beginners, professionals, Blockchain, Agile, Aws tutorial">
     <meta name="author" content="Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.
 Use our platform to learn or enhance your skills, and keeps students and professionals up-to-date with the latest developments in the technology industry.

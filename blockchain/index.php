@@ -4,11 +4,11 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>What is Blockchain Technology? - Digitalcotech Blockchain</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
-<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.">
+<meta name="keywords" content="blockchain, tutorial, introduction, history of blockchain, Why do we need blockchain, bitcoin, blockchain version, role of bitcoin miners, blockchain hash functions, blockchain block hashing, block hashes, blockchain distributed ledger, four components of bitcoin" />
+<meta name="description" content="Blockchain is a continuously growing ledger that keeps a permanent record of all transactions in a secure, chronologically, and immutable manner.">
 <link href="../other.css" rel="stylesheet" >
 <link rel="icon" href="../favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="../w3css/4/w3.css">
@@ -66,33 +66,26 @@
       <span onclick='w3_close_nav("tutorials")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
       <div class='w3-row-padding' style="padding:24px 48px">
         <div class='w3-col l3 m6'>
-          <!-- <h3>HTML and CSS</h3> -->
+    
           <a class="w3-bar-item w3-button" href='/html'>HTML</a>
           <a class="w3-bar-item w3-button" href='/git'>GIT</a>        
           <div class="w3-hide-large w3-hide-small">
-            <!-- <h3>XML</h3> -->
-            <!-- <a class="w3-bar-item w3-button" href='/agile'>Agile</a>
-            <a class="w3-bar-item w3-button" href='/linux'>Linux</a>         -->
+           
           </div>
         </div>
         <div class='w3-col l3 m6'>
-          <!-- <h3>JavaScript</h3> -->
+  
           <a class="w3-bar-item w3-button" href='/agile'>AGILE</a>
             <a class="w3-bar-item w3-button" href='/linux'>LINUX</a>  
              
         </div>
         <div class='w3-col l3 m6'>
-          <!-- <h3>Server Side</h3> -->
+    
           <a class="w3-bar-item w3-button" href='/json'>JSON</a>
           <a class="w3-bar-item w3-button" href='/docker'>DOCKER</a>            
-        </div>
-        <!-- <div class='w3-col l3 m6 w3-hide-medium'>        
-          <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>
-            <a class="w3-bar-item w3-button" href='/blockchain'>BLOCKCHAIN</a>  
-        
-        </div> -->
+        </div>       
         <div class='w3-col l3 m6 w3-hide-medium'>
-          <!-- <h3>XML</h3> -->
+ 
           <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>
             <a class="w3-bar-item w3-button" href='/blockchain'>BLOCKCHAIN</a>  
         
@@ -227,7 +220,7 @@
 <hr>
 
 
-<h2>What is Blockchain</h2>
+<h2>What is Blockchain Technology?</h2>
 
 <div class="container">
   <div class="row">
@@ -268,7 +261,7 @@
 
 
 
-<h2 title="Blockchain variants?">Blockchain variants?</h2>
+<h2 title="Types of Blockchain?">Types of Blockchain?</h2>
 
 <ul>
   <li> Public Blockchain</li>

@@ -4,11 +4,10 @@
 
 <!-- Mirrored from www.w3schools.com/html/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2020 00:04:26 GMT -->
 <head>
-<title>Docker Tutorial</title>
+<title>What is cryptocurrency and how does it work?</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
-<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.">
+<meta name="Description" content="Cryptocurrency is a type of digital asset created through the use of cryptographic techniques that allow people to buy, sell or trade them securely.">
 <link href="../other.css" rel="stylesheet" >
 <link rel="icon" href="../favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="../w3css/4/w3.css">
@@ -70,9 +69,7 @@
           <a class="w3-bar-item w3-button" href='/html'>HTML</a>
           <a class="w3-bar-item w3-button" href='/git'>GIT</a>        
           <div class="w3-hide-large w3-hide-small">
-            <!-- <h3>XML</h3> -->
-            <!-- <a class="w3-bar-item w3-button" href='/agile'>Agile</a>
-            <a class="w3-bar-item w3-button" href='/linux'>Linux</a>         -->
+          
           </div>
         </div>
         <div class='w3-col l3 m6'>
@@ -86,11 +83,7 @@
           <a class="w3-bar-item w3-button" href='/json'>JSON</a>
           <a class="w3-bar-item w3-button" href='/docker'>DOCKER</a>            
         </div>
-        <!-- <div class='w3-col l3 m6 w3-hide-medium'>        
-          <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>
-            <a class="w3-bar-item w3-button" href='/blockchain'>BLOCKCHAIN</a>  
         
-        </div> -->
         <div class='w3-col l3 m6 w3-hide-medium'>
           <!-- <h3>XML</h3> -->
           <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>

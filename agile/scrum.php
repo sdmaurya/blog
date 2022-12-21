@@ -71,9 +71,7 @@ include('../central.php');
           <a class="w3-bar-item w3-button" href='/html'>HTML</a>
           <a class="w3-bar-item w3-button" href='/git'>GIT</a>        
           <div class="w3-hide-large w3-hide-small">
-            <!-- <h3>XML</h3> -->
-            <!-- <a class="w3-bar-item w3-button" href='/agile'>Agile</a>
-            <a class="w3-bar-item w3-button" href='/linux'>Linux</a>         -->
+          
           </div>
         </div>
         <div class='w3-col l3 m6'>
@@ -87,11 +85,7 @@ include('../central.php');
           <a class="w3-bar-item w3-button" href='/json'>JSON</a>
           <a class="w3-bar-item w3-button" href='/docker'>DOCKER</a>            
         </div>
-        <!-- <div class='w3-col l3 m6 w3-hide-medium'>        
-          <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>
-            <a class="w3-bar-item w3-button" href='/blockchain'>BLOCKCHAIN</a>  
         
-        </div> -->
         <div class='w3-col l3 m6 w3-hide-medium'>
           <!-- <h3>XML</h3> -->
           <a class="w3-bar-item w3-button" href='/clouds'>CLOUD COMPUTING</a>

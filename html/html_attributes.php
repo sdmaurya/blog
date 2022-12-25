@@ -220,130 +220,97 @@
 <div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
   <div class='w3-row w3-white'>
     <div class='w3-col l10 m12 mt-2' id='main'>
-<h1 title="Docker Tutorial: A Step by Step Tutorial for Beginners and Advance">HTML Tutorial: A Step by Step Tutorial for Beginners and Advance</span></h1>
+<h1 title="Docker Tutorial: A Step by Step Tutorial for Beginners and Advance">HTML Attributes</span></h1>
 
 
 <hr>
 
 <div class="">
-  <h2>HTML Basic Examples</h2>
+  <h2>What is a HTML Attribute?</h2>
   <hr>
-<p>In this chapter we will show some basic HTML examples.</p>
-<p>Don't worry if we use tags you have not learned about yet.</p>
-<hr>
+    <ul>
+        <li>Every html elements can have attributes.</li> 
+        <li>Attribute is defined inside the opening part of a tag.</li> 
+        <li>An Attribute has two parts i.e. 'name' and 'value'.</li> 
+        
+</ul>
  
 </div>
 <div class="">
-  <h2>HTML Documents</h2>
+  <h2>Core Attributes</h2>
 <p>
-  <ul>
-    <li>
-    The document type declaration <code class="">&lt;!DOCTYPE html&gt;</code> must appear at the top of every HTML document.
-    </li>
-    <li>
-    Beginning with <code class="">&lt;html&gt;</code> and ending with <code class="">&lt;/html&gt;</code>, an HTML document is itself.
-    </li>
-    <li>
-    Between <code class="">&lt;body&gt;</code> and <code class="">&lt;/body&gt;</code> is where the HTML document's visible content is located.
-    </li>
-  </ul>
+    Below are the three core attributes which are used frequently in web design.
 </p>
-<div class="w3-example">
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My First Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>My first paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span> </div>
-</div>
+<ul>
+    <li>  Id
+        
+       
+       </li>
+    <li>Class</li>
+    <li> Style</li> 
+</ul>
 </div>
 
-<div class="">
-  <h2 title="What is a Git repository">The <code class="">&lt;!DOCTYPE&gt;</code> Declaration</h2>
-  <p>
-    The <code class="">&lt;!DOCTYPE&gt;</code> declaration, which represents the document type, aids browsers in correctly displaying web pages.
-</p>
-<p>It needs to show up at the top of the page just once (before any HTML tags).
-</p>
-<p>There is no case distinction in the <code class="">&lt;!DOCTYPE&gt;</code> declaration.
-</p>
-<p>The HTML5 <code class="">&lt;!DOCTYPE&gt;</code> declaration is:
-</p>
-<div class="w3-example">
- <div class="w3-code notranslate htmlHigh">
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span> </div>
+<div id="id-attribute">
+    <h4>The Id Attribute:</h4>
+    <p>The 'id' is a unique name that can be assigned to any tag. This is very helpful in differentiating the element from other elements.</p>
+    <h6>Example</h6>
+    <div class="w3-code notranslate htmlHigh">   
+    <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>p id="p1"<span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>This is a paragraph. <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>/p <span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>
+      <br> 
+       
+    <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>p id="p2"<span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>This is a another paragraph. <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>/p <span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>
+      <br> 
+     </div>
 </div>
+<div id="id-attribute">
+    <h4>The Class Attribute:</h4>
+    <p>The 'class' attribute can be applied to multiple tags. This is extremely useful when creating groups in HTML design.</p>
+    <h6>Example</h6>
+    <div class="w3-code notranslate htmlHigh">   
+    <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>p class="p1"<span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>This is a paragraph. <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>/p <span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>
+      <br> 
+       
+    <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>p class="p1"<span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>This is a another paragraph. <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>/p <span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>
+      <br> 
+     </div>
+</div>
+<div id="id-attribute">
+    <h4>The Style Attribute:</h4>
+    <p>The 'style' attribute is used to change the formatting of the
+        text in HTML design</p>
+    <h6>Example</h6>
+    <div class="w3-code notranslate htmlHigh">   
+    <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>p style="color:blue;"<span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>This is a paragraph. <span class="tagnamecolor" style="color:brown">
+        <span class="tagcolor" style="color:mediumblue">&lt;</span>/p <span class="tagcolor" style="color:mediumblue">&gt;</span>
+      </span>
+      <br> 
+
+     </div>
 </div>
 
-<div class="">
-  <h2 title="What is a Git repository">HTML Headings</h2>
-<p>The <code class="">&lt;h1&gt;</code> to <code class="">&lt;h6&gt;</code> tags in HTML are used to define headings.
-</p>
-<p>
-The most significant heading is defined by <code class="">&lt;h1&gt;</code>. The smallest heading is indicated by the tag <code class="">&lt;h6&gt;</code>:
-</p>
-<div class="w3-example">
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is heading 1<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h2<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is heading 2<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h2<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h3<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is heading 3<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h3<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
- </div>
-</div>
-</div>
 
-<div class="">
-  <h2 title="What is a Git repository">HTML Paragraphs</h2>
-<p>HTML paragraphs are defined with the <code class="">&lt;p&gt;</code> tag:</p>
 
-<div class="w3-example">
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is another paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
- </div>
-</div>
-</div>
-<div class="">
-  <h2 title="What is a Git repository">HTML Links</h2>
-<p>The <code class="">&lt;a&gt;</code> tag is used to define links in HTML.
-</p>
-<div class="w3-example">
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>a<span class="attributecolor" style="color:red"> href<span class="attributevaluecolor" style="color:mediumblue">="https://www.digitalcotech.com"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a link<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/a<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
- </div>
-</div>
-<p>The href attribute specifies the link's final destination.
-</p>
-<p>To give more details about HTML elements, attributes are employed.
-</p>
-<p>You will discover more about traits in the next chapter.</p>
-<div>
-</div>
-</div>
-<div class="">
-  <h2 title="What is a Git repository">HTML Images</h2>
-<p>The <code class="">&lt;img&gt;</code> tag is used to define HTML images.</p>
-<p>The following are the properties for width, height, alternate text (alt), and source file (src):
-</p>
-<div class="w3-example">
-<h3>Example</h3>
-<div class="w3-code notranslate htmlHigh">
-<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>img<span class="attributecolor" style="color:red"> src<span class="attributevaluecolor" style="color:mediumblue">="w3schools.jpg"</span> alt<span class="attributevaluecolor" style="color:mediumblue">="W3Schools.com"</span> width<span class="attributevaluecolor" style="color:mediumblue">="104"</span> height<span class="attributevaluecolor" style="color:mediumblue">="142"</span></span><span class="tagcolor" style="color:mediumblue">&gt;</span></span>
- </div>
-</div>
-<div class="">
-  <h2 title="What is a Git repository">How to View HTML Source</h2>
-<p>Have you ever visited a website and wondered "Hey! How did they get that off?"
-</p>
-<p><b>View HTML Source Code:</b> 
-<p>In Chrome or Edge, select "View Page Source" or "View Source" from the context menu when you right-click on an HTML page. Other browsers may offer comparable options. This will launch a window containing the page's HTML source code.
-</p>
-</p>
-<p><b>Inspect an HTML Element:
-</b></p>
-<p>Right-click on an HTML element (or a blank space) and choose "Inspect" or "Inspect Element" to view the element's components (you will see both the HTML and the CSS). Additionally, you can rapidly change the HTML or CSS by using the Elements or Styles tab that opens.
-</p>
-</div>
-</div>
+
+
 </div>
 
 

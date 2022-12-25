@@ -211,7 +211,7 @@
 <a target="_top" href="html_attributes.php" title="HTML Attributes">HTML Attributes</a>
 <a target="_top" href="html_heading.php" title="HTML Headings">HTML Headings</a>
 <a target="_top" href="html_paragraph.php" title="HTML Paragraphs">HTML Paragraphs</a>
-
+<a target="_top" href="html_form.php" title="HTML Paragraphs">HTML Forms</a>
 
       <br><br>
     </div>

@@ -111,7 +111,7 @@
 
 
 
-<div class="container   p-5 text-center">
+<div class="container   p-5 pb-2 text-center">
   <div class="row">
      <div class="col-lg-4 col-md-4 col-sm-12 mb-3">
         <div class="single-course-category">
@@ -181,6 +181,12 @@
          </div>
       </div>
    </div>
+  </div>
+</div>
+
+<div class="container   p-5  pb-2 pt-0">
+  <div class="row">
+<a href="free-udemy-courses.php" style="text-align: right;">Free learning on Udemy</a>
   </div>
 </div>
 

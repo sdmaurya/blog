@@ -1,51 +1,53 @@
 <?php include('header.php') ?>
+
+
 <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
   <p class="mb-0"><strong>Thank you for contacting <b class="alert">DigitalCoTech..</b><strong></p>
 </div>
 
     
 <div class="container  pt-4 pb-4 text-center ">
-    <h1 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Udemy Courses</h1>
+    <h4 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Udemy Database Courses</h4>
     <div class="row">
-        <h3 class="text-left" style="text-align: left;">Development</h3>
+
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-          <img src="udemy/594360_bee2_2.jpg"  class="card-img-top" alt="HTML5 and CSS3">
+          <img src="udemy/4384300_3b3a_2.jpg"  class="card-img-top" alt="HTML5 and CSS3">
           <div class="card-body">
-            <h6 class="card-title">HTML5 and CSS3 Fundamentals</h6>
-            <p class="card-text">Build your very own website with HTML5 from scratch using HTML5 and CSS3 - designed for complete beginners.</p>
+            <h6 class="card-title">Learn SQL from Basic</h6>
+            <p class="card-text">A comprehensive course to teach you how to complete SQL queries</p>
          
-            <a href="https://www.udemy.com/course/html5-fundamentals-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learn-sql-from-basic/" class="">Read More</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-        <img src="udemy/707962_71f5_4.jpg"  class="card-img-top" alt="Javascript Essentials">
+        <img src="udemy/2095498_5587_10.jpg"  class="card-img-top" alt="Javascript Essentials">
           <div class="card-body">
-          <h6 class="card-title">Javascript Essentials</h6>
-            <p class="card-text">Learn how Javascript works, some basic API's and finally create a mini project.</p>
-            <a href="https://www.udemy.com/course/javascript-essentials/" class="">Read More</a>
+          <h6 class="card-title">Mongodb fundamentals</h6>
+            <p class="card-text">Learn the most popular NO-SQL DBMS quickly and efficiently.</p>
+            <a href="https://udemyfreecourses.org/redirect/2095498/course/mongodb-fundamentals/" class="">Read More</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-        <img src="udemy/247190_5cb0_2.jpg"  class="card-img-top" alt="C++ Tutorial for Complete Beginners">
+        <img src="udemy/3957660_44ff_2.jpg"  class="card-img-top" alt="C++ Tutorial for Complete Beginners">
           <div class="card-body">
-          <h6 class="card-title">C++ Tutorial for Complete Beginners</h6>
-            <p class="card-text">How to program in the popular (and tricky!) C++ programming language, for complete beginners.</p>
-            <a href="https://www.udemy.com/course/free-learn-c-tutorial-beginners/" class="">Read More</a>
+          <h6 class="card-title">Introduction to SQL Server</h6>
+            <p class="card-text">An Introduction to SQL Database Programming with Microsoft SQL Server.</p>
+            <a href="https://udemyfreecourses.org/redirect/3957660/course/introduction-to-sql-server/" class="">Read More</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-        <img src="udemy/702210_5ec0_3.jpg"  class="card-img-top" alt="Introduction To Python Programming">
+        <img src="udemy/4425548_214e.jpg"  class="card-img-top" alt="Introduction To Python Programming">
           <div class="card-body">
-          <h6 class="card-title">Python from Beginner to Intermediate in 30 min.</h6>
-            <p class="card-text">Complete Python Programming in 30 min - Get ready for Advanced Concepts.</p>
-            <a href="https://www.udemy.com/course/python-from-beginner-to-expert-starter-free/?utm_source=adwords&utm_medium=udemyads&utm_campaign=DSA_Catchall_la.EN_cc.INDIA&utm_content=deal4584&utm_term=_._ag_82569850245_._ad_533220805577_._kw__._de_c_._dm__._pl__._ti_dsa-93451758763_._li_1007824_._pd__._&matchtype=&gclid=CjwKCAiAhqCdBhB0EiwAH8M_GvHNjHL-ttaF1Xcm762bcmUeGNxcnp9J5cKXJ08bWnPBJ1cL2m2oPRoCAA8QAvD_BwE" class="">Read More</a>
+          <h6 class="card-title">MongoDB beginner guide</h6>
+            <p class="card-text">Installation , CRUD and all other basic commands using a usecase in 10 days</p>
+            <a href="https://www.udemy.com/course/learn-mongodb-beginner/" class="">Read More</a>
           </div>
         </div>
       </div>
@@ -57,48 +59,48 @@
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-          <img src="udemy/756150_c033_2.jpg"  class="card-img-top" alt="...">
+          <img src="udemy/1626112_8738.jpg"  class="card-img-top" alt="...">
           <div class="card-body">
-            <h6 class="card-title">Learn Angular 4 from Scratch</h6>
-            <p class="card-text">Go from zero to hero with this free Angular 4 course!</p>
-            <a href="https://www.udemy.com/course/learn-angular-from-scratch/" class="">Read More</a>
+            <h6 class="card-title">Redis Tutorial for Beginners</h6>
+            <p class="card-text">Learn Redis in simple and easy steps using this beginner's tutorial containing basic to advanced knowledge</p>
+            <a href="https://www.udemy.com/course/redis-tutorial-for-beginners/" class="">Read More</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-        <img src="udemy/24823_963e_14.jpg"  class="card-img-top" alt="...">
+        <img src="udemy/85450_6c8b_7.jpg"  class="card-img-top" alt="...">
           <div class="card-body">
-          <h6 class="card-title">Java Tutorial for Complete Beginners</h6>
-            <p class="card-text">Learn to program using the Java programming language.</p>
-            <a href="https://udemyfreecourses.org/redirect/24823/course/java-tutorial/" class="">Read More</a>
+          <h6 class="card-title">Oracle SQL - A Complete Introduction</h6>
+            <p class="card-text">Learn the basics of Oracle SQL with these easy-to-follow Oracle SQL lessons and examples.</p>
+            <a href="https://www.udemy.com/course/introduction-to-oracle-sql/" class="">Read More</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-        <img src="udemy/130064_22b3_12.jpg"  class="card-img-top" alt="...">
+        <img src="udemy/4085176_f717_2.jpg"  class="card-img-top" alt="...">
           <div class="card-body">
-          <h6 class="card-title">Practical PHP: Master the Basics and Code Dynamic Websites</h6>
-            <p class="card-text">Code Your Very Own Dynamic Websites by Learning PHP Through Real-World Application & Examples.</p>
-            <a href="https://www.udemy.com/course/code-dynamic-websites/" class="">Read More</a>
+          <h6 class="card-title">Learn MS SQL Server from Scratch</h6>
+            <p class="card-text">SQL Server Basics to Advanced Concepts</p>
+            <a href="https://www.udemy.com/course/learnmssql2019/" class="">Read More</a>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-        <img src="udemy/473160_d929_3.jpg"  class="card-img-top" alt="...">
+          <img src="udemy/4468780_2547.jpg"  class="card-img-top" alt="A Beginners Guide to SQL">
           <div class="card-body">
-          <h6 class="card-title">Free Devops Interview Questions and Answers</h6>
-            <p class="card-text">Learn web design in 1 hour with 25+ simple-to-use rules and guidelines — tons of amazing web design resources included!</p>
-            <a href="https://udemyfreecourses.org/redirect/473160/course/web-design-secrets/" class="">Read More</a>
+            <h6 class="card-title">Azure Real World Hand-on Training For Beginners.</h6>
+            <p class="card-text">Azure Real World Hand-on Training For Beginners.</p>
+            <a href="https://www.udemy.com/course/azure-real-world-hand-on-training-for-beginners/" class="">Read More</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 <div class="container  pt-4 pb-4 text-center ">
-   <h3 class="text-left" style="text-align: left;">Databases</h3>
+
     <div class="row">
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
@@ -188,107 +190,8 @@
       </div>
     </div>
   </div>
-
-  <div class="container  pt-4 pb-4 ">
-    <div class="row">
-        <h2>Udemy courses Categories</h2>
-    </div>
-</div>
-<div class="container   pt-4 pb-4 text-center">
-    <div class="row">
-       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-          <div class="single-course-category">
-             <div class="course-content">
-                <h6 class="course-category-title"> <a href="/developer.php">Web Development</a>  </h6>
-             </div>
-          </div>
-       </div>
-       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-          <div class="single-course-category">
-             <div class="course-content">
-                <h6 class="course-category-title"> <a href="/database.php">Databases</a>  </h6>
-             </div>
-          </div>
-       </div>
-       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-          <div class="single-course-category">
-             <div class="course-content">
-                <h6 class="course-category-title"> <a href="/software-testing.php">Software Testing</a>  </h6>
-             </div>
-          </div>
-       </div>
-       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/programming-language.php">Programming Languages</a>  </h6>
-           </div>
-        </div>
-     </div>    
-    </div>
-  
-    <!-- <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/api">Programming Languages</a>  </h6>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/docker">E-Commerce</a>  </h6>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/json">Game Development</a>  </h6>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/html">Html</a>  </h6>
-           </div>
-        </div>
-     </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/blockchain">Blockchain</a>  </h6>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/docker">Docker</a>  </h6>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/clouds">Cloud </a>  </h6>
-           </div>
-        </div>
-     </div>
-     <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
-        <div class="single-course-category">
-           <div class="course-content">
-              <h6 class="course-category-title"> <a href="/aws">AWS</a>  </h6>
-           </div>
-        </div>
-     </div>
-    </div>
-  </div> -->
     
-</div>
+
   <style>
     .single-course-category {
          text-align: left;

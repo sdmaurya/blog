@@ -1,10 +1,14 @@
 <?php 
 session_start();
+
+
 ?>
+
 <!doctype html>
 <html lang="en">
   <head>
-  <title>Digitalcotech Online Learning Platform.</title>
+  <?php global $title; ?>
+<title><?php echo isset($title) ? $title : "Digitalcotech"; ?></title>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZXYD6YL56"></script>
 <script>

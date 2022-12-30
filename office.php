@@ -10,12 +10,12 @@
         <h3 class="text-left" style="text-align: left;">Development</h3>
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >
-          <img src="udemy/594360_bee2_2.jpg"  class="card-img-top" alt="HTML5 and CSS3">
+          <img src="udemy/1898178_f734.jpg"  class="card-img-top" alt="HTML5 and CSS3">
           <div class="card-body">
-            <h6 class="card-title">HTML5 and CSS3 Fundamentals</h6>
-            <p class="card-text">Build your very own website with HTML5 from scratch using HTML5 and CSS3 - designed for complete beginners.</p>
+            <h6 class="card-title">Git: Become an Expert in Git & GitHub in 4 Hours</h6>
+            <p class="card-text">Become an Expert in Git & GitHub by writing commands, learning theory, and taking quizzes. Learn Git today in 4 hours!</p>
          
-            <a href="https://www.udemy.com/course/html5-fundamentals-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/git-expert-4-hours/" class="">Read More</a>
           </div>
         </div>
       </div>

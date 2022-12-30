@@ -1,4 +1,5 @@
-<?php include('header.php') ?>
+<?php $title = "Free Udemy Web Development Courses";
+include_once("header.php");?>
 <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
   <p class="mb-0"><strong>Thank you for contacting <b class="alert">DigitalCoTech..</b><strong></p>
 </div>

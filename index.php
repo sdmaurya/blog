@@ -21,7 +21,7 @@
                          <input class="form-control mr-sm-2 mb-3" type="search" id="tags" placeholder="Aws,Agile..." aria-label="Search">
                           <button class="btn btn-outline-success my-2 my-sm-0" id="digital-search" onClick="myFunction()" type="submit">Search</button>
                         
-                        <a href=""><h3 class="mb-3 mt-3 text-warning">Not Sure Where To Begin?</h3></a>
+                        <a href="free-udemy-courses.php"><h3 class="mb-3 mt-3 text-warning">Not Sure Where To Begin?</h3></a>
                 </div>
             </div>
           </div>
@@ -186,13 +186,21 @@
 
 <div class="container   p-5  pb-2 pt-0">
   <div class="row">
-<a href="free-udemy-courses.php" style="text-align: right;">Free learning on Udemy</a>
+<div class="pqr text-right" style="text-align: right;">
+<a href="free-udemy-courses.php" class="blink" >Free learning on Udemy</a>
+</div>
   </div>
 </div>
 
 
 
 <style>
+  .blink {
+    background-color: yellow;
+    -webkit-animation: blink 800ms step-end infinite;
+            animation: blink 800ms step-end infinite;
+}
+@-webkit-keyframes blink { 50% { background-color: red; }}
  .single-course-category {
       text-align: left;
       text-decoration: none;

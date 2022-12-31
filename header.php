@@ -31,6 +31,7 @@ Use our platform to learn or enhance your skills, and keeps students and profess
 
 <meta property="og:title" <?php echo isset($ogtitle) ? $ogtitle : "Digitalcotech Online Learning Platform."; ?> />
 <meta property="og:type" content="article" />
+<meta property="og:description" content="<?php echo isset($ogdesc) ? $ogdesc : 'Digitalcotech is an online learning and testing platform.It allows students and professionals to improve their skills by following an interactive learning path.'; ?>">
 <meta property="og:url" content="<?php echo isset($ogurl) ? $ogurl : 'https://www.digitalcotech.com/'; ?>" />
 <meta property="og:image" content="<?php echo isset($ogimg) ? $ogimg : 'https://www.digitalcotech.com/img/lo.png'; ?>" />
 

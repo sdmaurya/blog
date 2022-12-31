@@ -1,6 +1,6 @@
 <?php 
-$title = "Free Backend Frameworks Tutorials on Udemy";
-$ogtitle = "Free Backend Frameworks Tutorials on Udemy";
+$title = "Free Frontend Frameworks Tutorials on Udemy";
+$ogtitle = "Free Frontend Frameworks Tutorials on Udemy";
 $ogdesc = "Learn the fundamentals of programming from a top-rated Udemy instructor. Whether you're interested in learning programming languages like C, PHP, HTML, and C#, or concepts like Object Oriented Programming, Udemy has a course to help you become a master coder.";
 $ogurl = "https://www.digitalcotech.com/programming-language.php";
 $ogimg = "https://www.digitalcotech.com/udemy/2901978_2012_3.jpg";

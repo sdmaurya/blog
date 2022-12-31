@@ -1,7 +1,7 @@
 <?php $title = "Digitalcotech - Free Udemy Courses List";
 
 $ogtitle = "Free Udemy Courses";
-$ogdesc = "Learn the fundamentals of programming from a top-rated Udemy instructor. Whether you’re interested in learning programming languages like C, PHP, HTML, and C#, or concepts like Object Oriented Programming, Udemy has a course to help you become a master coder.";
+$ogdesc = "Learn the fundamentals of programming from a top-rated Udemy instructor. Whether you're interested in learning programming languages like C, PHP, HTML, and C#, or concepts like Object Oriented Programming, Udemy has a course to help you become a master coder.";
 $ogurl = "https://www.digitalcotech.com/free-udemy-courses.php";
 $ogimg = "https://www.digitalcotech.com/udemy/2276621_64c0.jpg";
 

@@ -1,11 +1,11 @@
-<meta property="og:title" content="Free Programming Fundamentals Courses and Tutorials" />
-<meta property="og:description" content="Learn the fundamentals of programming from a top-rated Udemy instructor. Whether you’re interested in learning programming languages like C, PHP, HTML, and C#, or concepts like Object Oriented Programming, Udemy has a course to help you become a master coder.">
-<meta property="og:url" content="https://digitalcotech.com/programming-language.php" />
-<meta property="og:image" content="https://digitalcotech.com/udemy/1582974_f2c5_4.jpg" />
+
 <?php 
-$title = "Free Udemy Programming Courses";
+$title = "Free Programming Tutorials on Udemy";
 
-
+$ogtitle = "Free Programming Tutorials on Udemy";
+$ogdesc = "Learn the fundamentals of programming from a top-rated Udemy instructor. Whether you're interested in learning programming languages like C, PHP, HTML, and C#, or concepts like Object Oriented Programming, Udemy has a course to help you become a master coder.";
+$ogurl = "https://www.digitalcotech.com/programming-language.php";
+$ogimg = "https://www.digitalcotech.com/udemy/642078_a41d_2.jpg";
 include('header.php') ?>
 
 
@@ -16,7 +16,7 @@ include('header.php') ?>
 
     
 <div class="container  pt-4 pb-4 text-center ">
-    <h4 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Udemy Programming Courses</h4>
+    <h4 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Programming Tutorials on Udemy</h4>
     <div class="row">      
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
         <div class="card" >

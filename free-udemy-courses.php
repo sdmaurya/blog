@@ -1,4 +1,9 @@
 <?php $title = "Digitalcotech - Free Udemy Courses List";
+
+$ogtitle = "Free Udemy Courses";
+$ogurl = "https://www.digitalcotech.com/free-udemy-courses.php";
+$ogimg = "https://www.digitalcotech.com/udemy/2276621_64c0.jpg";
+
 include_once("header.php");?>
 <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
   <p class="mb-0"><strong>Thank you for contacting <b class="alert">DigitalCoTech..</b><strong></p>
@@ -225,13 +230,21 @@ include_once("header.php");?>
            </div>
         </div>
      </div>    
-       <!-- <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
         <div class="single-course-category">
            <div class="course-content">
-              <h6 class="course-category-title"> <a href="/office.php">Cloud</a>  </h6>
+              <h6 class="course-category-title"> <a href="/cloud-devops-tools.php">Cloud</a>  </h6>
            </div>
         </div>
-     </div>     -->
+     </div>  
+     
+       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+        <div class="single-course-category">
+           <div class="course-content">
+              <h6 class="course-category-title"> <a href="/microsoft-tools.php">Microsoft</a>  </h6>
+           </div>
+        </div>
+     </div>    
     </div>
   
     <!-- <div class="row">

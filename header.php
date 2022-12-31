@@ -8,7 +8,7 @@ session_start();
 <html lang="en">
   <head>
   <?php global $title; ?>
-<title><?php echo isset($title) ? $title : "Digitalcotech"; ?></title>
+<title><?php echo isset($title) ? $title : "Digitalcotech Online Learning Platform."; ?></title>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZXYD6YL56"></script>
 <script>
@@ -28,6 +28,12 @@ session_start();
     <meta name="author" content="Digitalcotech is an online learning and testing platform. It allows students and professionals to improve their skills by following an interactive learning path.
 Use our platform to learn or enhance your skills, and keeps students and professionals up-to-date with the latest developments in the technology industry.
 ">
+
+<meta property="og:title" <?php echo isset($ogtitle) ? $ogtitle : "Digitalcotech Online Learning Platform."; ?> />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="<?php echo isset($ogurl) ? $ogurl : 'https://www.digitalcotech.com/'; ?>" />
+<meta property="og:image" content="<?php echo isset($ogimg) ? $ogimg : 'https://www.digitalcotech.com/img/lo.png'; ?>" />
+
 <link rel="apple-touch-icon" sizes="57x57" href="image/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="image/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="image/apple-icon-72x72.png">

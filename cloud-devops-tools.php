@@ -3,7 +3,7 @@ $title = "Free Cloud & Devops Tutorials on Udemy";
 $ogtitle = "Free Cloud & Devops Tutorials on Udemy";
 $ogdesc = "Learn the fundamentals of programming from a top-rated Udemy instructor. Whether you're interested in learning programming languages like C, PHP, HTML, and C#, or concepts like Object Oriented Programming, Udemy has a course to help you become a master coder.";
 $ogurl = "https://www.digitalcotech.com/cloud-devops-tools.php";
-$ogimg = "http://temp.co/udemy/2000724_453f_2.jpg";
+$ogimg = "https://www.digitalcotech.com/udemy/3316138_6acd_3.jpg";
 include('header.php');
  ?>
 <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert" style="border-radius: unset;">
@@ -281,7 +281,9 @@ include('header.php');
     </div>
   </div>
     
+  <?php
 
+include_once("course_category.php");?>
   <style>
     .single-course-category {
          text-align: left;

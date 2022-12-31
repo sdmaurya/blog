@@ -198,7 +198,9 @@ include('header.php') ?>
   </div>
 
 
-    
+  <?php
+
+include_once("course_category.php");?>
 
   <style>
     .single-course-category {

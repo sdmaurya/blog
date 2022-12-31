@@ -13,7 +13,7 @@ include('header.php');
 
     
 <div class="container  pt-4 pb-4 text-center ">
-    <h4 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Backend Frameworks Tutorials on Udemy</h4>
+    <h4 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Frontend Frameworks Tutorials on Udemy</h4>
     <div class="row">   
         <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
             <div class="card" >

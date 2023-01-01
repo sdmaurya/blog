@@ -22,7 +22,7 @@ include('header.php') ?>
             <h6 class="card-title">Learn SQL from Basic</h6>
             <p class="card-text">A comprehensive course to teach you how to complete SQL queries</p>
          
-            <a href="https://www.udemy.com/course/learn-sql-from-basic/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learn-sql-from-basic/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Mongodb fundamentals</h6>
             <p class="card-text">Learn the most popular NO-SQL DBMS quickly and efficiently.</p>
-            <a href="https://udemyfreecourses.org/redirect/2095498/course/mongodb-fundamentals/" class="">Read More</a>
+            <a href="https://udemyfreecourses.org/redirect/2095498/course/mongodb-fundamentals/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Introduction to SQL Server</h6>
             <p class="card-text">An Introduction to SQL Database Programming with Microsoft SQL Server.</p>
-            <a href="https://udemyfreecourses.org/redirect/3957660/course/introduction-to-sql-server/" class="">Read More</a>
+            <a href="https://udemyfreecourses.org/redirect/3957660/course/introduction-to-sql-server/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">MongoDB beginner guide</h6>
             <p class="card-text">Installation , CRUD and all other basic commands using a usecase in 10 days</p>
-            <a href="https://www.udemy.com/course/learn-mongodb-beginner/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learn-mongodb-beginner/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ include('header.php') ?>
           <div class="card-body">
             <h6 class="card-title">Redis Tutorial for Beginners</h6>
             <p class="card-text">Learn Redis in simple and easy steps using this beginner's tutorial containing basic to advanced knowledge</p>
-            <a href="https://www.udemy.com/course/redis-tutorial-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/redis-tutorial-for-beginners/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Oracle SQL - A Complete Introduction</h6>
             <p class="card-text">Learn the basics of Oracle SQL with these easy-to-follow Oracle SQL lessons and examples.</p>
-            <a href="https://www.udemy.com/course/introduction-to-oracle-sql/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/introduction-to-oracle-sql/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Learn MS SQL Server from Scratch</h6>
             <p class="card-text">SQL Server Basics to Advanced Concepts</p>
-            <a href="https://www.udemy.com/course/learnmssql2019/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learnmssql2019/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@ include('header.php') ?>
           <div class="card-body">
             <h6 class="card-title">Azure Real World Hand-on Training For Beginners.</h6>
             <p class="card-text">Azure Real World Hand-on Training For Beginners.</p>
-            <a href="https://www.udemy.com/course/azure-real-world-hand-on-training-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/azure-real-world-hand-on-training-for-beginners/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ include('header.php') ?>
           <div class="card-body">
             <h6 class="card-title">A Beginners Guide to SQL</h6>
             <p class="card-text">A gentle introduction to the world of SQL.</p>
-            <a href="https://udemyfreecourses.org/redirect/2640080/course/sql-101-a-beginners-guide-to-sql/" class="">Read More</a>
+            <a href="https://udemyfreecourses.org/redirect/2640080/course/sql-101-a-beginners-guide-to-sql/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Oracle SQL: An Introduction to the most popular database</h6>
             <p class="card-text">A quick tour of the six principal clauses of the SELECT statement.</p>
-            <a href="https://udemyfreecourses.org/redirect/2543659/course/oracle-sql-an-introduction-to-the-most-popular-database/" class="">Read More</a>
+            <a href="https://udemyfreecourses.org/redirect/2543659/course/oracle-sql-an-introduction-to-the-most-popular-database/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Learn MongoDB in 2 hours</h6>
             <p class="card-text">Learn MongoDB in simple fastest manner using this beginner's tutorial containing basic to advanced knowledge</p>
-            <a href="https://www.udemy.com/course/getting-started-with-mongodb/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/getting-started-with-mongodb/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Free SQL 101 Class Bootcamp Beginners Intro to SQL</h6>
             <p class="card-text">Gentle Introduction to Non Programmers on SQL for Analytics. 1 day Bootcamp Course Begineers Hands-on. Project: New York</p>
-            <a href="https://www.udemy.com/course/sql-analytics-coding-101-bootcamp-begineers-course-hand-on/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-VGc2ux8YpwCZ0gUOOtIozg&utm_medium=udemyads&utm_source=aff-campaign" class="">Read More</a>
+            <a href="https://www.udemy.com/course/sql-analytics-coding-101-bootcamp-begineers-course-hand-on/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-VGc2ux8YpwCZ0gUOOtIozg&utm_medium=udemyads&utm_source=aff-campaign" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@ include('header.php') ?>
             <div class="card-body">
               <h6 class="card-title">Database Design and Management</h6>
               <p class="card-text">Learn how to design and manage database with ERD, database generation and reversal with Visual Paradigm.</p>
-              <a href="https://www.udemy.com/course/database-design-and-management/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-eeLWIRGqhkQq0Ss0jf4hyg&utm_medium=udemyads&utm_source=aff-campaign" class="">Read More</a>
+              <a href="https://www.udemy.com/course/database-design-and-management/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-eeLWIRGqhkQq0Ss0jf4hyg&utm_medium=udemyads&utm_source=aff-campaign" class="btn btn-warning">Read More</a>
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">ClickHouse crash course. Conquer big data with ease</h6>
             <p class="card-text">Learn how to use one of the most powerful open source OLAP database on the market. Put new life in your big data.</p>
-            <a href="https://udemyfreecourses.org/redirect/2276621/course/clickhouse-crash-course-conquer-big-data-with-ease/" class="">Read More</a>
+            <a href="https://udemyfreecourses.org/redirect/2276621/course/clickhouse-crash-course-conquer-big-data-with-ease/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -179,7 +179,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">AWS Tutorials - DynamoDB and Database Migration Service</h6>
             <p class="card-text">Hands on video showcasing AWS DynamoDB and Database Migration Service.</p>
-            <a href="https://www.udemy.com/course/namrata-h-shah-aws-tutorials-dynamodb-and-database-migration-service/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-PWAGB28dnr7TqG5AYAW8nw&utm_medium=udemyads&utm_source=aff-campaign" class="">Read More</a>
+            <a href="https://www.udemy.com/course/namrata-h-shah-aws-tutorials-dynamodb-and-database-migration-service/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-PWAGB28dnr7TqG5AYAW8nw&utm_medium=udemyads&utm_source=aff-campaign" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">SQL to Python for Beginners</h6>
             <p class="card-text">An intro Course illustrating SQL equivalents in Python.</p>
-            <a href="https://www.udemy.com/course/sql-to-python-for-beginners/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-5CZzqb2TxAg2WEpS7qUUPA&utm_medium=udemyads&utm_source=aff-campaign" class="">Read More</a>
+            <a href="https://www.udemy.com/course/sql-to-python-for-beginners/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-5CZzqb2TxAg2WEpS7qUUPA&utm_medium=udemyads&utm_source=aff-campaign" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -199,85 +199,5 @@ include('header.php') ?>
 
 include_once("course_category.php");?>
 
-  <style>
-    .single-course-category {
-         text-align: left;
-         text-decoration: none;
-         padding: 14px;
-         border-style: solid;
-         border-width: 2px;
-         color: #333;
-         border-color: #83c1b2;
-         border-radius: 15px;
-     }
-    .single-course-category:hover {
-       background-color: #0eb582;
-       color: black !important;
-   }
-     .ts-course-category .single-course-category {
-         padding: 20px;
-         border-radius: 5px;
-         -webkit-border-radius: 5px;
-         -ms-border-radius: 5px;
-         overflow: hidden;
-         border: 1px dashed #e8e8e8;
-         transition: all .4s ease;
-         -webkit-transition: all .4s ease;
-         -moz-transition: all .4s ease;
-         -ms-transition: all .4s ease;
-         margin-top: 15px;
-         margin-bottom: 15px;
-         background: #fff;
-     }
-     .elementor *, .elementor :after, .elementor :before {
-         -webkit-box-sizing: border-box;
-         box-sizing: border-box;
-     }
-     .course-category-title a{
-       color: #333;
-       text-decoration: none;
-     }
-     
-     .course-category-title a:hover{
-       text-decoration: none;
-       color: #333;
-     }
-     
-     .ts-course-category .single-course-category .course-category-title a {
-         color: #333;
-         text-decoration: none;
-     }
-    
-     .card-text{
-     display: -webkit-box;
-     -webkit-line-clamp: 3;
-     -webkit-box-orient: vertical;
-     text-align: justify;
-       overflow: hidden;
-       text-overflow: ellipsis; 
-   
-     }
-     </style>
-  <style>
-      .card-title {
-  display: -webkit-box;
-  /* -webkit-line-clamp: 2; */
-  height: 40px;
-  -webkit-box-orient: vertical;
-  text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-       .card-text{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  text-align: justify;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-  </style>
 <?php include('footer.php') ?>
     

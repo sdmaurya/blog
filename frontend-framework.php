@@ -21,7 +21,7 @@ include('header.php');
               <div class="card-body">
                 <h6 class="card-title">Learn Angular 4 from Scratch</h6>
                 <p class="card-text">Go from zero to hero with this free Angular 4 course!</p>
-                <a href="https://www.udemy.com/course/learn-angular-from-scratch/" class="">Read More</a>
+                <a href="https://www.udemy.com/course/learn-angular-from-scratch/" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ include('header.php');
               <div class="card-body">
               <h6 class="card-title">AngularJS For Beginners</h6>
                 <p class="card-text">Create Web Applications, Create Hybrid Apps for Android & iOS,Create single page applications.</p>
-                <a href="https://www.udemy.com/course/angularjs-for-beginners-udemy/" class="">Read More</a>
+                <a href="https://www.udemy.com/course/angularjs-for-beginners-udemy/" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ include('header.php');
               <div class="card-body">
               <h6 class="card-title">React JS Frontend Web Development for Beginners</h6>
                 <p class="card-text">Learn React JS along with Modern JavaScript from absolute scratch. This course is a getting started guide for beginners.</p>
-                <a href="https://www.udemy.com/course/react-tutorial/" class="">Read More</a>
+                <a href="https://www.udemy.com/course/react-tutorial/" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ include('header.php');
               <div class="card-body">
               <h6 class="card-title">Learn Angular 5 from Scratch</h6>
                 <p class="card-text">Here's a 58 minute crash course to get you acquainted with the basics of Angular 5!</p>
-                <a href="https://www.udemy.com/course/angular-5/" class="">Read More</a>
+                <a href="https://www.udemy.com/course/angular-5/" class="btn btn-warning">Read More</a>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ include('header.php');
             <h6 class="card-title">React.js, quick start</h6>
             <p class="card-text">Up and run with React.js quickly</p>
          
-            <a href="https://www.udemy.com/course/reactjs-quick-start/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/reactjs-quick-start/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Introduction to ReactJS</h6>
             <p class="card-text">Key Elements of JavaScript/ReactJS Frameworks</p>
-            <a href="https://www.udemy.com/course/introduction-to-reactjs-s/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/introduction-to-reactjs-s/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">React JS Crash Course For Beginners [2022 Updated]</h6>
             <p class="card-text">Learn all core features in React JS</p>
-            <a href="https://www.udemy.com/course/the-complete-react-js-developer-course-for-beginners-2022/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/the-complete-react-js-developer-course-for-beginners-2022/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -96,7 +96,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">React JS Course - Build a Complete Project (Project Base)</h6>
             <p class="card-text">Learn how to build react accordion features,how to work with rest api in react js,bootstrap with react js, how to deploy</p>
-            <a href="https://www.udemy.com/course/react-js-course-build-a-complete-project-project-base/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/react-js-course-build-a-complete-project-project-base/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ include('header.php');
             <h6 class="card-title">[NEW] GraphQL in React.js and Node.js</h6>
             <p class="card-text">The modern way to build API's</p>
          
-            <a href="https://www.udemy.com/course/graph-ql/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/graph-ql/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">React JS With Redux Saga For Beginners [2022 Updated]</h6>
             <p class="card-text">Become a master in Redux-Saga with React JS and start implementing in your React & Redux projects</p>
-            <a href="https://www.udemy.com/course/react-js-with-redux-saga-for-beginners-2022-updated" class="">Read More</a>
+            <a href="https://www.udemy.com/course/react-js-with-redux-saga-for-beginners-2022-updated" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Learn React Js Monetization</h6>
             <p class="card-text">9 Secret Strategy to Build An Income Using React Js Skills</p>
-            <a href="https://www.udemy.com/course/learn-how-to-earn-using-react-js/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learn-how-to-earn-using-react-js/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Build TO-DO List App in React Js From Scratch</h6>
             <p class="card-text">Dive in and learn React.js Project Tutorial from scratch! Learn Reactjs, Hooks, Redux, React Routing etc.</p>
-            <a href="https://www.udemy.com/course/build-to-do-list-app-in-react-js-from-scratch/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/build-to-do-list-app-in-react-js-from-scratch/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@ include('header.php');
             <h6 class="card-title">React JS Crash Course 2023 - Build A Food Managing App</h6>
             <p class="card-text">Learn core concepts in React JS</p>
          
-            <a href="https://www.udemy.com/course/react-js-crash-course-2023-build-a-food-managing-app/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/react-js-crash-course-2023-build-a-food-managing-app/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">FREE Angular Course for Beginners & Professionals</h6>
             <p class="card-text">A practical guide on Angular Framework for beginners and professionals who wants to jumpstart on Angular.</p>
-            <a href="https://www.udemy.com/course/free-angular-course-for-beginners-professionals" class="">Read More</a>
+            <a href="https://www.udemy.com/course/free-angular-course-for-beginners-professionals" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Developing Web Application using Angular JS[Sept 2022]</h6>
             <p class="card-text">Angular JS, Angular JS modules and Events, Angular JS Directives, working with Ajax and Routing</p>
-            <a href="https://www.udemy.com/course/developing-web-application-using-angular-jssept-2022/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/developing-web-application-using-angular-jssept-2022/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">ANGULAR - BEYOND FUNDAMENTALS - I</h6>
             <p class="card-text">Learn all you need to know to build an application using Angular 14</p>
-            <a href="https://www.udemy.com/course/angular-beyond-fundamentals/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/angular-beyond-fundamentals/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -201,7 +201,7 @@ include('header.php');
             <h6 class="card-title">All About Angular From Zero to Hero(2021 Edition)</h6>
             <p class="card-text">What, Why and How Angular?</p>
          
-            <a href="https://www.udemy.com/course/angular-basics/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/angular-basics/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">VUE JS 3 Crash Course for Beginners 2022</h6>
             <p class="card-text">A quick start guide for VUE JS 3 with its core concepts</p>
-            <a href="https://www.udemy.com/course/vue-js-3-crash-course-for-beginners-2022" class="">Read More</a>
+            <a href="https://www.udemy.com/course/vue-js-3-crash-course-for-beginners-2022" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Vue.js All-in-One</h6>
             <p class="card-text">Crash course modern web development using Vue.js version 3.</p>
-            <a href="https://www.udemy.com/course/vuejs-all-in-one/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/vuejs-all-in-one/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -231,7 +231,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Vue.js Tutorial for beginners (2021)</h6>
             <p class="card-text">Learn Vue.js basics in less than 1 hour</p>
-            <a href="https://www.udemy.com/course/vuejs-tutorial/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/vuejs-tutorial/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -242,85 +242,7 @@ include('header.php');
 
 include_once("course_category.php");?>
 
-  <style>
-    .single-course-category {
-         text-align: left;
-         text-decoration: none;
-         padding: 14px;
-         border-style: solid;
-         border-width: 2px;
-         color: #333;
-         border-color: #83c1b2;
-         border-radius: 15px;
-     }
-    .single-course-category:hover {
-       background-color: #0eb582;
-       color: black !important;
-   }
-     .ts-course-category .single-course-category {
-         padding: 20px;
-         border-radius: 5px;
-         -webkit-border-radius: 5px;
-         -ms-border-radius: 5px;
-         overflow: hidden;
-         border: 1px dashed #e8e8e8;
-         transition: all .4s ease;
-         -webkit-transition: all .4s ease;
-         -moz-transition: all .4s ease;
-         -ms-transition: all .4s ease;
-         margin-top: 15px;
-         margin-bottom: 15px;
-         background: #fff;
-     }
-     .elementor *, .elementor :after, .elementor :before {
-         -webkit-box-sizing: border-box;
-         box-sizing: border-box;
-     }
-     .course-category-title a{
-       color: #333;
-       text-decoration: none;
-     }
-     
-     .course-category-title a:hover{
-       text-decoration: none;
-       color: #333;
-     }
-     
-     .ts-course-category .single-course-category .course-category-title a {
-         color: #333;
-         text-decoration: none;
-     }
-    
-     .card-text{
-     display: -webkit-box;
-     -webkit-line-clamp: 3;
-     -webkit-box-orient: vertical;
-     text-align: justify;
-       overflow: hidden;
-       text-overflow: ellipsis; 
-   
-     }
-     </style>
-  <style>
-      .card-title {
-  display: -webkit-box;
-  /* -webkit-line-clamp: 2; */
-  height: 40px;
-  -webkit-box-orient: vertical;
-  text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis; 
 
-  }
-       .card-text{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  text-align: justify;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-  </style>
+ 
 <?php include('footer.php') ?>
     

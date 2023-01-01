@@ -22,7 +22,7 @@ include('header.php');
             <h6 class="card-title">Laravel 9 + Filament Beginner Practical Course</h6>
             <p class="card-text">Create AMAZING Admin Backend for PHP apps very fast and easy</p>
          
-            <a href="https://www.udemy.com/course/laravel-9-filament-beginner-practical-course/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/laravel-9-filament-beginner-practical-course/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ include('header.php');
           <h6 class="card-title">Laravel 7 Tutorial for Beginners</h6>
             <p class="card-text">Laravel Photo Gallery Project
 </p>
-            <a href="https://www.udemy.com/course/laravel-7-tutorial-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/laravel-7-tutorial-for-beginners/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Create a CRUD API with Laravel and Postman</h6>
             <p class="card-text">Learn how to leverage the power of a Laravel back end API.</p>
-            <a href="https://udemyfreecourses.org/redirect/2778478/course/create-a-crud-api-with-laravel-and-postman/" class="">Read More</a>
+            <a href="https://udemyfreecourses.org/redirect/2778478/course/create-a-crud-api-with-laravel-and-postman/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Laravel Query Builder</h6>
             <p class="card-text">Utilising Laravel's powerful query builder to do the heavy lifting while interacting with database</p>
-            <a href="https://www.udemy.com/course/laravel-query-builder/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/laravel-query-builder/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ include('header.php');
             <h6 class="card-title">Laravel PHP 2020 Course, Learn Sass And Laravel</h6>
             <p class="card-text">You will Master the Laravel PHP and Sass with this course. You will become ultimate Laravel PHP programmer</p>
          
-            <a href="https://www.udemy.com/course/laravel-php-2020-course-learn-sass-and-laravel/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/laravel-php-2020-course-learn-sass-and-laravel/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ include('header.php');
           <h6 class="card-title">Laravel 7 Tutorial for Beginners</h6>
             <p class="card-text">Laravel Photo Gallery Project
 </p>
-            <a href="https://www.udemy.com/course/laravel-7-tutorial-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/laravel-7-tutorial-for-beginners/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Laravel 8 – Build a shopping cart & deploy it on Cloudways</h6>
             <p class="card-text">Learn how to build a Laravel project & Deploy it using Cloudways</p>
-            <a href="https://www.udemy.com/course/laravel-8-build-a-shopping-cart-and-deploy-it-on-cloudways/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/laravel-8-build-a-shopping-cart-and-deploy-it-on-cloudways/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Vue.js All-in-One</h6>
             <p class="card-text">Crash course modern web development using Vue.js version 3.</p>
-            <a href="https://www.udemy.com/course/vuejs-all-in-one/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/vuejs-all-in-one/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@ include('header.php');
             <h6 class="card-title">VUE JS 3 Crash Course for Beginners 2022</h6>
             <p class="card-text">A quick start guide for VUE JS 3 with its core concepts</p>
          
-            <a href="https://www.udemy.com/course/vue-js-3-crash-course-for-beginners-2022/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/vue-js-3-crash-course-for-beginners-2022/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ include('header.php');
           <h6 class="card-title">Django 3: Beginners Guide to Build a betting prototype.</h6>
             <p class="card-text">Kick-start your Django development by learning to build a betting prototype step-by-step.
 </p>
-            <a href="https://www.udemy.com/course/django-3-beginners-guide-to-build-a-betting-prototype/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/django-3-beginners-guide-to-build-a-betting-prototype/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Learn Django by building a stock management system - Part 1</h6>
             <p class="card-text">Django Framework</p>
-            <a href="https://www.udemy.com/course/learn-django-by-building-a-store-management-system/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learn-django-by-building-a-store-management-system/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Try Django 1.11 // Python Web Development</h6>
             <p class="card-text">Build a web app with Django // The #1 Web Development Framework for Python</p>
-            <a href="https://www.udemy.com/course/try-django-v1-11-python-web-development/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/try-django-v1-11-python-web-development/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ include('header.php');
             <h6 class="card-title">A Beginners Guide to Django!</h6>
             <p class="card-text">Learn all the basics of Django through a step-by-step process by creating your very own Polls Application for free!</p>
          
-            <a href="https://www.udemy.com/course/introdjango/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/introdjango/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@ include('header.php');
           <h6 class="card-title">Building an IMDB clone with Python (Flask), React, and Neo4j</h6>
             <p class="card-text">Learning by example with Neo4j
 </p>
-            <a href="https://www.udemy.com/course/building-an-imdb-clone-with-python-flask-and-neo4j/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/building-an-imdb-clone-with-python-flask-and-neo4j/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -181,7 +181,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Introduction to Flask        </h6>
             <p class="card-text">Learn the basics of Flask</p>
-            <a href="https://www.udemy.com/course/introduction-to-flask/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/introduction-to-flask/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@ include('header.php');
           <div class="card-body">
           <h6 class="card-title">Flask Web Framework</h6>
             <p class="card-text">Get Familiarised with the fundamentals of Flask framework & API Development</p>
-            <a href="https://www.udemy.com/course/beginners-guide-flask-web-framework/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/beginners-guide-flask-web-framework/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -202,85 +202,6 @@ include('header.php');
 
 include_once("course_category.php");?>
 
-  <style>
-    .single-course-category {
-         text-align: left;
-         text-decoration: none;
-         padding: 14px;
-         border-style: solid;
-         border-width: 2px;
-         color: #333;
-         border-color: #83c1b2;
-         border-radius: 15px;
-     }
-    .single-course-category:hover {
-       background-color: #0eb582;
-       color: black !important;
-   }
-     .ts-course-category .single-course-category {
-         padding: 20px;
-         border-radius: 5px;
-         -webkit-border-radius: 5px;
-         -ms-border-radius: 5px;
-         overflow: hidden;
-         border: 1px dashed #e8e8e8;
-         transition: all .4s ease;
-         -webkit-transition: all .4s ease;
-         -moz-transition: all .4s ease;
-         -ms-transition: all .4s ease;
-         margin-top: 15px;
-         margin-bottom: 15px;
-         background: #fff;
-     }
-     .elementor *, .elementor :after, .elementor :before {
-         -webkit-box-sizing: border-box;
-         box-sizing: border-box;
-     }
-     .course-category-title a{
-       color: #333;
-       text-decoration: none;
-     }
-     
-     .course-category-title a:hover{
-       text-decoration: none;
-       color: #333;
-     }
-     
-     .ts-course-category .single-course-category .course-category-title a {
-         color: #333;
-         text-decoration: none;
-     }
-    
-     .card-text{
-     display: -webkit-box;
-     -webkit-line-clamp: 3;
-     -webkit-box-orient: vertical;
-     text-align: justify;
-       overflow: hidden;
-       text-overflow: ellipsis; 
-   
-     }
-     </style>
-  <style>
-      .card-title {
-  display: -webkit-box;
-  /* -webkit-line-clamp: 2; */
-  height: 40px;
-  -webkit-box-orient: vertical;
-  text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-       .card-text{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  text-align: justify;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-  </style>
+  
 <?php include('footer.php') ?>
     

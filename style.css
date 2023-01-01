@@ -211,3 +211,84 @@ footer{
   display: block;
   font-size: 15px;
 } */
+
+.single-course-category {
+  text-align: left;
+  text-decoration: none;
+  padding: 14px;
+  border-style: solid;
+  border-width: 2px;
+  color: #333;
+  border-color: #83c1b2;
+  border-radius: 15px;
+}
+.single-course-category:hover {
+background-color: #0eb582;
+color: black !important;
+}
+.ts-course-category .single-course-category {
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed #e8e8e8;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+.elementor *, .elementor :after, .elementor :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.course-category-title a{
+color: #333;
+text-decoration: none;
+}
+
+.course-category-title a:hover{
+text-decoration: none;
+color: #333;
+}
+
+.ts-course-category .single-course-category .course-category-title a {
+  color: #333;
+  text-decoration: none;
+}
+.btn-warning {
+  background: none #f7810a;
+  color: #ffffff;
+  fill: #ffffff;
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  box-shadow: -1px 6px 19px rgb(247 129 10 / 25%);
+  border-radius: 100px !important;
+}
+
+.card-title {
+display: -webkit-box;
+/* -webkit-line-clamp: 2; */
+height: 40px;
+-webkit-box-orient: vertical;
+text-align: center;
+overflow: hidden;
+text-overflow: ellipsis; 
+
+}
+ .card-text{
+display: -webkit-box;
+/* -webkit-line-clamp: 2; */
+height: 40px;
+font-weight: 300;
+font-size: 15px;
+-webkit-box-orient: vertical;
+text-align: justify;
+overflow: hidden;
+text-overflow: ellipsis; 
+
+}

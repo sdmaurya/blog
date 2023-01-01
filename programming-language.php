@@ -25,7 +25,7 @@ include('header.php') ?>
             <h6 class="card-title">Java Programming Basics</h6>
             <p class="card-text">Learn to program! Let's walk through some simple examples and I'll explain everything along the way.</p>
          
-            <a href="https://www.udemy.com/course/java-programming-basics/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/java-programming-basics/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ include('header.php') ?>
           <h6 class="card-title">Introduction to TypeScript</h6>
             <p class="card-text">Learn to supercharge your web-applications with the powerful typed language from Microsoft!
 </p>
-            <a href="https://www.udemy.com/course/typescript/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/typescript/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ include('header.php') ?>
           <div class="card-body">
           <h6 class="card-title">Beginner PHP and MySQL Tutorial</h6>
             <p class="card-text">Learn PHP and MySQL and start developing web apps like a pro!</p>
-            <a href="https://www.udemy.com/course/php-mysql-tutorial/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/php-mysql-tutorial/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ include('header.php') ?>
             <p class="card-text">Don't just be a good programmer, become a great one, because that is what matters.
 Free tutorial
 </p>
-            <a href="https://www.udemy.com/course/programming-in-javascript/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/programming-in-javascript/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ Free tutorial
           <div class="card-body">
             <h6 class="card-title">Learn Android Application Development</h6>
             <p class="card-text">A beginner course on Android Application development</p>
-            <a href="https://www.udemy.com/course/learn-android-application-development-y/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/learn-android-application-development-y/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">Basics of Object Oriented Programming with C#</h6>
             <p class="card-text">This course will introduce you to the Basics of OOP with C#, followed by a Project to Practice - Warrior Wars!</p>
-            <a href="https://www.udemy.com/course/basics-of-object-oriented-programming-with-csharp/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/basics-of-object-oriented-programming-with-csharp/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -94,7 +94,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">Python for Absolute Beginners!</h6>
             <p class="card-text">Get started coding with one of the most beginner friendly programming languages!</p>
-            <a href="https://www.udemy.com/course/free-python/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/free-python/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">A Beginners Guide to Django!</h6>
             <p class="card-text">Learn all the basics of Django through a step-by-step process by creating your very own Polls Application for free!</p>
-            <a href="https://www.udemy.com/course/introdjango/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/introdjango/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ Free tutorial
           <div class="card-body">
             <h6 class="card-title">Intro to Linux Shell Scripting (Free course)</h6>
             <p class="card-text">Get up to speed with Linux shell scripting quickly</p>
-            <a href="https://www.udemy.com/course/linux-shell-scripting-free/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/linux-shell-scripting-free/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -129,7 +129,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">Java for Absolute Beginners</h6>
             <p class="card-text">Java Tutorial for Absolute Beginners. Learn Java For Free. Go from Beginner to Expert in Java.</p>
-            <a href="https://www.udemy.com/course/java-for-absolute-beginners-c/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/java-for-absolute-beginners-c/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">Programming for Entrepreneurs - HTML & CSS</h6>
             <p class="card-text">Are you an entrepreneur with zero coding experience? - Learn the basics of web development with this beginners course!</p>
-            <a href="https://www.udemy.com/course/programming-for-entrepreneurs/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/programming-for-entrepreneurs/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">Python Flask for Beginners</h6>
             <p class="card-text">Learn how to create your own web applications with Python Flask.</p>
-            <a href="https://www.udemy.com/course/python-flask-for-beginners/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/python-flask-for-beginners/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@ Free tutorial
             <div class="card-body">
               <h6 class="card-title">Python OOP : Object Oriented Programming in Python</h6>
               <p class="card-text">Python Object Oriented programming OOP advanced / Scripting for projects / automation / interview questions / beginners</p>
-              <a href="https://www.udemy.com/course/object-oriented-python-programming/" class="">Read More</a>
+              <a href="https://www.udemy.com/course/object-oriented-python-programming/" class="btn btn-warning">Read More</a>
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">ClickHouse crash course. Conquer big data with ease</h6>
             <p class="card-text">Learn how to use one of the most powerful open source OLAP database on the market. Put new life in your big data.</p>
-            <a href="https://www.udemy.com/course/cpp-short-and-sweet/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/cpp-short-and-sweet/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">C++, Short and Sweet, Part 1</h6>
             <p class="card-text">A first course on C++ based on the book Accelerated C++.</p>
-            <a href="https://www.udemy.com/course/namrata-h-shah-aws-tutorials-dynamodb-and-database-migration-service/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-PWAGB28dnr7TqG5AYAW8nw&utm_medium=udemyads&utm_source=aff-campaign" class="">Read More</a>
+            <a href="https://www.udemy.com/course/namrata-h-shah-aws-tutorials-dynamodb-and-database-migration-service/?LSNPUBID=PPe1bPYHvDA&ranEAID=PPe1bPYHvDA&ranMID=39197&ranSiteID=PPe1bPYHvDA-PWAGB28dnr7TqG5AYAW8nw&utm_medium=udemyads&utm_source=aff-campaign" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@ Free tutorial
           <div class="card-body">
           <h6 class="card-title">MATLAB Basics for Beginners - Learn from Top Experts</h6>
             <p class="card-text">Learn From Top MATLAB Experts In The Field - MATLAB Basics, Data Visualization, Conditions, Loops and much more!</p>
-            <a href="https://www.udemy.com/course/matlab-basics-for-beginners-learn-from-top-experts/" class="">Read More</a>
+            <a href="https://www.udemy.com/course/matlab-basics-for-beginners-learn-from-top-experts/" class="btn btn-warning">Read More</a>
           </div>
         </div>
       </div>
@@ -205,85 +205,6 @@ Free tutorial
 
 include_once("course_category.php");?>
 
-  <style>
-    .single-course-category {
-         text-align: left;
-         text-decoration: none;
-         padding: 14px;
-         border-style: solid;
-         border-width: 2px;
-         color: #333;
-         border-color: #83c1b2;
-         border-radius: 15px;
-     }
-    .single-course-category:hover {
-       background-color: #0eb582;
-       color: black !important;
-   }
-     .ts-course-category .single-course-category {
-         padding: 20px;
-         border-radius: 5px;
-         -webkit-border-radius: 5px;
-         -ms-border-radius: 5px;
-         overflow: hidden;
-         border: 1px dashed #e8e8e8;
-         transition: all .4s ease;
-         -webkit-transition: all .4s ease;
-         -moz-transition: all .4s ease;
-         -ms-transition: all .4s ease;
-         margin-top: 15px;
-         margin-bottom: 15px;
-         background: #fff;
-     }
-     .elementor *, .elementor :after, .elementor :before {
-         -webkit-box-sizing: border-box;
-         box-sizing: border-box;
-     }
-     .course-category-title a{
-       color: #333;
-       text-decoration: none;
-     }
-     
-     .course-category-title a:hover{
-       text-decoration: none;
-       color: #333;
-     }
-     
-     .ts-course-category .single-course-category .course-category-title a {
-         color: #333;
-         text-decoration: none;
-     }
-    
-     .card-text{
-     display: -webkit-box;
-     -webkit-line-clamp: 3;
-     -webkit-box-orient: vertical;
-     text-align: justify;
-       overflow: hidden;
-       text-overflow: ellipsis; 
-   
-     }
-     </style>
-  <style>
-      .card-title {
-  display: -webkit-box;
-  /* -webkit-line-clamp: 2; */
-  height: 40px;
-  -webkit-box-orient: vertical;
-  text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-       .card-text{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  text-align: justify;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
-  }
-  </style>
+  
 <?php include('footer.php') ?>
     

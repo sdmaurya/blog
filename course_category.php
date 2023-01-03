@@ -1,9 +1,9 @@
-<div class="container  pt-4 pb-4 ">
+<div class="container  p-5 pb-0 pt-0">
     <div class="row">
         <h2>Udemy courses Categories</h2>
     </div>
 </div>
-<div class="container   pt-4 pb-4 text-center">
+<div class="container  p-5 text-center ">
     <div class="row">
        <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
           <div class="single-course-category">

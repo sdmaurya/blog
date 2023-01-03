@@ -4,7 +4,7 @@
 </div>
 
     
-<div class="container ctn-padding pt-4 pb-4 text-center ">
+<div class="container  p-5 text-center ">
     <h1 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Udemy Courses</h1>
     <div class="row">
         <h3 class="text-left" style="text-align: left;">Development</h3>
@@ -51,7 +51,7 @@
       </div>
     </div>
   </div>
-<div class="container ctn-padding pt-4 pb-4 text-center ">
+<div class="container  p-5 text-center ">
    
     <div class="row">
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->
@@ -97,7 +97,7 @@
       </div>
     </div>
   </div>
-<div class="container ctn-padding pt-4 pb-4 text-center ">
+<div class="container  p-5 text-center ">
    <h3 class="text-left" style="text-align: left;">Databases</h3>
     <div class="row">
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->
@@ -143,7 +143,7 @@
       </div>
     </div>
   </div>
-<div class="container ctn-padding pt-4 pb-4 text-center ">
+<div class="container  p-5 text-center ">
     <div class="row">
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->
         <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">

@@ -83,6 +83,13 @@
            </div>
         </div>
      </div>    
+       <div class="col-lg-3 col-md-3 col-sm-12 mb-3">
+        <div class="single-course-category">
+           <div class="course-content">
+              <h6 class="course-category-title"> <a href="/affiliate-marketing.php">Affiliate Marketing</a>  </h6>
+           </div>
+        </div>
+     </div>    
     </div>
   
     <!-- <div class="row">

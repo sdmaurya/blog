@@ -11,7 +11,7 @@ include('header.php');
 </div>
 
     
-<div class="container  pt-4 pb-4 text-center ">
+<div class="container ctn-padding pt-4 pb-4 text-center ">
     <h4 class="mb-3" style="background-color: rgba(0, 0, 0, 0.3);">Free Career Development Tutorials on Udemy</h4>
     <div class="row">   
       <div class="col-md-3 col-sm-6 col-xs-6 mb-4 mb-md-0">
@@ -57,7 +57,7 @@ include('header.php');
       </div>
     </div>
   </div>
-<div class="container  pt-4 pb-4 text-center ">
+<div class="container ctn-padding pt-4 pb-4 text-center ">
    
     <div class="row">
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->
@@ -103,7 +103,7 @@ include('header.php');
       </div>
     </div>
   </div>
-<div class="container  pt-4 pb-4 text-center ">
+<div class="container ctn-padding pt-4 pb-4 text-center ">
    
     <div class="row">
         <!-- <h3 class="text-left" style="text-align: left;">Development</h3> -->

@@ -6,7 +6,7 @@
     
         if($actual_path == "/"){
             $page_title = "Php route project - Home";
-            include_once('./index.php');
+            include_once('index.php');
         }    
         else if(preg_match("!/about/[a-z,A-Z,0-9]!",$actual_path)){
             $actual_route = substr($actual_path,(strrpos($actual_path,'/')+1),$url_len);
@@ -15,22 +15,22 @@
                 'content_to_show' => $actual_route
             ];      
             $page_title = "Php route project - ".$actual_route;
-            include_once('./about.php');
+            include_once('about.php');
         }
         else if($actual_path == "/about"){        
             $page_title = "Php route project - about";
-            include_once('./about.php');
+            include_once('about.php');
         }
         else if($actual_path == "/service"){
             $page_title = "Php route project - service";
-            include_once('./service.php');
+            include_once('service.php');
         }    
         else if($actual_path == "/product"){
             $page_title = "Php route project - product";
-            include_once('./product.php');
+            include_once('product.php');
         }    
         else {
             $page_title = "error 404 not found!";
-            include_once('./404.php');
+            include_once('404.php');
         }
     ?>
